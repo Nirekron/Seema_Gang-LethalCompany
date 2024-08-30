@@ -1,0 +1,24 @@
+{
+    "lang.missing": "missing: <translation_id>.",
+
+    "reactorscan.error.overheat": "CHYBA PŘEHŘÁTÍ SKENERU SHIP!\nPOUŽÍVÁ SE POSLEDNÍ HLÁŠENÍ V CACHE!\n\n",
+    "reactorscan.success": "HLÁŠENÍ VYGENEROVÁNO... ULOŽENO\nSKENERY POTŘEBUJÍ K VYCHLAZENÍ <cooldown>\n\n",
+    "reactorscan.result.stable": "Nestabilita reaktoru při 0 %\nReaktor je v dobrém stavu. Není třeba žádné opatrnosti.\n\n",
+    "reactorscan.result.unstable": "Nestabilita reaktoru při <instability>%\nDo katastrofické jaderné události zbývá přibližně <time_left> sekund.",
+    "reactorscan.result.flavour.start": "Reaktor začíná selhávat. Doporučuje se dokončit a připravit se na odchod.",
+    "reactorscan.result.flavour.low": "Reaktor se stává nestabilnější, hrozí jeho selhání. Neopouštějte loď, jinak riskujete majetek společnosti. Členům posádky, kteří jsou stále mimo loď, se doporučuje vrátit se dříve, než reaktor zcela selže a vše se posere.",
+    "reactorscan.result.flavour.medium": "Reaktor selhává. Zbývá vám velmi málo času, než dojde ke katastrofické jaderné události.",
+    "reactorscan.result.flavour.high": "Reaktor se chystá způsobit katastrofickou jadernou událost. Toto je vaše poslední šance. Všichni zbývající členové posádky mají velmi málo času, než masivní reaktor selže. Pokud jsou stále v zařízení, s největší pravděpodobností to nedokážou na svém vlastní.",
+    "meltdown.dialogue.speaker": "PILOT COMPUTER",
+
+    "meltdown.dialogue.start": [
+     "... SELHÁNÍ SE PŘIPOJIT K VNITŘNÍMU POČÍTAČI ZAŘÍZENÍ... ZJIŠŤOVÁNÍ KOŘENOVÉ PŘÍČINY ...",
+ "NESTABILNÍ JADERNÝ REAKTOR... PŘEDPOVÍDÁ ČAS DO KATASTROFICKÉ UDÁLOSTI ...",
+ "<color=\"red\"><meltdown_time> MINUTY</color> DO KATASTROFICKÉ UDÁLOSTI JADERNÉHO REAKTORU"
+    ],
+
+    "meltdown.dialogue.shiptakeoff": [
+        "Společnost považuje současnou úroveň radiace za příliš vysokou.",
+        "Společnost nemůže riskovat poškození svého zařízení."
+    ]
+}

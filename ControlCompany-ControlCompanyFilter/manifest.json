@@ -1,0 +1,7 @@
+{
+  "name": "ControlCompanyFilter",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/ControlCompany/ControlCompany",
+  "description": "Filter out servers where the host is using ControlCompany",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}
