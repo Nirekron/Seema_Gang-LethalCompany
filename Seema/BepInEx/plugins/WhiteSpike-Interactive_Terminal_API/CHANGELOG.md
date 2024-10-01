@@ -1,4 +1,11 @@
 <details>
+<summary> 1.1.4 </summary>
+
+- ``PageApplication`` will change between screens when it reaches one of the boundaries of the current cursor menu
+- ``PageCursorElement`` doesn't display the page counter if it only contains one screen.
+
+</details>
+<details>
 <summary> 1.1.3 </summary>
 
 - Added ``RegisterApplication`` method where you can specify if the listed commands can be case sensitive or not

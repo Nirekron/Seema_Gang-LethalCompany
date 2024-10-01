@@ -1,3 +1,8 @@
+-   **1.2.6**
+
+	-	Fixed yt-dlp arguments for SoundCloud.
+	-	Added character validation for SoundCloud.
+	
 -   **1.2.5**
 
 	-	Took the weight off the boom box.

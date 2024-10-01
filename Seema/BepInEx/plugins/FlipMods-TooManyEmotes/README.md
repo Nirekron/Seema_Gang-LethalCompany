@@ -1,7 +1,8 @@
 # TooManyEmotes
-### V62 Compatible!
+### V64 Compatible!
 
 ## There are never Too Many Emotes!
+
 <strong>This mod adds a ton of new emotes to the game, which can be purchased in the store.</strong><br>
 If you hate progression and just want to dance, you set all emotes to be unlocked in the config. All clients will sync to the server's settings.<br><br>
 With this mod, you will be able to break dance over your teammates' corpses!<br>

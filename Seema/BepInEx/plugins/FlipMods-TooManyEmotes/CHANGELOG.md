@@ -1,4 +1,16 @@
-# 2.2.4.
+# 2.2.7
++ Performing a random emote will now display which emote is being played.
++ When using a controller *without* the InputUtils mod, you should no longer experience random bindings not working.
++ Prevents some unexpected errors with the MoreCompany cosmetics compat with certain mod combinations.
+# 2.2.6
++ Added a random emote keybind. Default keybind: [M] (Rebindable with InputUtils)
++ Added quick emotes.<br>
+You can assign quick emotes by hovering over an emote in the emote menu and pressing the quick emote hotkey.<br>
+Note: InputUtils is required to update these keybinds.
++ Quick emotes will be paired with a specific emote. Attempting to perform a quick emote without having the emote unlocked will fail.
+# 2.2.5
++ Potential fix for unexpected errors when saving emote menu, and third person emote preferences.
+# 2.2.4
 + Half-support compatibility patch for LethalVRM/BetterLethalVRM to display the model in third person.
 + The model in the emote menu will not work, but the original model should re-appear, however.
 # 2.2.3

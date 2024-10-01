@@ -1,4 +1,52 @@
 <details>
+<summary> 3.10.3 - 2024-09-19 </summary>
+
+- Implemented "Jetpack Thrusters" tier upgrade which increases the maximum speed of the jetpack while in flight.
+- Implemented "Jet Fuel" tier upgrade which increases the acceleration of the jetpack while in flight.
+- Implemented "Midas Touch" tier upgrade which increases the value of scrap found in the moons.
+- Implemented "Quick Hands" tier upgrade which increases the player's interaction speed.
+- Added configuration to always show items associated to upgrades when Item Progression Mode is toggled on.
+- Changed Sigurd Access' configuration setup to be similar to most upgrades.
+- Changed upgrade display to show the price number red if the players do not have enough credits to purchase it.
+- Changed upgrade store to show first pick between shared and individual upgrades if any are configured as so and show the list of upgrades when selected.
+  - If all enabled upgrades are either individual or shared, it will do the same behaviour as before.
+- Fixed issue with Item Progression Mode selecting items that are not considered scrap.
+
+</details>
+<details>
+<summary> 3.10.2 - 2024-09-15 </summary>
+
+- Displayed control binding used for sorting in the store application.
+- Changed colouring of maxed upgrades to dark green to distinguish between maxed upgrades and upgrades that you are unable to purchase due to lack of credits.
+- Fixed issue with Landing Thrusters only applying on host.
+- Fixed issue with sales re-emerging after purchase when leaving and creating a new lobby.
+- Fixed issue with item names being case-sensitive in the config related to Item Progression.
+- Fixed issue with clients buying upgrades wouldn't consume credits due to error in RPC calls.
+- Possibly fixed issue with ChancePerScrap mode due to using integers rather than floats.
+- Fixed issue with Interns enabled configuration not working correctly.
+- Fixed issue with saving not working correctly in relation to individual settings.
+- Code refactored.
+
+</details>
+
+<details>
+<summary> 3.10.1 - 2024-08-29 </summary>
+
+- Implemented "Life Insurance" tier upgrade which reduces the credit loss when leaving a body behind.
+- Implemented "Carbon Kneejoints" tier upgrade which reduces the movement speed loss while crouching.
+- Added configuration entry to make upgrades not purchaseable when using Item Progression Mode.
+  - You will still be able to see the upgrades for their current level and related info, just not the option of purchasing it. 
+- Changed logic of ChancePerScrap mode on Random to be index logic rather than loop logic which was leading to always picking the last upgrades more often than it should.
+- Possibly fixed issue with Back Muscles when using Lethal Company Virtual Reality mod.
+- Possibly fixed issue with Mechanical Arms when using Lethal Company Virtual Reality mod.
+- Fixed issue with Oxygen Canister and Rubber Boots override name taking Reinforced Boot's, leading to confusion when chat prompt appears.
+- Fixed issue with Oxygen Canister using Reinforced Boot's incremental value in its information description.
+- Fixed issue with sounds with a couple items.
+- Code cleanup and refactoring.
+
+</details>
+
+<details>
 <summary> 3.10.0 - 2024-08-28 </summary>
 
 - Implemented "Oxygen Canister" tier upgrade which reduces the oxygen consumption rate of the player.

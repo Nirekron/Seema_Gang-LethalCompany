@@ -222,6 +222,24 @@ You can check the key binds used for More Ship Upgrades to understand how to nav
     * If the percentage decrease reaches or exceeds 100%, you will not be slowed down when walking through it.
     * This reduces how much movement hindurance you get from walking on water surfaces, not how much you're hindered by which is always by half multiplied by outside hinder multipliers such as this one and cobwebs.
     
+* __Life Insurance - $200__
+    * Decreases the credit loss due to player deaths.
+
+* __Carbon Kneejoints - $100__
+    * Decreases the movement speed loss when crouching.
+    * At 100%, crouching speed will be the same as walking.
+
+* __Midas Touch - $1000__
+    * Increases the value of the scrap found in moon trips.
+
+* __Quick Hands - $100__
+    * Increases the interaction speed of the player on objects.
+    
+* __Jet Fuel - $400__
+    * Increases the acceleration rate of the jetpack while in flight.
+    
+* __Jetpack Thrusters - $300__
+    * Increases the maximum speed of the jetpack while in flight. 
 
 ## Item Progression Mode
 

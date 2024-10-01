@@ -1,3 +1,21 @@
+# 1.5.4
++ Added config option to enable sprinting to max speed instantly, instead of speeding up over time.
+# 1.5.3
++ Fixed bug where the crouch speed multiplier in the config would keep getting set to 1 upon launching the game.
+# 1.5.2
++ Added config options for stamina regen and consumption multipliers while inside and outside of the factory/dungeon.
+# 1.5.1
++ Added config options for speed multipliers inside, and outside of the factory/dungeon.
+# 1.5.0
++ Provides much more control over configs.
++ Added individual stamina regen multipliers for idle, walking and crouching. The crouching modifier will be applied on top of idle/walking.
++ Added individual speed multipliers for walking, crouching, sprinting and limping. Crouching and limping multipliers will be clamped between 0 and 1.
++ Added config to set the sprint speed multiplier on ladders. This is only a config so it can be reset to 1 if the vanilla game ever adds their own implementation of this.
++ Added individual drunk modifiers in the config that will also affect movement/climbing speed, stamina regen/consumption, and jump force.
++ Other tweaks/optimizations.
+# 1.4.1
++ Fixed a bad math calculation when adjusting the weight penalty.
++ When using custom ladder climbing speed values (values that are not 1) when climbing an extension ladder that is not straight up and down, you will no longer move you straight up. You will now climb the direction of the ladder.
 # 1.4.0
 + Configs should now update when creating/joining a game instead of needing to restart the game.
 + Added config for jump height multiplier.

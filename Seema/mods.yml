@@ -140,13 +140,13 @@
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/
   displayName: ReservedItemSlotCore
-  description: V62 Compatible! The core mod for all ReservedItemSlot mods. Adds
-    functionality for all ReservedItemSlot mods and adds API functions!
+  description: The core mod for all ReservedItemSlot mods. Adds functionality for
+    all ReservedItemSlot mods and adds API functions!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797580309
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -155,9 +155,9 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 35
+    patch: 37
   enabled: true
-  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\2.0.37\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
@@ -185,13 +185,15 @@
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/BetterStamina/
   displayName: BetterStamina
-  description: V62 Compatible! Makes stamina consumption/regen a bit better. All
-    values can be tweaked in config, and will sync with the host.
+  description: V64 Compatible! Tweaks stamina regen/consumption, as well as
+    lessens the penalty of speed/stamina based on weight. Config values are
+    fully customizable for stamina, movement speed, ladder climbing speed,
+    jumping, etc, and will sync with the host.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797579970
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -199,8 +201,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
-    patch: 0
+    minor: 5
+    patch: 4
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-BetterStamina\icon.png
 - manifestVersion: 1
@@ -213,7 +215,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797579630
   loaders: []
   dependencies: []
   incompatibilities: []
@@ -221,7 +223,7 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\KoderTeh-Boombox_Controller\icon.png
 - manifestVersion: 1
@@ -616,14 +618,14 @@
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/
   displayName: TooManyEmotes
-  description: V62 compatible! Adds over 250 new emotes! Includes emote wheel,
-    allows Masked Enemies to emote, adds emote music (can be muted), implements
-    a system for purchasing emotes on the store (optional), and much more!
+  description: Adds over 250 new emotes! Includes emote wheel, allows Masked
+    Enemies to emote, adds emote music (can be muted), implements a system for
+    purchasing emotes on the store (optional), and much more!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797579289
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -632,7 +634,7 @@
   versionNumber:
     major: 2
     minor: 2
-    patch: 4
+    patch: 7
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
@@ -645,7 +647,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797578910
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -654,7 +656,7 @@
   versionNumber:
     major: 2
     minor: 4
-    patch: 8
+    patch: 10
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BunyaPineTree-ModelReplacementAPI\icon.png
 - manifestVersion: 1
@@ -895,18 +897,18 @@
   authorName: malco
   websiteUrl: https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/
   displayName: Lategame_Upgrades
-  description: V3.10.0! - Two new upgrades related to water such as oxygen
+  description: V3.10.3! - Two new upgrades related to water such as oxygen
     consumption and its movement hinderance, fixes & more
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1724882651815
+  installedAtTime: 1727797578563
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-HookGenPatcher-0.0.5
     - Evaisa-LethalLib-0.15.0
+    - Evaisa-HookGenPatcher-0.0.5
     - Sigurd-CSync-5.0.1
     - Rune580-LethalCompany_InputUtils-0.7.7
     - WhiteSpike-Interactive_Terminal_API-1.1.3
@@ -915,7 +917,7 @@
   versionNumber:
     major: 3
     minor: 10
-    patch: 0
+    patch: 3
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
 - manifestVersion: 1
@@ -1027,7 +1029,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797578186
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1037,7 +1039,7 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 7
+    patch: 8
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -1165,7 +1167,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1727797577604
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1175,7 +1177,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
 - manifestVersion: 1
@@ -1253,12 +1255,12 @@
   authorName: loaforc
   websiteUrl: https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdown/
   displayName: FacilityMeltdown
-  description: Maybe taking the apparatus out isn't such a great idea... (v62)
+  description: Maybe taking the apparatus out isn't such a great idea...
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1724975314960
+  installedAtTime: 1727797577214
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1268,7 +1270,7 @@
   versionNumber:
     major: 2
     minor: 6
-    patch: 19
+    patch: 20
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\loaforc-FacilityMeltdown\icon.png
 - manifestVersion: 1

@@ -5,3 +5,5 @@
 Cesta k súboru -> ```C:\Users\Yourname\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles```
 
 Prípadne -> **Win + R** -> **%appdata%** -> **r2modmanPlus-local** -> **LethalCompany** -> **profiles**
+
+Záložný Launcher -> Prípadne že Vám hodí inú verziu ako ostatným treba Launcher spustiť cez priložený .exe súbor

@@ -1,24 +1,25 @@
 {
     "lang.missing": "missing: <translation_id>.",
 
-    "reactorscan.error.overheat": "CHYBA PŘEHŘÁTÍ SKENERU SHIP!\nPOUŽÍVÁ SE POSLEDNÍ HLÁŠENÍ V CACHE!\n\n",
-    "reactorscan.success": "HLÁŠENÍ VYGENEROVÁNO... ULOŽENO\nSKENERY POTŘEBUJÍ K VYCHLAZENÍ <cooldown>\n\n",
-    "reactorscan.result.stable": "Nestabilita reaktoru při 0 %\nReaktor je v dobrém stavu. Není třeba žádné opatrnosti.\n\n",
-    "reactorscan.result.unstable": "Nestabilita reaktoru při <instability>%\nDo katastrofické jaderné události zbývá přibližně <time_left> sekund.",
-    "reactorscan.result.flavour.start": "Reaktor začíná selhávat. Doporučuje se dokončit a připravit se na odchod.",
-    "reactorscan.result.flavour.low": "Reaktor se stává nestabilnější, hrozí jeho selhání. Neopouštějte loď, jinak riskujete majetek společnosti. Členům posádky, kteří jsou stále mimo loď, se doporučuje vrátit se dříve, než reaktor zcela selže a vše se posere.",
-    "reactorscan.result.flavour.medium": "Reaktor selhává. Zbývá vám velmi málo času, než dojde ke katastrofické jaderné události.",
-    "reactorscan.result.flavour.high": "Reaktor se chystá způsobit katastrofickou jadernou událost. Toto je vaše poslední šance. Všichni zbývající členové posádky mají velmi málo času, než masivní reaktor selže. Pokud jsou stále v zařízení, s největší pravděpodobností to nedokážou na svém vlastní.",
+    "reactorscan.error.overheat": "SHIP SCANNER OVERHEAT ERROR!\nUSING LAST CACHED REPORT!\n\n",
+    "reactorscan.success": "REPORT GENERATED... CACHED\nSCANNERS NEED <cooldown> TO COOLDOWN\n\n",
+    "reactorscan.result.stable": "Reactor instability at 0%\nThe reactor is in good health. No caution is necessary.\n\n",
+    "reactorscan.result.unstable": "Reactor instability at <instability>%\nApproximately <time_left> seconds left until catastrophic nuclear event.",
+    "reactorscan.result.flavour.start": "The reactor is beginning to fail. It is recommened to finish up and get ready to leave.",
+    "reactorscan.result.flavour.low": "The reactor is becoming more unstable, it is about to fail. Do not leave the ship or you risk company property. Any crew memebers still outside the ship are advised to return before the reactor completly fails.",
+    "reactorscan.result.flavour.medium": "The reactor is failing. You have very little time remaining before a catastrophic nuclear event happens.",
+    "reactorscan.result.flavour.high": "The reactor is about to cause a catastrophic nuclear event. This is your last chance. Any remaining crew members have very little time before a massive reactor fail. If there are still in the facility they most likely are not making it out, on their own.",
+
     "meltdown.dialogue.speaker": "PILOT COMPUTER",
 
     "meltdown.dialogue.start": [
-     "... SELHÁNÍ SE PŘIPOJIT K VNITŘNÍMU POČÍTAČI ZAŘÍZENÍ... ZJIŠŤOVÁNÍ KOŘENOVÉ PŘÍČINY ...",
- "NESTABILNÍ JADERNÝ REAKTOR... PŘEDPOVÍDÁ ČAS DO KATASTROFICKÉ UDÁLOSTI ...",
- "<color=\"red\"><meltdown_time> MINUTY</color> DO KATASTROFICKÉ UDÁLOSTI JADERNÉHO REAKTORU"
+        "... FAILED TO CONNECT TO INTERNAL FACILITY COMPUTER ... IDENTIFIYING ROOT CAUSE ...",
+        "UNSTABLE NUCLEAR REACTOR ... PREDICTING TIME UNTIL CATASTROPHIC EVENT ...",
+        "<color=\"red\"><meltdown_time> MINUTES</color> UNTIL CATASTROPHIC NUCLEAR REACTOR EVENT"
     ],
 
     "meltdown.dialogue.shiptakeoff": [
-        "Společnost považuje současnou úroveň radiace za příliš vysokou.",
-        "Společnost nemůže riskovat poškození svého zařízení."
+        "The company has deemed the current levels of radiation too high.",
+        "The company can not risk damaging its equipment."
     ]
 }
