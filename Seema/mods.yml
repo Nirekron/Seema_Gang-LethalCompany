@@ -919,7 +919,7 @@
     minor: 10
     patch: 4
   enabled: true
-  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\malco-Lategame_Upgrades\3.10.4\icon.png
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
 - manifestVersion: 1
   name: Evaisa-LethalThings
   authorName: Evaisa
@@ -1295,3 +1295,47 @@
     patch: 0
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BGN-PizzaTowerEscapeMusic\icon.png
+- manifestVersion: 1
+  name: Lordfirespeed-OdinSerializer
+  authorName: Lordfirespeed
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/
+  displayName: OdinSerializer
+  description: Fast, robust, powerful and extendible .NET serializer built for Unity
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1728311030351
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2022
+    minor: 11
+    patch: 9
+  enabled: true
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Lordfirespeed-OdinSerializer\icon.png
+- manifestVersion: 1
+  name: xilophor-LethalNetworkAPI
+  authorName: xilophor
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xilophor/LethalNetworkAPI/
+  displayName: LethalNetworkAPI
+  description: A library/API to allow developers to easily add networking to their mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1728311031026
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Lordfirespeed-OdinSerializer-2022.11.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\xilophor-LethalNetworkAPI\icon.png
