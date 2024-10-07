@@ -157,7 +157,7 @@
     minor: 0
     patch: 37
   enabled: true
-  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\2.0.37\icon.png
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
@@ -897,13 +897,13 @@
   authorName: malco
   websiteUrl: https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/
   displayName: Lategame_Upgrades
-  description: V3.10.3! - Two new upgrades related to water such as oxygen
+  description: V3.10.4! - Two new upgrades related to water such as oxygen
     consumption and its movement hinderance, fixes & more
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797578563
+  installedAtTime: 1728305085824
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -917,9 +917,9 @@
   versionNumber:
     major: 3
     minor: 10
-    patch: 3
+    patch: 4
   enabled: true
-  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\malco-Lategame_Upgrades\3.10.4\icon.png
 - manifestVersion: 1
   name: Evaisa-LethalThings
   authorName: Evaisa

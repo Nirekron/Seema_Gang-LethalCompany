@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "Belt bag",
+      "value": {
+        "active": true,
+        "override_price": false,
+        "price": 45,
+        "override_max_discount": false,
+        "max_discount": 70,
+        "override_weight": false,
+        "weight": 1.15
+      }
+    },
+    {
       "key": "Boombox",
       "value": {
         "active": true,
@@ -377,7 +389,7 @@
       "value": {
         "active": true,
         "override_price": false,
-        "price": 120,
+        "price": 80,
         "override_max_discount": false,
         "max_discount": 80,
         "override_weight": false,

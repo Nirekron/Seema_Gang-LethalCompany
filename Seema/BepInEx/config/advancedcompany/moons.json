@@ -5265,7 +5265,7 @@
         "daytime_enemies_probability": 0.0,
         "daytime_enemies": [],
         "override_outside_enemies_max_power": false,
-        "outside_enemies_max_power": 10,
+        "outside_enemies_max_power": 7,
         "outside_enemies": [
           {
             "key": "ForestGiant",
