@@ -1,4 +1,42 @@
 <details>
+<summary> 3.10.8 - 2024-10-21 </summary>
+
+- Made a better fix for the teleporter patching due to DropAllHeldItems method being removed from vanilla code.
+   - This is due dependency leading to closed graph with certain mods installed, making BepInEx unable to load.
+- Fixed issue with not being able to teleport players when revived in The Company through Interns.
+
+</details>
+
+<details>
+<summary> 3.10.7 - 2024-10-21 </summary>
+
+- Fixed issue with teleporter patching due to DropAllHeldItems method being removed from vanilla code.
+
+</details>
+<details>
+<summary> 3.10.6 - 2024-10-20 </summary>
+
+- Hotfixed issue with using other mod.
+
+</details>
+
+<details>
+<summary> 3.10.5 - 2024-10-20 </summary>
+
+- Implemented one time upgrade which allows shotguns eliminate ghost girls.
+- Implemented tier upgrade which allows the players to teleport with some items in their inventories according to the tier they are located.
+  - The tiers mechanism is similar if not the same as the Hunter: you specify a list of items which is then separated by another delimiter to separate between tiers.
+  - You specify either the names listed in the Company Store or the name displayed in the scan node (or their internal name stored in the ``Item`` instance of the game's code)
+- Implemented tier upgrade which increases the shotgun's damage output.
+- Implemented tier upgrade which increases the shotgun's overall range and its effective damage ranges.
+- Implemented tier upgrade which increases the teleporter's speed.
+- Implemented tier upgrade which in case of a full team wipe, each scrap item present in the ship has a chance of not being discarded.
+- Fixed issue with medkit on Extraction contract due to different names.
+- Fixed typo in some configuration entries.
+
+</details>
+
+<details>
 <summary> 3.10.4 - 2024-10-05 </summary>
 
 - Added configuration for interns for teleportation restriction on the revived player.

@@ -146,7 +146,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797580309
+  installedAtTime: 1729618805047
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -155,9 +155,9 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 37
+    patch: 38
   enabled: true
-  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
+  icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\2.0.38\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
@@ -625,7 +625,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797579289
+  installedAtTime: 1729618804618
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -634,7 +634,7 @@
   versionNumber:
     major: 2
     minor: 2
-    patch: 7
+    patch: 8
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
@@ -897,13 +897,12 @@
   authorName: malco
   websiteUrl: https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/
   displayName: Lategame_Upgrades
-  description: V3.10.4! - Two new upgrades related to water such as oxygen
-    consumption and its movement hinderance, fixes & more
+  description: V3.10.8! - Shotgun and Teleporter Upgrades, fixes & more
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1728305085824
+  installedAtTime: 1729618803932
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -917,7 +916,7 @@
   versionNumber:
     major: 3
     minor: 10
-    patch: 4
+    patch: 8
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
 - manifestVersion: 1
@@ -1167,7 +1166,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797577604
+  installedAtTime: 1729618803483
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1176,8 +1175,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 4
+    minor: 2
+    patch: 0
   enabled: true
   icon: C:\Users\bebe1\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
 - manifestVersion: 1
