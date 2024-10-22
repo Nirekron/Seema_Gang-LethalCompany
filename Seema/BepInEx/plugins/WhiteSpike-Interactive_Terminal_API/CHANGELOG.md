@@ -1,13 +1,4 @@
 <details>
-<summary> 1.2.0 </summary>
-
-- Implemented ``BaseHierarchyElement`` (and its derived ``TextHierarchyElement`` for text only) and ``BaseCursorHierarchyElement`` (for selectable options) which aim to provide that visual of hierarchy splits or a tree.
-- Fixed some issues with ``CursorElement`` displaying its text when it has description.
-- Actually implemented ``PreviousScreen`` correctly for terminal application classes.
-
-</details>
-
-<details>
 <summary> 1.1.4 </summary>
 
 - ``PageApplication`` will change between screens when it reaches one of the boundaries of the current cursor menu

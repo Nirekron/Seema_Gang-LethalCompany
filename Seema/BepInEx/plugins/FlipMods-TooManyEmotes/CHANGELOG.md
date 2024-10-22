@@ -1,5 +1,3 @@
-# 2.2.8
-+ Added a config option to disable displaying the current emote when performing a random emote. This can be helpful with memory management when using mods that cache all chat messages.
 # 2.2.7
 + Performing a random emote will now display which emote is being played.
 + When using a controller *without* the InputUtils mod, you should no longer experience random bindings not working.
