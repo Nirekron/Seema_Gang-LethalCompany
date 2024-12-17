@@ -56,7 +56,7 @@ Various dances are also included! You can see a preview of them in the gif down 
 While you *can* use the base TooManyEmotes mod with other players who do not have that mod, you ***cannot*** use the TooManyEmotesScrap mod with players who do not also have the mod enabled.
 <br><br>
 
-## Jug Band (emote)
+## Jug Band (multi-instrument emote)
 
 - The Jug Band emote has been added to the game! (Added in 2.0.0)
 - Jug Band is a 4-in-1 emote, that when played, plays 1 of 4 instruments in the Jug Band song from Fortnite.
@@ -67,7 +67,7 @@ While you *can* use the base TooManyEmotes mod with other players who do not hav
 - [Emote preview](https://youtu.be/tWsCQk6ODEk)
 <br><br>
 
-## Travelers (emote)
+## Travelers (multi-instrument emote)
 
 - This is another multi-instrumental emote (like Jug Band) from the game, Outer Wilds.
 - There are 7 instruments, so check them out!

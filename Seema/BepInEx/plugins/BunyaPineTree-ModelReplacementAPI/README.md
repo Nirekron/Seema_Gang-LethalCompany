@@ -1,4 +1,4 @@
-# ModelReplacementAPI v2.4.10modders
+# ModelReplacementAPI v2.4.12
 
 ## Instructions
 For more info on making model replacements see the wiki at https://github.com/BunyaPineTree/LethalCompany_ModelReplacementAPI
@@ -26,6 +26,10 @@ If they are mimicking a player then they will take on that player's model, other
 - Dropping dead players with a viewmodel can result in unexpected results
 
 ## Changelog
+	- v2.4.12
+		- Thanks to 1A3Dev for fixing MoreCompany cosmetic visability issues.
+	- v2.4.11
+		- Rebuilt with latest version of MoreCompany
 	- v2.4.10
 		- Your honour, I plead oopsie daisies.
 	- v2.4.9

@@ -1,3 +1,10 @@
+## v1.4.5
+- Added support for placing advanced.json files in the config folder (thanks darmuh)
+- .json files in the BepInEx/config/MoreSuits folder will be used in place of those in the advanced folder
+
+## v1.4.4
+- Moved Default.png into the Advanced folder so it doesn't overwrite the base suit
+
 ## v1.4.3
 - Reverted a change to how suits were sorted
 

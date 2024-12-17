@@ -1,3 +1,23 @@
+# 2.2.14
++ Fixed issue where you sometimes couldn't register quick emotes when pressing the hotkey in the emote menu.
+# 2.2.13
++ Previously set incorrect conditions on whether the game should save values. This has been corrected.
++ Set more conditions for various TME keybinds so they won't activate if the pause menu is open.
+# 2.2.12
++ Fixed issue with emotes sorting method varying between system languages, resulting in de-synced emotes between some clients.
++ Fixed issue where the game was saving unlocked emotes when the option to unlock all emotes is enabled. The game *shouldn't* normally touch the game's save file when this option is enabled. Preferencesa are still saved, but in a different location.
++ Re-added quick emotes. This *seems* to work fine, but not thoroughly tested. Please report any quirks on the discord, or on the github!<br>
+Quick Emote keybinds can be set/changed with the InputUtils mod.
++ Invisible stairs emote is rotated correctly so the character faces where you're looking now.
++ Moved the Fishy Flourish to DMCA.
+# 2.2.11
++ Accidentally prevented favorited emotes from loading in 2.2.10. This should be fixed now.
+# 2.2.10
++ Removed some test code for an incomplete/experimental feature that was accidentally included in 2.2.9
+# 2.2.9
++ Updated compat for MoreCompany to fix some outdated references.
+# 2.2.8
++ Added a config option to disable displaying the current emote when performing a random emote. This can be helpful with memory management when using mods that cache all chat messages.
 # 2.2.7
 + Performing a random emote will now display which emote is being played.
 + When using a controller *without* the InputUtils mod, you should no longer experience random bindings not working.

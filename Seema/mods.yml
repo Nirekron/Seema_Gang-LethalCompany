@@ -146,7 +146,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797580309
+  installedAtTime: 1734446742353
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -155,7 +155,7 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 37
+    patch: 39
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -258,7 +258,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1734446744336
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -268,7 +268,7 @@
   versionNumber:
     major: 0
     minor: 16
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
@@ -328,7 +328,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1734446746489
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -337,7 +337,7 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 3
+    patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\x753-More_Suits\icon.png
 - manifestVersion: 1
@@ -625,7 +625,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797579289
+  installedAtTime: 1734446751674
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -634,7 +634,7 @@
   versionNumber:
     major: 2
     minor: 2
-    patch: 7
+    patch: 14
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
@@ -647,7 +647,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797578910
+  installedAtTime: 1734446753832
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -656,7 +656,7 @@
   versionNumber:
     major: 2
     minor: 4
-    patch: 10
+    patch: 12
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BunyaPineTree-ModelReplacementAPI\icon.png
 - manifestVersion: 1
@@ -1167,7 +1167,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797577604
+  installedAtTime: 1734446759322
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1176,8 +1176,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 4
+    minor: 2
+    patch: 0
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
 - manifestVersion: 1
@@ -1191,19 +1191,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1734446761107
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-FixPluginTypesSerialization-1.1.1
     - MaxWasUnavailable-LethalModDataLib-1.2.2
-    - Evaisa-LethalLib-0.16.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 10
+    patch: 13
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
 - manifestVersion: 1
@@ -1409,3 +1408,219 @@
     patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\jaspercreations-Scopophobia\icon.png
+- manifestVersion: 1
+  name: mrgrm7-LethalCasino
+  authorName: mrgrm7
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mrgrm7/LethalCasino/
+  displayName: LethalCasino
+  description: The Company has invested in a new vertical, gambling! Gamble your
+    scrap at the Casino for a chance to multiply your earnings! Did you know 90%
+    of gamblers quit right before they hit it big? Includes slot machines,
+    roulette, and more.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446904142
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\mrgrm7-LethalCasino\icon.png
+- manifestVersion: 1
+  name: Renegades-FlashlightToggle
+  authorName: Renegades
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Renegades/FlashlightToggle/
+  displayName: FlashlightToggle
+  description: Press F to toggle a flashlight in your inventory. CLIENT SIDE.
+    REBINDABLE IN-GAME
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446917781
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.4.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Renegades-FlashlightToggle\icon.png
+- manifestVersion: 1
+  name: DiFFoZ-CompanyCruiserFix
+  authorName: DiFFoZ
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/DiFFoZ/CompanyCruiserFix/
+  displayName: CompanyCruiserFix
+  description: Fixes Dropship throws NullReferenceException on custom moons
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446950745
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.2.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\DiFFoZ-CompanyCruiserFix\icon.png
+- manifestVersion: 1
+  name: Hardy-LCMaxSoundsFix
+  authorName: Hardy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/
+  displayName: LCMaxSoundsFix
+  description: Simple mod that increase max number of simultaneous playing sounds,
+    hopefully fixing missing footsteps and other missing sound problems.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446950807
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Hardy-LCMaxSoundsFix\icon.png
+- manifestVersion: 1
+  name: AudioKnight-StarlancerAIFix
+  authorName: AudioKnight
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/
+  displayName: StarlancerAIFix
+  description: Automatically assigns interior/exterior AI for enemies based on
+    their spawn location. Also fixes a null reference exception regarding
+    EnableEnemyMesh(). Part of my Starlancer Series!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446950867
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 8
+    patch: 4
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AudioKnight-StarlancerAIFix\icon.png
+- manifestVersion: 1
+  name: IAmBatby-LethalToolbox
+  authorName: IAmBatby
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalToolbox/
+  displayName: LethalToolbox
+  description: A Lethal Company Mod & Editor Tool to provide custom content
+    creators with easily accessible ways to implement features and mechanics
+    without then need for custom code.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446950927
+  loaders: []
+  dependencies:
+    - IAmBatby-LethalLevelLoader-1.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\IAmBatby-LethalToolbox\icon.png
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Moons
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Moons/
+  displayName: Wesleys_Moons
+  description: All of my moons in one bundle.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734446951288
+  loaders: []
+  dependencies:
+    - IAmBatby-LethalLevelLoader-1.2.2
+    - IAmBatby-LethalToolbox-1.0.2
+    - BepInEx-BepInExPack-5.4.2100
+    - AudioKnight-StarlancerAIFix-3.6.0
+    - Hardy-LCMaxSoundsFix-1.1.0
+    - DiFFoZ-CompanyCruiserFix-1.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 0
+    patch: 29
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Magic_Wesley-Wesleys_Moons\icon.png
+- manifestVersion: 1
+  name: EladNLG-EladsHUD
+  authorName: EladNLG
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/
+  displayName: EladsHUD
+  description: Now with anti-aliasing!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734447040070
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\EladNLG-EladsHUD\icon.png
+- manifestVersion: 1
+  name: Piggy-LC_Office
+  authorName: Piggy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Piggy/LC_Office/
+  displayName: LC_Office
+  description: Adds new office-themed interior, and new enemies!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734447192373
+  loaders: []
+  dependencies:
+    - Evaisa-LethalLib-0.16.1
+    - xilophor-LethalNetworkAPI-3.2.0
+    - IAmBatby-LethalLevelLoader-1.3.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Piggy-LC_Office\1.2.5\icon.png
