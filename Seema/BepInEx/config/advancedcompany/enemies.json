@@ -41,14 +41,6 @@
       }
     },
     {
-      "key": "Butler Bees",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 2.0
-      }
-    },
-    {
       "key": "Centipede",
       "value": {
         "active": true,
@@ -214,22 +206,6 @@
         "active": true,
         "override_power_level": false,
         "power_level": 1.0
-      }
-    },
-    {
-      "key": "Shrimp",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 1.0
-      }
-    },
-    {
-      "key": "Shy guy",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 3.0
       }
     },
     {

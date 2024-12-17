@@ -146,7 +146,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446742353
+  installedAtTime: 1734455433156
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -258,7 +258,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446744336
+  installedAtTime: 1734455444890
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -328,7 +328,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446746489
+  installedAtTime: 1734455446917
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -625,7 +625,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446751674
+  installedAtTime: 1734455450893
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -647,7 +647,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446753832
+  installedAtTime: 1734455452221
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1167,7 +1167,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446759322
+  installedAtTime: 1734455459215
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1191,7 +1191,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446761107
+  installedAtTime: 1734455457256
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1421,7 +1421,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446904142
+  installedAtTime: 1734455478238
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1434,29 +1434,51 @@
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\mrgrm7-LethalCasino\icon.png
 - manifestVersion: 1
-  name: Renegades-FlashlightToggle
-  authorName: Renegades
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Renegades/FlashlightToggle/
-  displayName: FlashlightToggle
-  description: Press F to toggle a flashlight in your inventory. CLIENT SIDE.
-    REBINDABLE IN-GAME
+  name: Piggy-LC_Office
+  authorName: Piggy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Piggy/LC_Office/
+  displayName: LC_Office
+  description: Adds new office-themed interior, and new enemies!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446917781
+  installedAtTime: 1734455498605
   loaders: []
   dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Rune580-LethalCompany_InputUtils-0.4.3
+    - Evaisa-LethalLib-0.16.1
+    - xilophor-LethalNetworkAPI-3.2.0
+    - IAmBatby-LethalLevelLoader-1.3.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Piggy-LC_Office\icon.png
+- manifestVersion: 1
+  name: EladNLG-EladsHUD
+  authorName: EladNLG
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/
+  displayName: EladsHUD
+  description: Now with anti-aliasing!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1734455533229
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
     patch: 0
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Renegades-FlashlightToggle\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\EladNLG-EladsHUD\icon.png
 - manifestVersion: 1
   name: DiFFoZ-CompanyCruiserFix
   authorName: DiFFoZ
@@ -1467,7 +1489,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446950745
+  installedAtTime: 1734455558802
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1491,7 +1513,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446950807
+  installedAtTime: 1734455558866
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1515,7 +1537,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446950867
+  installedAtTime: 1734455558927
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1539,7 +1561,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446950927
+  installedAtTime: 1734455558995
   loaders: []
   dependencies:
     - IAmBatby-LethalLevelLoader-1.3.0
@@ -1561,7 +1583,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734446951288
+  installedAtTime: 1734455559427
   loaders: []
   dependencies:
     - IAmBatby-LethalLevelLoader-1.2.2
@@ -1577,50 +1599,4 @@
     minor: 0
     patch: 29
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Magic_Wesley-Wesleys_Moons\icon.png
-- manifestVersion: 1
-  name: EladNLG-EladsHUD
-  authorName: EladNLG
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/
-  displayName: EladsHUD
-  description: Now with anti-aliasing!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1734447040070
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\EladNLG-EladsHUD\icon.png
-- manifestVersion: 1
-  name: Piggy-LC_Office
-  authorName: Piggy
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Piggy/LC_Office/
-  displayName: LC_Office
-  description: Adds new office-themed interior, and new enemies!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1734447192373
-  loaders: []
-  dependencies:
-    - Evaisa-LethalLib-0.16.1
-    - xilophor-LethalNetworkAPI-3.2.0
-    - IAmBatby-LethalLevelLoader-1.3.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 5
-  enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Piggy-LC_Office\1.2.5\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Magic_Wesley-Wesleys_Moons\4.0.29\icon.png
