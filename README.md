@@ -9,4 +9,4 @@ Stačí otvoriť script ```open_profiles.bat``` a otvorí sa ti priamo súbor kd
 Prípadne -> **Win + R** -> **%appdata%** -> **r2modmanPlus-local** -> **LethalCompany** -> **profiles**
 
 ===========================================================================
-**Záložný Launcher** -> Prípadne že Vám hodí inú verziu ako ostatným treba Launcher spustiť cez priložený .exe súbor
+**Záložný Launcher** -> Prípadne že Vám hodí inú verziu ako ostatným treba Launcher stiahnuť cez priložený url súbor
