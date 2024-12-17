@@ -1,0 +1,8 @@
+{
+    "name": "Television_Controller",
+    "version_number": "1.0.3",
+	"website_url": "",
+    "description": "Allows you to easily upload a video to the television by specifying a link",
+    "dependencies": [
+    ]
+}
