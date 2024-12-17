@@ -1,9 +1,0 @@
-{
-    "name": "EladsHUD",
-    "version_number": "1.3.0",
-    "website_url": "https://github.com/EladNLG/EladsHUD",
-    "description": "Now with anti-aliasing!",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}
