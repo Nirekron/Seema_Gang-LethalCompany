@@ -5,4 +5,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 Seema/BepInEx/plugins/**/lethalcasinoassets filter=lfs diff=lfs merge=lfs -text
 Seema/BepInEx/plugins/**/lcoffice filter=lfs diff=lfs merge=lfs -text
-Seema/BepInEx/plugins/**/vlackmesainterior filter=lfs diff=lfs merge=lfs -text
+Seema/BepInEx/plugins/**/blackmesainterior filter=lfs diff=lfs merge=lfs -text
