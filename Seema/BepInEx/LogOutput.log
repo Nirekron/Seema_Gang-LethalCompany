@@ -1,4 +1,4 @@
-[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (17.12.2024 17:44:25)
+[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (09.11.2024 22:30:29)
 [Info   :   BepInEx] Running under Unity v2022.3.9.15351836
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -27,8 +27,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Debug  :   BepInEx] Skipping loading C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\deer-DeersPosters\SolosPosterChanger.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
-[Info   :   BepInEx] 80 plugins to load
+[Info   :   BepInEx] 81 plugins to load
 [Warning:   BepInEx] Skipping [MoreCompany 1.10.1] because a newer version exists (MoreCompany 100.0.0)
 [Warning:   BepInEx] Plugin [AdditionalContentFramework 1.0.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
@@ -98,11 +97,11 @@
 [Debug  :   Coroner] Done.
 [Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
 [Info   :   Coroner] Coroner loading language support: en-us
-[Info   :   Coroner] Loading language data from config folder: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\config/EliteMasterEric-Coroner
+[Info   :   Coroner] Loading language data from config folder: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\config/EliteMasterEric-Coroner
 [Info   :   Coroner] Loading 0 additional language data files from config folder
 [Info   :   Coroner] Success, loaded 82 types of language tags with 190 total entries.
 [Info   :   Coroner] Coroner loading fallback language support: en-us
-[Info   :   Coroner] Loading language data from config folder: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\config/EliteMasterEric-Coroner
+[Info   :   Coroner] Loading language data from config folder: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\config/EliteMasterEric-Coroner
 [Info   :   Coroner] Loading 0 additional language data files from config folder
 [Info   :   Coroner] Success, loaded 82 types of language tags with 190 total entries.
 [Info   :   BepInEx] Loading [CullFactory 1.5.0]
@@ -113,9 +112,9 @@
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loading...
 [Info   :LethalExpansion(core)] Loaded LethalExpansion: LethalExpansion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Info   :LethalExpansion(core)] Patched LethalExpansion#Awake
-[Info   :LethalExpansion(core)] Plugins folder found: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins
-[Info   :LethalExpansion(core)] Mod path is: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\jockie-LethalExpansionCore
-[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 878ms
+[Info   :LethalExpansion(core)] Plugins folder found: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins
+[Info   :LethalExpansion(core)] Mod path is: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\jockie-LethalExpansionCore
+[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 528ms
 [Info   :LethalExpansion(core)] Water support applied to the HDRenderPipelineAsset.
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loaded.
 [Info   :   BepInEx] Loading [ShipLoot 1.1]
@@ -470,7 +469,7 @@ Parameter name: index
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?769818826(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?2068253386(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -504,8 +503,8 @@ Parameter name: index
 [Info   :   BepInEx] Loading [Dungeon Generation Plus 1.3.3]
 [Info   :AdvancedCompany] Added DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :dev.ladyalice.dungenplus] Plugin Dungeon Generation Plus has been added!
-[Info   :AdvancedCompany] Added DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
-[Info   :AdvancedCompany] Added DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.5FACB774.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.112A4C16.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Debug  :dev.ladyalice.dungenplus] Loading resource DunGenPlus.dungen
 [Debug  :dev.ladyalice.dungenplus] Loading asset DevDebug
 [Info   :   BepInEx] Loading [Dungeon Generation Plus Loadstone Patch 1.0.0]
@@ -1124,6 +1123,25 @@ dungeonSizeMin:1
 [Info   :   BepInEx] Loading [Scopophobia 1.1.5]
 [Info   :AdvancedCompany] Added Scopophobia, Version=1.1.5.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :Scopophobia] Scopophobia | SCP-096 has entered the facility. All remaining personnel proceed with caution.
+[Info   :   BepInEx] Loading [Solo's Poster Changer 1.0]
+[Info   :AdvancedCompany] Added SolosPosterChanger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :Solo's Poster Changer] Plugin SolosPosterChanger is loaded!
+[Info   :Solo's Poster Changer] Texture 0 loading!
+[Info   :Solo's Poster Changer] Texture 0 loaded!
+[Info   :Solo's Poster Changer] Texture 1 loading!
+[Info   :Solo's Poster Changer] Texture 1 loaded!
+[Info   :Solo's Poster Changer] Texture 2 loading!
+[Info   :Solo's Poster Changer] Texture 2 loaded!
+[Info   :Solo's Poster Changer] Texture 3 loading!
+[Info   :Solo's Poster Changer] Texture 3 loaded!
+[Info   :Solo's Poster Changer] Texture 4 loading!
+[Info   :Solo's Poster Changer] Texture 4 loaded!
+[Info   :Solo's Poster Changer] Texture 5 loading!
+[Info   :Solo's Poster Changer] Texture 5 loaded!
+[Info   :Solo's Poster Changer] Texture 6 loading!
+[Info   :Solo's Poster Changer] Texture 6 loaded!
+[Info   :Solo's Poster Changer] Texture 7 loading!
+[Info   :Solo's Poster Changer] Texture 7 loaded!
 [Info   :   BepInEx] Loading [Emergency Dice 1.1.23]
 [Info   :AdvancedCompany] Added MysteryDice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Debug  :AdvancedCompany] Patching TimeOfDay->SetNewProfitQuota...
@@ -1508,10 +1526,10 @@ File name: 'TestAccount666.GoodItemScan, Version=1.9.0.0, Culture=neutral, Publi
 [Debug  :AdvancedCompany] Replaced Item.minValue with AdvancedCompany.Game.Manager+Items->GetItemMinValue
 [Debug  :AdvancedCompany] Patched DunGenPlus.Components.Scrap.RandomGuaranteedScrapSpawn+<>c__DisplayClass7_0-><GetCachedItemList>b__0
 [Debug  :AdvancedCompany] Patched DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.5FACB774.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.5FACB774.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.112A4C16.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.112A4C16.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching LoadstoneNighty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Warning:AdvancedCompany] Likely some soft dependency of another mod is missing (THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR!):
 [Warning:AdvancedCompany] System.IO.FileNotFoundException: Could not load file or assembly 'com.adibtw.loadstone, Version=0.1.16.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
@@ -1890,7 +1908,7 @@ Parameter name: operand
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?769818826(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?2068253386(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -2045,6 +2063,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
 [Debug  :AdvancedCompany] Patched Scopophobia.Patches.GetShyGuyPrefabForLaterUse->SavesPrefabForLaterUse
 [Debug  :AdvancedCompany] Patched Scopophobia, Version=1.1.5.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching SolosPosterChanger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched SolosPosterChanger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching MysteryDice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching MysteryDice.Misc->SpawnEnemy
 [Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
@@ -2085,48 +2105,48 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ReservedWalkieSlot-2.0.6] Initializing hotkeys.
 [Message:AdvancedCompany] Found more emotes. Trying to add AnimatorOverrideController...
 [Info   :LethalExpansion(core)] Loading scene 'InitSceneLaunchOptions'
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav with length of 0,967!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav with length of 0,967!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav with length of 0,8!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav with length of 0,8!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav with length of 4,041!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav with length of 4,041!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav with length of 1,833!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3 with length of 0,792!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3 with length of 0,792!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3 with length of 1,008!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3 with length of 3,84!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3 with length of 3,84!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3 with length of 3,84!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3 with length of 11,808!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3 with length of 12,982!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3 with length of 12,982!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3 with length of 77,088!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3 with length of 58,383!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3 with length of 8,097!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3
-[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 with length of 0,432!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHorn1.wav with length of 0,967!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\AirHornFar.wav with length of 0,967!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh1.wav with length of 0,8!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\MaskLaugh2.wav with length of 0,8!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFire.wav with length of 4,041!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretFireDistance.wav with length of 4,041!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\TurretSeePlayer.wav with length of 1,833!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Arson.mp3 with length of 0,792!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\ArsonDirty.mp3 with length of 0,792!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\BellDinger.mp3 with length of 1,008!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter1.mp3 with length of 3,84!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter2.mp3 with length of 3,84!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Chitter3.mp3 with length of 3,84!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Fly.mp3 with length of 11,808!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction1.mp3 with length of 12,982!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\HighAction2.mp3 with length of 12,982!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2.mp3 with length of 77,088!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\IcecreamTruckV2ChristmasFar.mp3 with length of 58,383!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\LowAction.mp3 with length of 8,097!
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 from path: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 with length of 0,432!
 [Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place! You can safely ignore this if you want the mod to run fully client side.
-[Info   : Elads HUD] 79 plugins loaded
+[Info   : Elads HUD] 80 plugins loaded
 [Info   : Elads HUD] Plugin GUID: .LCMaxSoundsFix
 [Info   : Elads HUD] Plugin GUID: ACS.AdditionalContentFramework
 [Info   : Elads HUD] Plugin GUID: atomic.terminalapi
@@ -2203,6 +2223,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   : Elads HUD] Plugin GUID: RugbugRedfern.SkinwalkerMod
 [Info   : Elads HUD] Plugin GUID: ScoopysVarietyMod
 [Info   : Elads HUD] Plugin GUID: Scopophobia
+[Info   : Elads HUD] Plugin GUID: SolosPosterChanger
 [Info   : Elads HUD] Plugin GUID: Theronguard.EmergencyDice
 [Info   : Elads HUD] Plugin GUID: x753.Peepers
 [Info   : Elads HUD] Plugin GUID: Zaggy1024.PathfindingLagFix
@@ -2219,6 +2240,11 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM5, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: IMESelected, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Using NewInputSystem
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :LethalExpansion(core)] Unloading scene: InitSceneLaunchOptions
 [Info   :LethalExpansion(core)] Loading scene 'InitScene'
 [Info   :LethalExpansion(core)] Registered prefab 'itemshipanimcontainer' from 'LethalExpansion'
@@ -2302,7 +2328,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
 [Debug  :MaxWasUnavailable.LethalModDataLib] LethalModDataLib version (1.2.2) matches last saved version (1.2.2).
 [Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :LethalExpansion(core)] Unloading scene: InitScene
 [Info   :LethalExpansion(core)] Loading scene 'MainMenu'
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Mouth Audio (UnityEngine.AudioSource).
@@ -2318,11 +2344,12 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Message:AdvancedCompany] Found steam ID: 76561198308443238
-[Message:AdvancedCompany] Found username: CzeFox
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] Found steam ID: 76561198120771711
+[Message:AdvancedCompany] Found username: Nirekron
 [Message:AdvancedCompany] Server started!
 [Message:AdvancedCompany] Adding message handlers.
 [Message:AdvancedCompany] AdvancedCompanyMod_ActivateHelmetLampRelay
@@ -2349,11 +2376,11 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Message:AdvancedCompany] AdvancedCompanyMod_SyncCurrentLevel
 [Message:AdvancedCompany] AdvancedCompanyMod_UseFlashlightRelay
 [Message:AdvancedCompany] AdvancedCompanyMod_UseMobileTerminalRelay
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :LethalExpansion(core)] Unloading scene: MainMenu
 [Info   :LethalThings] Spawning config manager
 [Debug  :More Ship Upgrades] [StartOfRoundPatcher] Initiating components...
-[Info   :More Ship Upgrades] [LguStore] Loading save file for slot 4.
+[Info   :More Ship Upgrades] [LguStore] Loading save file for slot 2.
 [Info   :More Ship Upgrades] [LguStore] SteamID is not available yet, waiting...
 [Info   :More Ship Upgrades] [Hunter] Hoarding Bug set to be harvestable at level 1
 [Info   :More Ship Upgrades] [Hunter] Snare Flea set to be harvestable at level 1
@@ -2404,10 +2431,10 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 12. The Rubber Rooms (RubberRoomsFlow) (Custom)
 13. Toy Store (ToystoreFlow) (Custom)
 
-[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
-[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
-[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
-[Info   :LethalLevelLoader] Initialized LLL Save File, Current Level Was: VowLevel, Current Vanilla Save Is: LCSaveFile4
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Info   :LethalLevelLoader] Initialized LLL Save File, Current Level Was: ExperimentationLevel, Current Vanilla Save Is: LCSaveFile2
 [Info   :LethalLevelLoader] LethalLevelLoader Has Finished Initializing.
 [Info   :LethalExpansion(core)] Finished adding moons and scrap
 [Info   :ControlCompany.ControlCompany] Loading config
@@ -2461,13 +2488,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Message:AdvancedCompany] PopulateScenePlacedObjects
 [Info   :AdvancedCompany] Extending Lobby. Adding new player objects for a lobby size of 8
 [Message:AdvancedCompany] Applying cosmetics for 0
-[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 1
 [Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 2
@@ -2498,8 +2519,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finding suit prefab...
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - found suit prefab!
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loading content modules...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to load suits from path:C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to parse json file: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits\suit-defs.json
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to load suits from path:C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to parse json file: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits\suit-defs.json
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Red Suit
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Yellow Suit
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Green Suit
@@ -2508,10 +2529,10 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Pink Suit
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: White Suit
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Black Suit
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finished loading suits from path:C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finished loading suits from path:C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loaded content modules! (count=1)
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying content modules...
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying additional content module from: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying additional content module from: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits...
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=0_Red_Suit, name=Red Suit}...
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=0_Red_Suit, name=Red Suit}! (new unlockable count is 33)
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=1_Yellow_Suit, name=Yellow Suit}...
@@ -2528,51 +2549,24 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=6_White_Suit, name=White Suit}! (new unlockable count is 39)
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=7_Black_Suit, name=Black Suit}...
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=7_Black_Suit, name=Black Suit}! (new unlockable count is 40)
-[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applyed additional content module from: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits!
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applyed additional content module from: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits!
 [Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applied content modules!
-[Info   :LethalLevelLoader] Loading Previously Saved SelectableLevel: 56 Vow
-[Info   :LethalLevelLoader] Saving Current SelectableLevel: 56 Vow
+[Info   :LethalLevelLoader] Loading Previously Saved SelectableLevel: 41 Experimentation
+[Info   :LethalLevelLoader] Saving Current SelectableLevel: 41 Experimentation
 [Info   :TooManyEmotes-2.2.7] Loading game values.
 [Info   :TooManyEmotes-2.2.7] Resetting unlocked emotes.
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Nirekron
+[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: Nirekron
 [Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: CzeFox
-[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: CzeFox
-[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Player #0
-[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: Player #0
-[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Leprikn
-[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: Leprikn
-[Info   :TooManyEmotes-2.2.7] Loaded Seed: 474046848
+[Info   :TooManyEmotes-2.2.7] Loading 225 emote credits for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Loaded Seed: 73965214
 [Info   :AdvancedCompany] Loading savegame data...
 [Debug  :AdvancedCompany] Found shipGrabbableItemNames
-[Debug  :AdvancedCompany] Found item 20-Belt bag
-[Debug  :AdvancedCompany] Found item 3-Apparatus
-[Debug  :AdvancedCompany] Found item 0-Clown horn
-[Debug  :AdvancedCompany] Found item 0-Cookie mold pan
 [Debug  :AdvancedCompany] Found item 14-Key
-[Debug  :AdvancedCompany] Found item 0-Bottles
-[Debug  :AdvancedCompany] Found item 0-Plastic cup
-[Debug  :AdvancedCompany] Found item 23623643-Revolver
-[Debug  :AdvancedCompany] Found item 0-Magnifying glass
-[Debug  :AdvancedCompany] Found item 23623631-Cookie Fumo
-[Debug  :AdvancedCompany] Found item 0-Bottles
-[Debug  :AdvancedCompany] Found item 0-Garbage lid
-[Debug  :AdvancedCompany] Found item 8881-Cat
-[Debug  :AdvancedCompany] Found item 6-Flashlight
-[Debug  :AdvancedCompany] Found item 0-Bottles
 [Debug  :AdvancedCompany] Found item 14-Key
-[Debug  :AdvancedCompany] Found item 0-Cookie mold pan
-[Debug  :AdvancedCompany] Found item 3-Apparatus
-[Debug  :AdvancedCompany] Found item 9007-Controller
-[Debug  :AdvancedCompany] Found item 6-Flashlight
-[Debug  :AdvancedCompany] Found item 6-Flashlight
-[Debug  :AdvancedCompany] Found item 6-Flashlight
-[Debug  :AdvancedCompany] Found item 23623645-Gremlin Can
-[Debug  :AdvancedCompany] Found item 14-Key
-[Debug  :AdvancedCompany] Found item 0-Soccer ball
-[Debug  :AdvancedCompany] Found item 0-Red soda
-[Debug  :AdvancedCompany] Found item 0-Control pad
-[Debug  :AdvancedCompany] Found item 0-Whoopie cushion
-[Debug  :AdvancedCompany] Found item 0-Bottles
-[Debug  :AdvancedCompany] Found item 0-Garbage lid
+[Debug  :AdvancedCompany] Found item 152767-Gift
+[Debug  :AdvancedCompany] Found item 0-Big bolt
+[Debug  :AdvancedCompany] Found item 3-Toxic Apparatus
 [Info   :More Ship Upgrades] [Hunter] Hoarding Bug set to be harvestable at level 1
 [Info   :More Ship Upgrades] [Hunter] Snare Flea set to be harvestable at level 1
 [Info   :More Ship Upgrades] [Hunter] Spore Lizard set to be harvestable at level 1
@@ -2587,7 +2581,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :More Ship Upgrades] [Hunter] Maneater set to be harvestable at level 3
 [Info   :More Ship Upgrades] [Hunter] Forest Giant set to be harvestable at level 4
 [Info   :More Ship Upgrades] [UpgradeBus] Successfully reconstructed with hosts config.
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 474046848
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 73965214
 [Info   :JacobG5.JLL] [User] JLL Network Manager Initialized.
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (1)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (3)
@@ -2609,18 +2603,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (5)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (6)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (7)
-[Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 1 radiators.
-[Debug  :me.loaforc.facilitymeltdown] 240
-[Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 2 radiators.
-[Debug  :me.loaforc.facilitymeltdown] 240
 [Message:AdvancedCompany] Applying cosmetics for 0
-[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
-[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 1
 [Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 2
@@ -2724,11 +2708,12 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager created
 [Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
-[Debug  :PizzaTowerEscapeMusic GameEventListener] Level has changed to 56 Vow
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Level has changed to 41 Experimentation
+[Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 1 radiators.
+[Debug  :me.loaforc.facilitymeltdown] 240
 [Info   :PizzaTowerEscapeMusic MusicManager] Loaded music (MIP) from file
 [Info   :PizzaTowerEscapeMusic MusicManager] Music clips done loading
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 474046848
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 73965214
 [Debug  :dev.ladyalice.scarletmansion] IsServer: True
 [Debug  :dev.ladyalice.scarletmansion] Created Scarlet Network Manager. We in
 [Debug  :dev.ladyalice.scarletmansion] Set networked config values
@@ -2736,16 +2721,18 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :AdvancedCompany] Next player object with ID 1 activated.
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Player entered ship
 [Info   :HerobrineMod] Registering spawnables in instance 'delayed'.
-[Info   :More Ship Upgrades] [LguStore] Loading SteamID: 76561198308443238
-[Info   :More Ship Upgrades] [LguStore] Successfully loaded save data for ID: 76561198308443238
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6061384 for Climbing Gloves.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8721302 for Discombobulator.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7804142 for Jet Fuel.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8163051 for Locksmith.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7895082 for Oxygen Canisters.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6014106 for Shutter Batteries.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6027843 for Sick Beats.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,657052 for Walkie GPS.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :More Ship Upgrades] [LguStore] Loading SteamID: 76561198120771711
+[Info   :More Ship Upgrades] [LguStore] Successfully loaded save data for ID: 76561198120771711
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8497211 for Back Muscles.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8100724 for Climbing Gloves.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7319415 for Discombobulator.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6836731 for Efficient Engines.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7885129 for Fedora Suit.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7466351 for Lightning Rod.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8898794 for NV Headset Batteries.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8613956 for Protein Powder.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8797493 for Rubber Boots.
 [Warning:dev.ladyalice.scarletmansion] Player 0 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
@@ -2753,19 +2740,10 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: walkie_talkie
 [Info   :LethalThings] Syncing configs!
 [Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: blow_kiss
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Message:AdvancedCompany] Reading data from handshake...
-[Debug  :AdvancedCompany] Total package size: 14810
+[Debug  :AdvancedCompany] Total package size: 15035
 [Debug  :AdvancedCompany] Reading a total of 6 synchronizers.
-[Debug  :AdvancedCompany] Reading block AdvCmpny.Lobby with size 14650
+[Debug  :AdvancedCompany] Reading block AdvCmpny.Lobby with size 14875
 [Debug  :AdvancedCompany] Pointer: 152
 [Debug  :AdvancedCompany] Received network prefab: 18712595:Herobrine:HerobrineMod
 [Debug  :AdvancedCompany] Received network prefab: 19166853:PicturePeaches:LethalThings
@@ -3207,15 +3185,15 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Received network prefab: 4293119169:XenCrystalApparatus:LethalThings
 [Debug  :AdvancedCompany] Mods installed: com.potatoepet.AdvancedCompany
 [Debug  :AdvancedCompany] Reading block AdvCmpny.RedLocust with size 0
-[Debug  :AdvancedCompany] Pointer: 14828
+[Debug  :AdvancedCompany] Pointer: 15053
 [Debug  :AdvancedCompany] Reading block AdvCmpny.Items with size 0
-[Debug  :AdvancedCompany] Pointer: 14850
+[Debug  :AdvancedCompany] Pointer: 15075
 [Debug  :AdvancedCompany] Reading block AdvCmpny.DoorLocks with size 0
-[Debug  :AdvancedCompany] Pointer: 14876
+[Debug  :AdvancedCompany] Pointer: 15101
 [Debug  :AdvancedCompany] Reading block AdvCmpny.AnimatedObjectTrigger with size 0
-[Debug  :AdvancedCompany] Pointer: 14914
+[Debug  :AdvancedCompany] Pointer: 15139
 [Debug  :AdvancedCompany] Reading block AdvCmpny.Other with size 0
-[Debug  :AdvancedCompany] Pointer: 14936
+[Debug  :AdvancedCompany] Pointer: 15161
 [Info   :AdvancedCompany] Connecting client added to queue... Currently there are 1 clients connecting...
 [Info   :AdvancedCompany] Adding data to ConnectionApprovedMessage.
 [Message:AdvancedCompany] Writing data to client joining...
@@ -3228,21 +3206,21 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.RedLocust
 [Debug  :AdvancedCompany] Data size: 4
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.Items
-[Debug  :AdvancedCompany] Data size: 2578
+[Debug  :AdvancedCompany] Data size: 550
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.DoorLocks
 [Debug  :AdvancedCompany] Data size: 4
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.AnimatedObjectTrigger
 [Debug  :AdvancedCompany] Data size: 48
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.Other
 [Debug  :AdvancedCompany] Data size: 231
-[Debug  :AdvancedCompany] Total package size: 87946
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: hooray
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :AdvancedCompany] Total package size: 85918
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :AdvancedCompany] Activating necessary player objects for next player to join.
 [Info   :AdvancedCompany] Next player object with ID 2 activated.
 [Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 1
 [Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
@@ -3250,8 +3228,6 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
-[Message:AdvancedCompany] Applying cosmetics for 1
-[Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 2
 [Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 3
@@ -3267,6 +3243,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :AdvancedCompany] Activating necessary player objects for next player to join.
 [Info   :AdvancedCompany] Next player object with ID 2 activated.
 [Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 1
 [Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
@@ -3274,8 +3252,6 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
 [Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
-[Message:AdvancedCompany] Applying cosmetics for 1
-[Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 2
 [Message:AdvancedCompany] 
 [Message:AdvancedCompany] Applying cosmetics for 3
@@ -3293,15 +3269,16 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :TooManyEmotes-2.2.7] Sending all unlocked emotes update to server.
 [Info   :TooManyEmotes-2.2.7] Receiving unlocked emote update from client for 21 emotes.
 [Info   :More Ship Upgrades] [LguStore] Save file received, registering upgrade objects and deserializing.
-[Info   :More Ship Upgrades] [LguStore] SHARED SAVE FILE: Loading index 0 save under steam ID: 76561198308443238
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6061384 for Climbing Gloves.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8721302 for Discombobulator.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7804142 for Jet Fuel.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8163051 for Locksmith.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7895082 for Oxygen Canisters.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6014106 for Shutter Batteries.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6027843 for Sick Beats.
-[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,657052 for Walkie GPS.
+[Info   :More Ship Upgrades] [LguStore] SHARED SAVE FILE: Loading index 0 save under steam ID: 76561198120771711
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8497211 for Back Muscles.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8100724 for Climbing Gloves.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7319415 for Discombobulator.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6836731 for Efficient Engines.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7885129 for Fedora Suit.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7466351 for Lightning Rod.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8898794 for NV Headset Batteries.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8613956 for Protein Powder.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8797493 for Rubber Boots.
 [Info   :BetterTeleporter] Receiving sync request from client with id: 1. Sending config sync to client.
 [Info   :me.loaforc.facilitymeltdown] Config sync request received from client: 1
 [Info   :ReservedItemSlotCore-2.0.36] Receiving sync request from client: 1
@@ -3326,242 +3303,61 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :TooManyEmotes-2.2.7] Receiving sync request from client: 1
 [Info   :ReservedItemSlotCore-2.0.36] Receiving sync held objects request from client with id: 1. 0 players are currently holding a reserved item.
 [Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: it's_you!
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Message:AdvancedCompany] OnClientDisconnect for 1
-[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
-[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
-[Info   :AdvancedCompany] Next player object with ID 1 activated.
-[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
-[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
-[Info   :AdvancedCompany] Next player object with ID 1 activated.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 13 OldIndex: 1 ReservedStartIndex: 13
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 13 ReservedStartIndex: 13
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 13 OldIndex: 1 ReservedStartIndex: 13
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 13 ReservedStartIndex: 13
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] Clownhorn(Clone) - $54
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
-[Debug  :  ShipLoot] PlasticCup(Clone) - $21
-[Debug  :  ShipLoot] Toygun(Clone) - $26
-[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
-[Debug  :  ShipLoot] CookieFumo(Clone) - $58
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
-[Debug  :  ShipLoot] GarbageLid(Clone) - $22
-[Debug  :  ShipLoot] Cat(Clone) - $74
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
-[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
-[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
-[Debug  :  ShipLoot] PietSmietController(Clone) - $288
-[Debug  :  ShipLoot] EnginePart(Clone) - $42
-[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
-[Debug  :  ShipLoot] SoccerBall(Clone) - $44
-[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
-[Debug  :  ShipLoot] ControlPad(Clone) - $60
-[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
-[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
-[Debug  :  ShipLoot] GarbageLid(Clone) - $41
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] Relaying message 'SwitchItem' from 1.
+[Message:AdvancedCompany] Message received 'SwitchItem' from 1.
+[Message:AdvancedCompany] Relaying message 'SwitchItem' from 1.
+[Message:AdvancedCompany] Message received 'SwitchItem' from 1.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] Relaying message 'SwitchItem' from 1.
+[Message:AdvancedCompany] Message received 'SwitchItem' from 1.
+[Message:AdvancedCompany] Relaying message 'SwitchItem' from 1.
+[Message:AdvancedCompany] Message received 'SwitchItem' from 1.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
 [Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
 [Info   :Buyable Shotgun] Server disconnect
 [Info   :Buyable Shotgun Shells] Server disconnect
 [Info   :mrgrm7.LethalCasino] Player disconnected.
-[Info   :AdvancedCompany] Saving player data to client save file C:\Users\mates\AppData\LocalLow\ZeekerssRBLX\Lethal Company\AdvancedCompany.
+[Info   :AdvancedCompany] Saving player data to client save file C:\Users\lukas\AppData\LocalLow\ZeekerssRBLX\Lethal Company\AdvancedCompany.
 [Info   :AdvancedCompany] Saving ship data...
-[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
-[Info   :AdvancedCompany] Saving 0-V-type engine-EnginePart1
-[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
-[Info   :AdvancedCompany] Saving 23623645-Gremlin Can-GremlinEnergy
 [Info   :AdvancedCompany] Saving 14-Key-Key
-[Info   :AdvancedCompany] Saving 0-Plastic cup-PlasticCup
-[Info   :AdvancedCompany] Saving 0-Garbage lid-GarbageLid
-[Info   :AdvancedCompany] Saving 23623631-Cookie Fumo-CookieFumo
-[Info   :AdvancedCompany] Saving 3-Apparatus-LungApparatus
-[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
-[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
-[Info   :AdvancedCompany] Saving 0-Garbage lid-GarbageLid
-[Info   :AdvancedCompany] Saving 23623643-Revolver-Toygun
-[Info   :AdvancedCompany] Saving 0-Soccer ball-SoccerBall
-[Info   :AdvancedCompany] Saving 0-Cookie mold pan-MoldPan
-[Info   :AdvancedCompany] Saving 8881-Cat-CatItem
-[Info   :AdvancedCompany] Saving 9007-Controller-Controller
-[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
-[Info   :AdvancedCompany] Saving 0-Cookie mold pan-MoldPan
-[Info   :AdvancedCompany] Saving 0-Red soda-SodaCanRed
-[Info   :AdvancedCompany] Saving 0-Clown horn-ClownHorn
-[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
-[Info   :AdvancedCompany] Saving 14-Key-Key
-[Info   :AdvancedCompany] Saving 0-Magnifying glass-MagnifyingGlass
-[Info   :AdvancedCompany] Saving 20-Belt bag-BeltBag
-[Info   :AdvancedCompany] Saving 3-Apparatus-LungApparatus
-[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
-[Info   :AdvancedCompany] Saving 0-Whoopie cushion-WhoopieCushion
-[Info   :AdvancedCompany] Saving 0-Control pad-ControlPad
-[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
+[Info   :AdvancedCompany] Saving 152767-Gift-GiftBox
+[Info   :AdvancedCompany] Saving 0-Big bolt-BigBolt
+[Info   :AdvancedCompany] Saving 3-Toxic Apparatus-ToxicLungApparatus
 [Info   :AdvancedCompany] Saving 14-Key-Key
 [Info   :TooManyEmotes-2.2.7] Saving game values.
-[Info   :TooManyEmotes-2.2.7] Saving 21 unlocked emotes for player: CzeFox
-[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: CzeFox
-[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Player #0
-[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Player #0
-[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Leprikn
-[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Leprikn
-[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Nirekron
-[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Nirekron
-[Info   :TooManyEmotes-2.2.7] Saved Seed: 474046848
-[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
-[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
-[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Info   :TooManyEmotes-2.2.7] Saving 21 unlocked emotes for player: Nirekron
+[Info   :TooManyEmotes-2.2.7] Saving 225 emote credits for player: Nirekron
+[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Saving 225 emote credits for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Saved Seed: 73965214
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile2.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
 [Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Saving the LGU upgrades unto a json file...
 [Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Resetting the Upgrade Bus due to disconnecting...
-[Debug  :More Ship Upgrades] [UpgradeBus] Resetting CzeFox's attributes
+[Debug  :More Ship Upgrades] [UpgradeBus] Resetting Nirekron's attributes
+[Message:AdvancedCompany] OnClientDisconnect for 1
+[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 2 activated.
+[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 2 activated.
 [Message:AdvancedCompany] Server stopped!
 [Message:AdvancedCompany] Removing message handlers.
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
@@ -3583,4 +3379,6 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager destroyed
 [Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Player exited ship
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Resetting the Upgrade Bus due to disconnecting...
+[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list

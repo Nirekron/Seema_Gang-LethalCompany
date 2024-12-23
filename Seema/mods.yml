@@ -18,7 +18,7 @@
     minor: 4
     patch: 2100
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BepInEx-BepInExPack\5.4.2100\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BepInEx-BepInExPack\5.4.2100\icon.png
 - manifestVersion: 1
   name: OrtonLongGaming-FreddyBracken
   authorName: OrtonLongGaming
@@ -40,7 +40,7 @@
     minor: 0
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\OrtonLongGaming-FreddyBracken\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\OrtonLongGaming-FreddyBracken\icon.png
 - manifestVersion: 1
   name: AlexCodesGames-AdditionalSuits
   authorName: AlexCodesGames
@@ -66,7 +66,7 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalSuits\icon.png
 - manifestVersion: 1
   name: RickArg-Helmet_Cameras
   authorName: RickArg
@@ -89,7 +89,7 @@
     minor: 1
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\RickArg-Helmet_Cameras\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\RickArg-Helmet_Cameras\icon.png
 - manifestVersion: 1
   name: Sligili-More_Emotes
   authorName: Sligili
@@ -112,7 +112,7 @@
     minor: 3
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Sligili-More_Emotes\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Sligili-More_Emotes\icon.png
 - manifestVersion: 1
   name: RugbugRedfern-Skinwalkers
   authorName: RugbugRedfern
@@ -134,7 +134,7 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\RugbugRedfern-Skinwalkers\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedItemSlotCore
   authorName: FlipMods
@@ -157,7 +157,7 @@
     minor: 0
     patch: 37
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
   name: tinyhoot-ShipLoot
   authorName: tinyhoot
@@ -179,7 +179,7 @@
     minor: 1
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\tinyhoot-ShipLoot\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\tinyhoot-ShipLoot\icon.png
 - manifestVersion: 1
   name: FlipMods-BetterStamina
   authorName: FlipMods
@@ -204,7 +204,7 @@
     minor: 5
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FlipMods-BetterStamina\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-BetterStamina\icon.png
 - manifestVersion: 1
   name: KoderTeh-Boombox_Controller
   authorName: KoderTeh
@@ -225,7 +225,7 @@
     minor: 2
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\KoderTeh-Boombox_Controller\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\KoderTeh-Boombox_Controller\icon.png
 - manifestVersion: 1
   name: Evaisa-HookGenPatcher
   authorName: Evaisa
@@ -247,7 +247,7 @@
     minor: 0
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Evaisa-HookGenPatcher\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-HookGenPatcher\icon.png
 - manifestVersion: 1
   name: Evaisa-LethalLib
   authorName: Evaisa
@@ -270,7 +270,7 @@
     minor: 16
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Evaisa-LethalLib\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
   name: MegaPiggy-BuyableShotgun
   authorName: MegaPiggy
@@ -294,7 +294,7 @@
     minor: 3
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\MegaPiggy-BuyableShotgun\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\MegaPiggy-BuyableShotgun\icon.png
 - manifestVersion: 1
   name: SirTyler-BetterTeleporter
   authorName: SirTyler
@@ -316,7 +316,7 @@
     minor: 2
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\SirTyler-BetterTeleporter\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\SirTyler-BetterTeleporter\icon.png
 - manifestVersion: 1
   name: x753-More_Suits
   authorName: x753
@@ -339,7 +339,7 @@
     minor: 4
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\x753-More_Suits\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\x753-More_Suits\icon.png
 - manifestVersion: 1
   name: Ozone-Runtime_Netcode_Patcher
   authorName: Ozone
@@ -361,7 +361,7 @@
     minor: 2
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Ozone-Runtime_Netcode_Patcher\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Ozone-Runtime_Netcode_Patcher\icon.png
 - manifestVersion: 1
   name: AlexCodesGames-AdditionalContentFramework
   authorName: AlexCodesGames
@@ -384,7 +384,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalContentFramework\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AlexCodesGames-AdditionalContentFramework\icon.png
 - manifestVersion: 1
   name: MegaPiggy-BuyableShotgunShells
   authorName: MegaPiggy
@@ -408,7 +408,7 @@
     minor: 3
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\MegaPiggy-BuyableShotgunShells\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\MegaPiggy-BuyableShotgunShells\icon.png
 - manifestVersion: 1
   name: alexanderjoe-BiggeryBattery
   authorName: alexanderjoe
@@ -430,7 +430,7 @@
     minor: 0
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\alexanderjoe-BiggeryBattery\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\alexanderjoe-BiggeryBattery\icon.png
 - manifestVersion: 1
   name: ControlCompany-ControlCompany
   authorName: ControlCompany
@@ -453,7 +453,7 @@
     minor: 3
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\ControlCompany-ControlCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\ControlCompany-ControlCompany\icon.png
 - manifestVersion: 1
   name: x753-Mimics
   authorName: x753
@@ -476,7 +476,7 @@
     minor: 6
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\x753-Mimics\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\x753-Mimics\icon.png
 - manifestVersion: 1
   name: HolographicWings-LethalExpansion
   authorName: HolographicWings
@@ -498,7 +498,7 @@
     minor: 3
     patch: 45
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\HolographicWings-LethalExpansion\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\HolographicWings-LethalExpansion\icon.png
 - manifestVersion: 1
   name: jockie-LethalExpansionCore
   authorName: jockie
@@ -520,7 +520,7 @@
     minor: 3
     patch: 15
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\jockie-LethalExpansionCore\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\jockie-LethalExpansionCore\icon.png
 - manifestVersion: 1
   name: sfDesat-Orion
   authorName: sfDesat
@@ -543,7 +543,7 @@
     minor: 1
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\sfDesat-Orion\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\sfDesat-Orion\icon.png
 - manifestVersion: 1
   name: Jordo-NeedyCats
   authorName: Jordo
@@ -566,7 +566,7 @@
     minor: 2
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Jordo-NeedyCats\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Jordo-NeedyCats\icon.png
 - manifestVersion: 1
   name: Thorlar-HealthStation
   authorName: Thorlar
@@ -589,7 +589,7 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Thorlar-HealthStation\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Thorlar-HealthStation\icon.png
 - manifestVersion: 1
   name: Sligili-HDLethalCompany
   authorName: Sligili
@@ -612,7 +612,7 @@
     minor: 5
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
 - manifestVersion: 1
   name: FlipMods-TooManyEmotes
   authorName: FlipMods
@@ -636,7 +636,7 @@
     minor: 2
     patch: 7
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
   name: BunyaPineTree-ModelReplacementAPI
   authorName: BunyaPineTree
@@ -658,7 +658,7 @@
     minor: 4
     patch: 10
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\BunyaPineTree-ModelReplacementAPI\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BunyaPineTree-ModelReplacementAPI\icon.png
 - manifestVersion: 1
   name: FoxGod-ThiccCompanyModelReplacement
   authorName: FoxGod
@@ -682,7 +682,7 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FoxGod-ThiccCompanyModelReplacement\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FoxGod-ThiccCompanyModelReplacement\icon.png
 - manifestVersion: 1
   name: no00ob-LCSoundTool
   authorName: no00ob
@@ -705,7 +705,7 @@
     minor: 5
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\no00ob-LCSoundTool\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\no00ob-LCSoundTool\icon.png
 - manifestVersion: 1
   name: Clementinise-CustomSounds
   authorName: Clementinise
@@ -729,7 +729,7 @@
     minor: 3
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Clementinise-CustomSounds\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Clementinise-CustomSounds\icon.png
 - manifestVersion: 1
   name: Pooble-LCBetterSaves
   authorName: Pooble
@@ -751,7 +751,7 @@
     minor: 7
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Pooble-LCBetterSaves\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Pooble-LCBetterSaves\icon.png
 - manifestVersion: 1
   name: JunLethalCompany-GamblingMachineAtTheCompany
   authorName: JunLethalCompany
@@ -776,7 +776,7 @@
     minor: 3
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\JunLethalCompany-GamblingMachineAtTheCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\JunLethalCompany-GamblingMachineAtTheCompany\icon.png
 - manifestVersion: 1
   name: pineapple3333-Mr_Krabs_Hording_Bug
   authorName: pineapple3333
@@ -800,7 +800,7 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\icon.png
 - manifestVersion: 1
   name: Midge-PushCompany
   authorName: Midge
@@ -823,7 +823,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Midge-PushCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Midge-PushCompany\icon.png
 - manifestVersion: 1
   name: Ozone-BepInUtils
   authorName: Ozone
@@ -845,7 +845,7 @@
     minor: 2
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Ozone-BepInUtils\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Ozone-BepInUtils\icon.png
 - manifestVersion: 1
   name: Ozone-Glow_Steps
   authorName: Ozone
@@ -870,7 +870,7 @@
     minor: 1
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Ozone-Glow_Steps\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Ozone-Glow_Steps\icon.png
 - manifestVersion: 1
   name: KoderTeh-Television_Controller
   authorName: KoderTeh
@@ -891,7 +891,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\KoderTeh-Television_Controller\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\KoderTeh-Television_Controller\icon.png
 - manifestVersion: 1
   name: malco-Lategame_Upgrades
   authorName: malco
@@ -919,7 +919,7 @@
     minor: 10
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\malco-Lategame_Upgrades\icon.png
 - manifestVersion: 1
   name: Evaisa-LethalThings
   authorName: Evaisa
@@ -944,7 +944,7 @@
     minor: 10
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Evaisa-LethalThings\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-LethalThings\icon.png
 - manifestVersion: 1
   name: Rune580-LethalCompany_InputUtils
   authorName: Rune580
@@ -968,7 +968,7 @@
     minor: 7
     patch: 7
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Rune580-LethalCompany_InputUtils\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Rune580-LethalCompany_InputUtils\icon.png
 - manifestVersion: 1
   name: PotatoePet-AdvancedCompany
   authorName: PotatoePet
@@ -994,7 +994,7 @@
     minor: 1
     patch: 30
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\PotatoePet-AdvancedCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\PotatoePet-AdvancedCompany\icon.png
 - manifestVersion: 1
   name: NotAtomicBomb-TerminalApi
   authorName: NotAtomicBomb
@@ -1016,7 +1016,7 @@
     minor: 5
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -1041,7 +1041,7 @@
     minor: 0
     patch: 8
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedWalkieSlot
   authorName: FlipMods
@@ -1066,7 +1066,7 @@
     minor: 0
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
   name: sfDesat-ExpansionAssets
   authorName: sfDesat
@@ -1088,7 +1088,7 @@
     minor: 1
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\sfDesat-ExpansionAssets\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\sfDesat-ExpansionAssets\icon.png
 - manifestVersion: 1
   name: MaxWasUnavailable-LethalModDataLib
   authorName: MaxWasUnavailable
@@ -1111,7 +1111,7 @@
     minor: 2
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\MaxWasUnavailable-LethalModDataLib\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\MaxWasUnavailable-LethalModDataLib\icon.png
 - manifestVersion: 1
   name: Evaisa-FixPluginTypesSerialization
   authorName: Evaisa
@@ -1133,7 +1133,7 @@
     minor: 1
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Evaisa-FixPluginTypesSerialization\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-FixPluginTypesSerialization\icon.png
 - manifestVersion: 1
   name: Sigurd-CSync
   authorName: Sigurd
@@ -1156,7 +1156,7 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Sigurd-CSync\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Sigurd-CSync\icon.png
 - manifestVersion: 1
   name: WhiteSpike-Interactive_Terminal_API
   authorName: WhiteSpike
@@ -1179,7 +1179,7 @@
     minor: 1
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
 - manifestVersion: 1
   name: IAmBatby-LethalLevelLoader
   authorName: IAmBatby
@@ -1205,7 +1205,7 @@
     minor: 3
     patch: 10
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
 - manifestVersion: 1
   name: ControlCompany-ControlCompanyFilter
   authorName: ControlCompany
@@ -1227,7 +1227,7 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\ControlCompany-ControlCompanyFilter\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\ControlCompany-ControlCompanyFilter\icon.png
 - manifestVersion: 1
   name: notnotnotswipez-MoreCompany
   authorName: notnotnotswipez
@@ -1249,7 +1249,7 @@
     minor: 10
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
 - manifestVersion: 1
   name: loaforc-FacilityMeltdown
   authorName: loaforc
@@ -1272,7 +1272,7 @@
     minor: 6
     patch: 20
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\loaforc-FacilityMeltdown\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\loaforc-FacilityMeltdown\icon.png
 - manifestVersion: 1
   name: BGN-PizzaTowerEscapeMusic
   authorName: BGN
@@ -1294,7 +1294,7 @@
     minor: 4
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\BGN-PizzaTowerEscapeMusic\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BGN-PizzaTowerEscapeMusic\icon.png
 - manifestVersion: 1
   name: Lordfirespeed-OdinSerializer
   authorName: Lordfirespeed
@@ -1315,7 +1315,7 @@
     minor: 11
     patch: 9
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Lordfirespeed-OdinSerializer\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Lordfirespeed-OdinSerializer\icon.png
 - manifestVersion: 1
   name: xilophor-LethalNetworkAPI
   authorName: xilophor
@@ -1338,7 +1338,7 @@
     minor: 3
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\xilophor-LethalNetworkAPI\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\xilophor-LethalNetworkAPI\icon.png
 - manifestVersion: 1
   name: xilophor-StaticNetcodeLib
   authorName: xilophor
@@ -1361,7 +1361,7 @@
     minor: 1
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\xilophor-StaticNetcodeLib\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\xilophor-StaticNetcodeLib\icon.png
 - manifestVersion: 1
   name: EliteMasterEric-Coroner
   authorName: EliteMasterEric
@@ -1384,7 +1384,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
 - manifestVersion: 1
   name: jaspercreations-Scopophobia
   authorName: jaspercreations
@@ -1408,7 +1408,7 @@
     minor: 1
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\jaspercreations-Scopophobia\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\jaspercreations-Scopophobia\icon.png
 - manifestVersion: 1
   name: mrgrm7-LethalCasino
   authorName: mrgrm7
@@ -1433,7 +1433,7 @@
     minor: 1
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\mrgrm7-LethalCasino\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\mrgrm7-LethalCasino\icon.png
 - manifestVersion: 1
   name: DiFFoZ-CompanyCruiserFix
   authorName: DiFFoZ
@@ -1456,7 +1456,7 @@
     minor: 0
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\DiFFoZ-CompanyCruiserFix\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\DiFFoZ-CompanyCruiserFix\icon.png
 - manifestVersion: 1
   name: Hardy-LCMaxSoundsFix
   authorName: Hardy
@@ -1479,7 +1479,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Hardy-LCMaxSoundsFix\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Hardy-LCMaxSoundsFix\icon.png
 - manifestVersion: 1
   name: AudioKnight-StarlancerAIFix
   authorName: AudioKnight
@@ -1503,7 +1503,7 @@
     minor: 8
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AudioKnight-StarlancerAIFix\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\AudioKnight-StarlancerAIFix\icon.png
 - manifestVersion: 1
   name: IAmBatby-LethalToolbox
   authorName: IAmBatby
@@ -1527,7 +1527,7 @@
     minor: 0
     patch: 4
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\IAmBatby-LethalToolbox\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\IAmBatby-LethalToolbox\icon.png
 - manifestVersion: 1
   name: fumiko-CullFactory
   authorName: fumiko
@@ -1550,7 +1550,7 @@
     minor: 5
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\fumiko-CullFactory\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\fumiko-CullFactory\icon.png
 - manifestVersion: 1
   name: Zaggy1024-PathfindingLagFix
   authorName: Zaggy1024
@@ -1573,7 +1573,7 @@
     minor: 4
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Zaggy1024-PathfindingLagFix\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Zaggy1024-PathfindingLagFix\icon.png
 - manifestVersion: 1
   name: Alice-DungeonGenerationPlus
   authorName: Alice
@@ -1597,7 +1597,7 @@
     minor: 3
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Alice-DungeonGenerationPlus\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Alice-DungeonGenerationPlus\icon.png
 - manifestVersion: 1
   name: Plastered_Crab-Black_Mesa_Half_Life_Moon_Interior
   authorName: Plastered_Crab
@@ -1625,7 +1625,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Plastered_Crab-Black_Mesa_Half_Life_Moon_Interior\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Plastered_Crab-Black_Mesa_Half_Life_Moon_Interior\icon.png
 - manifestVersion: 1
   name: Alice-ScarletDevilMansion
   authorName: Alice
@@ -1654,7 +1654,7 @@
     minor: 1
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Alice-ScarletDevilMansion\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Alice-ScarletDevilMansion\icon.png
 - manifestVersion: 1
   name: Dantor-Dantors_Mental_Hospital
   authorName: Dantor
@@ -1680,7 +1680,7 @@
     minor: 2
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Dantor-Dantors_Mental_Hospital\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Dantor-Dantors_Mental_Hospital\icon.png
 - manifestVersion: 1
   name: EladNLG-EladsHUD
   authorName: EladNLG
@@ -1702,7 +1702,7 @@
     minor: 3
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\EladNLG-EladsHUD\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\EladNLG-EladsHUD\icon.png
 - manifestVersion: 1
   name: x753-Peepers
   authorName: x753
@@ -1725,7 +1725,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\x753-Peepers\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\x753-Peepers\icon.png
 - manifestVersion: 1
   name: Electric131-OuijaBoard
   authorName: Electric131
@@ -1749,7 +1749,7 @@
     minor: 5
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Electric131-OuijaBoard\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Electric131-OuijaBoard\icon.png
 - manifestVersion: 1
   name: Kittenji-NavMeshInCompany
   authorName: Kittenji
@@ -1772,7 +1772,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Kittenji-NavMeshInCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Kittenji-NavMeshInCompany\icon.png
 - manifestVersion: 1
   name: Kittenji-Herobrine
   authorName: Kittenji
@@ -1795,7 +1795,7 @@
     minor: 3
     patch: 6
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Kittenji-Herobrine\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Kittenji-Herobrine\icon.png
 - manifestVersion: 1
   name: JacobG5-JLL
   authorName: JacobG5
@@ -1817,7 +1817,7 @@
     minor: 8
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\JacobG5-JLL\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\JacobG5-JLL\icon.png
 - manifestVersion: 1
   name: Magic_Wesley-WesleysInteriors
   authorName: Magic_Wesley
@@ -1843,7 +1843,7 @@
     minor: 6
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Magic_Wesley-WesleysInteriors\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Magic_Wesley-WesleysInteriors\icon.png
 - manifestVersion: 1
   name: Kittenji-Dont_Touch_Me
   authorName: Kittenji
@@ -1866,7 +1866,7 @@
     minor: 2
     patch: 5
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Kittenji-Dont_Touch_Me\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Kittenji-Dont_Touch_Me\icon.png
 - manifestVersion: 1
   name: rileyzzz-Skibidi_Toilet
   authorName: rileyzzz
@@ -1889,7 +1889,7 @@
     minor: 0
     patch: 2
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\rileyzzz-Skibidi_Toilet\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\rileyzzz-Skibidi_Toilet\icon.png
 - manifestVersion: 1
   name: Theronguard-Emergency_Dice
   authorName: Theronguard
@@ -1900,7 +1900,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734971422153
+  installedAtTime: 1734971228226
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1913,7 +1913,7 @@
     minor: 1
     patch: 26
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Theronguard-Emergency_Dice\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Theronguard-Emergency_Dice\icon.png
 - manifestVersion: 1
   name: scoopy-Scoopys_Variety_Mod
   authorName: scoopy
@@ -1926,7 +1926,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734971452524
+  installedAtTime: 1734971267728
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1940,7 +1940,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\scoopy-Scoopys_Variety_Mod\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\scoopy-Scoopys_Variety_Mod\icon.png
 - manifestVersion: 1
   name: Pinta-PintoBoy
   authorName: Pinta
@@ -1951,7 +1951,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734971789607
+  installedAtTime: 1734971575883
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1964,7 +1964,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\Pinta-PintoBoy\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Pinta-PintoBoy\icon.png
 - manifestVersion: 1
   name: deer-DeersPosters
   authorName: deer
@@ -1976,7 +1976,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734976539557
+  installedAtTime: 1734978144391
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1987,4 +1987,4 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\deer-DeersPosters\1.0.1\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\deer-DeersPosters\1.0.1\icon.png
