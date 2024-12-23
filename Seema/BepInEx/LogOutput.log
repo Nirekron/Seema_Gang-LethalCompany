@@ -27,7 +27,8 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 78 plugins to load
+[Debug  :   BepInEx] Skipping loading C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\deer-DeersPosters\SolosPosterChanger.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
+[Info   :   BepInEx] 80 plugins to load
 [Warning:   BepInEx] Skipping [MoreCompany 1.10.1] because a newer version exists (MoreCompany 100.0.0)
 [Warning:   BepInEx] Plugin [AdditionalContentFramework 1.0.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
@@ -37,6 +38,7 @@
 [Warning:   BepInEx] Plugin [Health Station mod 1.0.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [JLL 1.8.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [JLLItemModule 1.3.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Scoopy's Variety Mod 1.2.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [LCMaxSoundsFix 1.2.0]
 [Info   :LCMaxSoundsFix] Plugin LCMaxSoundsFix is loaded!
 [Debug  :LCMaxSoundsFix] Binding audio config...
@@ -113,7 +115,7 @@
 [Info   :LethalExpansion(core)] Patched LethalExpansion#Awake
 [Info   :LethalExpansion(core)] Plugins folder found: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins
 [Info   :LethalExpansion(core)] Mod path is: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\jockie-LethalExpansionCore
-[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 917ms
+[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 878ms
 [Info   :LethalExpansion(core)] Water support applied to the HDRenderPipelineAsset.
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loaded.
 [Info   :   BepInEx] Loading [ShipLoot 1.1]
@@ -468,7 +470,7 @@ Parameter name: index
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?-2070824082(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?769818826(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -502,8 +504,8 @@ Parameter name: index
 [Info   :   BepInEx] Loading [Dungeon Generation Plus 1.3.3]
 [Info   :AdvancedCompany] Added DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :dev.ladyalice.dungenplus] Plugin Dungeon Generation Plus has been added!
-[Info   :AdvancedCompany] Added DMDASM.71B94FFE.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
-[Info   :AdvancedCompany] Added DMDASM.CB928748.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Debug  :dev.ladyalice.dungenplus] Loading resource DunGenPlus.dungen
 [Debug  :dev.ladyalice.dungenplus] Loading asset DevDebug
 [Info   :   BepInEx] Loading [Dungeon Generation Plus Loadstone Patch 1.0.0]
@@ -1045,13 +1047,10 @@ assets/lethalcompany/mods/facilitymeltdown/terminal/reactorkeyword.asset
 [Info   :   BepInEx] Loading [Health Station mod 1.0.0.1]
 [Info   :AdvancedCompany] Added OctolarFirstMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :Octolar.Healthstation] Octolar HealthStation mod is now active
-[Info   :   BepInEx] Loading [LCOffice 1.2.5]
-[Info   :AdvancedCompany] Added LCOffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
-[Info   :Piggy.LCOffice] LC_Office is loaded!
-[Info   :Piggy.LCOffice] Registered Office dungeon for all free moons.
-[Info   :  LCOffice] [LC_Office] Successfully loaded assets!
-[Debug  :AdvancedCompany] Patching GrabbableObject->Update...
-[Debug  :AdvancedCompany] Patched GrabbableObject->Update...
+[Info   :   BepInEx] Loading [PintoBoy 2.0.0]
+[Info   :AdvancedCompany] Added Pinto Mod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Debug  :AdvancedCompany] Patching RoundManager->DespawnPropsAtEndOfRound...
+[Debug  :AdvancedCompany] Patched RoundManager->DespawnPropsAtEndOfRound...
 [Info   :   BepInEx] Loading [Black Mesa Interior 2.0.1]
 [Info   :AdvancedCompany] Added BlackMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :Black Mesa Interior] Interior assets loaded successfully.
@@ -1101,9 +1100,49 @@ assets/lethalcompany/mods/facilitymeltdown/terminal/reactorkeyword.asset
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_OtherEnemies VALUE LOADED FROM CONFIG: [True]
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
 [Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
+[Info   :   BepInEx] Loading [Scoopy's Variety Mod 1.2.0]
+[Info   :AdvancedCompany] Added ScoopysVarietyMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :ScoopysVarietyMod] Successfully loaded WeezerGuitar (Item)
+[Info   :ScoopysVarietyMod] Successfully loaded FireAxe (Item)
+[Info   :ScoopysVarietyMod] Successfully loaded CrownItem (Item)
+[Info   :ScoopysVarietyMod] Custom Scrap Loaded Successfully
+[Info   :ScoopysVarietyMod] Registering flow CastleFlow with:
+dungeonRarity: 300
+dungeonMoons: vanilla
+guaranteeDungeon: False
+dungeonSizeMax: 2
+dungeonSizeMin:1
+[Info   :ScoopysVarietyMod] Registered CastleFlow dungeon interior on all vanilla moons with rarity300.
+[Info   :ScoopysVarietyMod] Registering flow SewerFlow with:
+dungeonRarity: 300
+dungeonMoons: vanilla
+guaranteeDungeon: False
+dungeonSizeMax: 2
+dungeonSizeMin:1
+[Info   :ScoopysVarietyMod] Registered SewerFlow dungeon interior on all vanilla moons with rarity300.
+[Info   :ScoopysVarietyMod] Initialised Successfully
 [Info   :   BepInEx] Loading [Scopophobia 1.1.5]
 [Info   :AdvancedCompany] Added Scopophobia, Version=1.1.5.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :Scopophobia] Scopophobia | SCP-096 has entered the facility. All remaining personnel proceed with caution.
+[Info   :   BepInEx] Loading [Emergency Dice 1.1.23]
+[Info   :AdvancedCompany] Added MysteryDice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Debug  :AdvancedCompany] Patching TimeOfDay->SetNewProfitQuota...
+[Debug  :AdvancedCompany] Changed 4f to Manager->GetDeadlineDays()
+[Debug  :AdvancedCompany] Patched TimeOfDay->SetNewProfitQuota...
+[Debug  :   Coroner] Injecting patch into Turret.Update...
+[Debug  :   Coroner] Done.
+[Debug  :AdvancedCompany] Patching Turret->Update...
+[Debug  :AdvancedCompany] Patched Turret->Update...
+[Debug  :AdvancedCompany] Patching PlayerControllerB->Update...
+[Debug  :AdvancedCompany] Added SprintSpeed multiplier.
+[Debug  :AdvancedCompany] Added WeightSpeed multiplier.
+[Debug  :AdvancedCompany] Added jump height to jump!
+[Debug  :AdvancedCompany] Added FallDamage multiplier to -35
+[Debug  :AdvancedCompany] Added ClimbingSpeed multiplier.
+[Debug  :AdvancedCompany] Patched PlayerControllerB->Update...
+[Debug  :AdvancedCompany] Patching StartOfRound->StartGame...
+[Debug  :AdvancedCompany] Patched StartOfRound->StartGame!
+[Info   :Theronguard.EmergencyDice] The Emergency Dice mod was initialized!
 [Info   :   BepInEx] Loading [Peepers 1.0.3]
 [Info   :AdvancedCompany] Added Peepers, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Debug  :AdvancedCompany] Patching SpringManAI->DoAIInterval...
@@ -1469,10 +1508,10 @@ File name: 'TestAccount666.GoodItemScan, Version=1.9.0.0, Culture=neutral, Publi
 [Debug  :AdvancedCompany] Replaced Item.minValue with AdvancedCompany.Game.Manager+Items->GetItemMinValue
 [Debug  :AdvancedCompany] Patched DunGenPlus.Components.Scrap.RandomGuaranteedScrapSpawn+<>c__DisplayClass7_0-><GetCachedItemList>b__0
 [Debug  :AdvancedCompany] Patched DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.71B94FFE.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.71B94FFE.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.CB928748.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.CB928748.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.B60AD440.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.CEECE265.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching LoadstoneNighty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Warning:AdvancedCompany] Likely some soft dependency of another mod is missing (THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR!):
 [Warning:AdvancedCompany] System.IO.FileNotFoundException: Could not load file or assembly 'com.adibtw.loadstone, Version=0.1.16.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
@@ -1851,7 +1890,7 @@ Parameter name: operand
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?-2070824082(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?769818826(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -1973,13 +2012,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Patched NicholaScott.LethalCompany.GlowSteps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching OctolarFirstMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patched OctolarFirstMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching LCOffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching LCOffice.Patches.ShrimpAI->EatItem
-[Debug  :AdvancedCompany] Replaced Item.weight with AdvancedCompany.Game.Manager+Items->GetItemWeight
-[Debug  :AdvancedCompany] Replaced Item.weight with AdvancedCompany.Game.Manager+Items->GetItemWeight
-[Debug  :AdvancedCompany] Replaced Item.weight with AdvancedCompany.Game.Manager+Items->GetItemWeight
-[Debug  :AdvancedCompany] Patched LCOffice.Patches.ShrimpAI->EatItem
-[Debug  :AdvancedCompany] Patched LCOffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching Pinto Mod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched Pinto Mod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching BlackMesa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching BlackMesa.Patches.PatchRoundManager->SpawnSyncedPropsPostfix
 [Debug  :AdvancedCompany] Replaced Item.minValue with AdvancedCompany.Game.Manager+Items->GetItemMinValue
@@ -1995,6 +2029,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Patched Skibidi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching SkinwalkerMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patched SkinwalkerMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching ScoopysVarietyMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched ScoopysVarietyMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching Scopophobia, Version=1.1.5.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching ShyGuySpawnSettings->UpdateSpawnRates
 [Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
@@ -2009,6 +2045,34 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
 [Debug  :AdvancedCompany] Patched Scopophobia.Patches.GetShyGuyPrefabForLaterUse->SavesPrefabForLaterUse
 [Debug  :AdvancedCompany] Patched Scopophobia, Version=1.1.5.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching MysteryDice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching MysteryDice.Misc->SpawnEnemy
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Patched MysteryDice.Misc->SpawnEnemy
+[Debug  :AdvancedCompany] Patching MysteryDice.Misc->SpawnEnemyForced
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Patched MysteryDice.Misc->SpawnEnemyForced
+[Debug  :AdvancedCompany] Patching MysteryDice.Patches.ChatPatch->ChatTesting
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Patched MysteryDice.Patches.ChatPatch->ChatTesting
+[Debug  :AdvancedCompany] Patching MysteryDice.Patches.GetEnemies->GetEnemy
+[Debug  :AdvancedCompany] Replaced SelectableLevel.Enemies with AdvancedCompany.Game.Manager+Moons->GetInsideEnemies
+[Debug  :AdvancedCompany] Replaced SelectableLevel.DaytimeEnemies with AdvancedCompany.Game.Manager+Moons->GetDaytimeEnemies
+[Debug  :AdvancedCompany] Replaced SelectableLevel.OutsideEnemies with AdvancedCompany.Game.Manager+Moons->GetOutsideEnemies
+[Debug  :AdvancedCompany] Patched MysteryDice.Patches.GetEnemies->GetEnemy
+[Debug  :AdvancedCompany] Patching MysteryDice.Effects.ScrapJackpot->JackpotScrap
+[Debug  :AdvancedCompany] Replaced SelectableLevel.spawnableScrap with AdvancedCompany.Game.Manager+Moons->GetLootTable
+[Debug  :AdvancedCompany] Replaced SelectableLevel.spawnableScrap with AdvancedCompany.Game.Manager+Moons->GetLootTable
+[Debug  :AdvancedCompany] Replaced SelectableLevel.spawnableScrap with AdvancedCompany.Game.Manager+Moons->GetLootTable
+[Debug  :AdvancedCompany] Replaced SelectableLevel.spawnableScrap with AdvancedCompany.Game.Manager+Moons->GetLootTable
+[Debug  :AdvancedCompany] Replaced Item.minValue with AdvancedCompany.Game.Manager+Items->GetItemMinValue
+[Debug  :AdvancedCompany] Replaced Item.maxValue with AdvancedCompany.Game.Manager+Items->GetItemMaxValue
+[Debug  :AdvancedCompany] Replaced RoundManager.scrapValueMultiplier with AdvancedCompany.Game.Manager+Moons->GetScrapValueModifier
+[Debug  :AdvancedCompany] Replaced Item.weight with AdvancedCompany.Game.Manager+Items->GetItemWeight
+[Debug  :AdvancedCompany] Patched MysteryDice.Effects.ScrapJackpot->JackpotScrap
+[Debug  :AdvancedCompany] Patched MysteryDice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching Peepers, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching LCPeeper.StartOfRoundPatch->AwakePatch
 [Debug  :AdvancedCompany] Replaced SelectableLevel.DaytimeEnemies with AdvancedCompany.Game.Manager+Moons->GetDaytimeEnemies
@@ -2062,7 +2126,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :LCSoundTool] Loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 from path: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\pineapple3333-Mr_Krabs_Hording_Bug\CustomSounds\BugSound\Scan.mp3 with length of 0,432!
 [Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place! You can safely ignore this if you want the mod to run fully client side.
-[Info   : Elads HUD] 77 plugins loaded
+[Info   : Elads HUD] 79 plugins loaded
 [Info   : Elads HUD] Plugin GUID: .LCMaxSoundsFix
 [Info   : Elads HUD] Plugin GUID: ACS.AdditionalContentFramework
 [Info   : Elads HUD] Plugin GUID: atomic.terminalapi
@@ -2131,13 +2195,15 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   : Elads HUD] Plugin GUID: NicholaScott.BepInEx.Utils
 [Info   : Elads HUD] Plugin GUID: NicholaScott.LethalCompany.GlowSteps
 [Info   : Elads HUD] Plugin GUID: Octolar.Healthstation
-[Info   : Elads HUD] Plugin GUID: Piggy.LCOffice
+[Info   : Elads HUD] Plugin GUID: Pinta.PintoBoy
 [Info   : Elads HUD] Plugin GUID: Plastered_Crab.BlackMesaInterior
 [Info   : Elads HUD] Plugin GUID: PushCompany
 [Info   : Elads HUD] Plugin GUID: RickArg.lethalcompany.helmetcameras
 [Info   : Elads HUD] Plugin GUID: rileyzzz.Skibidi
 [Info   : Elads HUD] Plugin GUID: RugbugRedfern.SkinwalkerMod
+[Info   : Elads HUD] Plugin GUID: ScoopysVarietyMod
 [Info   : Elads HUD] Plugin GUID: Scopophobia
+[Info   : Elads HUD] Plugin GUID: Theronguard.EmergencyDice
 [Info   : Elads HUD] Plugin GUID: x753.Peepers
 [Info   : Elads HUD] Plugin GUID: Zaggy1024.PathfindingLagFix
 [Info   :ControlCompany.ControlCompany] Initial keybind load
@@ -2160,7 +2226,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :me.loaforc.facilitymeltdown] Registered MeltdownHandler as a network prefab.
 [Info   :me.loaforc.facilitymeltdown] Succesfully registered 2 network prefabs.
 [Info   :LethalLevelLoader] Registering Bundle Content!
-[Info   :LethalLevelLoader] Skipped Registering 9639 NetworkObjects As They Were Already Registered.
+[Info   :LethalLevelLoader] Skipped Registering 9252 NetworkObjects As They Were Already Registered.
 [Message:AdvancedCompany] Initialize NetworkManager...
 [Info   :Jordo.NeedyCats] Added NeedyCats prefabs to Network Manager.
 [Info   :Junypai.GamblersMod] Adding Gambling machine to network prefab
@@ -2202,6 +2268,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :LethalThings] Found conductive scrap [ControlPad]
 [Info   :LethalThings] Found conductive scrap [CaveDwellerEnemy]
 [Info   :LethalThings] Found conductive scrap [ZeddogPlushie]
+[Info   :LethalThings] Found conductive scrap [Crown]
 [Info   :LethalThings] Found conductive scrap [GreenLungApparatus]
 [Info   :LethalThings] Found conductive scrap [GreenLungApparatusDisabled]
 [Info   :LethalThings] Found conductive scrap [XenCrystalApparatus]
@@ -2228,6 +2295,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :LethalThings] Found conductive scrap [Dingus]
 [Info   :LethalThings] Found conductive scrap [GremlinEnergy]
 [Info   :LethalThings] Found conductive scrap [FlaregunAmmo]
+[Info   :LethalThings] Found conductive scrap [FireAxeItem]
 [Info   :MaxWasUnavailable.LethalModDataLib] Registering ModDataAttribute fields...
 [Info   :MaxWasUnavailable.LethalModDataLib] Hooking up save, load and delete events...
 [Info   :MaxWasUnavailable.LethalModDataLib] ModDataHandler initialised!
@@ -2251,36 +2319,1268 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
 [Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Message:AdvancedCompany] Client started!
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] Found steam ID: 76561198308443238
+[Message:AdvancedCompany] Found username: CzeFox
+[Message:AdvancedCompany] Server started!
 [Message:AdvancedCompany] Adding message handlers.
-[Message:AdvancedCompany] AdvancedCompanyMod_ActivateHelmetLamp
-[Message:AdvancedCompany] AdvancedCompanyMod_ActivateTacticalHelmet
-[Message:AdvancedCompany] AdvancedCompanyMod_ActivateNightVision
-[Message:AdvancedCompany] AdvancedCompanyMod_AttractAllEnemies
-[Message:AdvancedCompany] AdvancedCompanyMod_BuyItems
-[Message:AdvancedCompany] AdvancedCompanyMod_ChangeItemSlot
-[Message:AdvancedCompany] AdvancedCompanyMod_ChangePerk
-[Message:AdvancedCompany] AdvancedCompanyMod_ChangeShip
-[Message:AdvancedCompany] AdvancedCompanyMod_CosmeticsSync
+[Message:AdvancedCompany] AdvancedCompanyMod_ActivateHelmetLampRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ActivateTacticalHelmetRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ActivateNightVisionRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_AttractAllEnemiesRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_BuyItemsRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ChangeItemSlotRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ChangePerkRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ChangeShipRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_CosmeticsSyncRelay
 [Message:AdvancedCompany] AdvancedCompanyMod_DeadlineChanged
-[Message:AdvancedCompany] AdvancedCompanyMod_DoomShotgun
-[Message:AdvancedCompany] AdvancedCompanyMod_GrantPlayerXP
-[Message:AdvancedCompany] AdvancedCompanyMod_GrantShipXP
-[Message:AdvancedCompany] AdvancedCompanyMod_Respec
-[Message:AdvancedCompany] AdvancedCompanyMod_RocketExplode
-[Message:AdvancedCompany] AdvancedCompanyMod_RocketJump
-[Message:AdvancedCompany] AdvancedCompanyMod_SpawnRocket
-[Message:AdvancedCompany] AdvancedCompanyMod_SwitchItem
-[Message:AdvancedCompany] AdvancedCompanyMod_SyncAnimationOverride
+[Message:AdvancedCompany] AdvancedCompanyMod_DoomShotgunRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_ExtendDeadline
+[Message:AdvancedCompany] AdvancedCompanyMod_GrantPlayerXPRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_GrantShipXPRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_RespecRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_RocketExplodeRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_RocketJumpRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_SpawnRocketRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_SpawnRocketFromClient
+[Message:AdvancedCompany] AdvancedCompanyMod_SwitchItemRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_SyncAnimationOverrideRelay
 [Message:AdvancedCompany] AdvancedCompanyMod_SyncCurrentLevel
-[Message:AdvancedCompany] AdvancedCompanyMod_UseFlashlight
-[Message:AdvancedCompany] AdvancedCompanyMod_UseMobileTerminal
-[Message:AdvancedCompany] Doing a handshake with the server.
-[Message:AdvancedCompany] Writing handshake data before joining...
+[Message:AdvancedCompany] AdvancedCompanyMod_UseFlashlightRelay
+[Message:AdvancedCompany] AdvancedCompanyMod_UseMobileTerminalRelay
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :LethalExpansion(core)] Unloading scene: MainMenu
+[Info   :LethalThings] Spawning config manager
+[Debug  :More Ship Upgrades] [StartOfRoundPatcher] Initiating components...
+[Info   :More Ship Upgrades] [LguStore] Loading save file for slot 4.
+[Info   :More Ship Upgrades] [LguStore] SteamID is not available yet, waiting...
+[Info   :More Ship Upgrades] [Hunter] Hoarding Bug set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Snare Flea set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Spore Lizard set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Bunker Spider set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Baboon Hawk set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Tulip Snake set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Kidnapper Fox set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Bracken set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Eyeless Dog set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Half/Thumper set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Manticoil set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Maneater set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Forest Giant set to be harvestable at level 4
+[Info   :More Ship Upgrades] [UpgradeBus] Successfully reconstructed with hosts config.
+[Info   :More Ship Upgrades] [LguStore] Successfully spawned 48 upgrade objects.
+[Debug  :More Ship Upgrades] [StartOfRoundPatcher] LguStore component initiated...
+[Debug  :dev.ladyalice.scarletmansion] Fixed tie of bb flashlight
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedLevels:
+1. 41 Experimentation (Vanilla)
+2. 220 Assurance (Vanilla)
+3. 56 Vow (Vanilla)
+4. 71 Gordion (Vanilla)
+5. 61 March (Vanilla)
+6. 20 Adamance (Vanilla)
+7. 85 Rend (Vanilla)
+8. 7 Dine (Vanilla)
+9. 21 Offense (Vanilla)
+10. 8 Titan (Vanilla)
+11. 68 Artifice (Vanilla)
+12. 44 Liquidation (Vanilla)
+13. 5 Embrion (Vanilla)
+14. 43 Orion (Custom)
+15. Black Mesa (Custom)
+
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedDungeonFlows:
+1. Facility (Level1Flow) (Vanilla)
+2. Haunted Mansion (Level2Flow) (Vanilla)
+3. Facility (Level1FlowExtraLarge) (Vanilla)
+4. Facility (Level1Flow3Exits) (Vanilla)
+5. Mineshaft (Level3Flow) (Vanilla)
+6. CastleFlow (CastleFlow) (Custom)
+7. Mental Hospital (HospitalFlow) (Custom)
+8. Grand Armory (GrandArmoryFlow) (Custom)
+9. Black Mesa (Black Mesa) (Custom)
+10. Scarlet Devil Mansion (SDMLevel) (Custom)
+11. SewerFlow (SewerFlow) (Custom)
+12. The Rubber Rooms (RubberRoomsFlow) (Custom)
+13. Toy Store (ToystoreFlow) (Custom)
+
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Info   :LethalLevelLoader] Initialized LLL Save File, Current Level Was: VowLevel, Current Vanilla Save Is: LCSaveFile4
+[Info   :LethalLevelLoader] LethalLevelLoader Has Finished Initializing.
+[Info   :LethalExpansion(core)] Finished adding moons and scrap
+[Info   :ControlCompany.ControlCompany] Loading config
+[Warning:ControlCompany.ControlCompany] Cannot rebind key for extended_mode_key to 0: Cannot find key extended_mode_key on keyboard layout. Using default key $Key:/Keyboard/0
+[Warning:ControlCompany.ControlCompany] Cannot rebind key for extended_teleport_to_entrance_key to 9: Cannot find key extended_teleport_to_entrance_key on keyboard layout. Using default key $Key:/Keyboard/9
+[Warning:ControlCompany.ControlCompany] Cannot rebind key for extended_give_credits_key to 8: Cannot find key extended_give_credits_key on keyboard layout. Using default key $Key:/Keyboard/8
+[Info   :ControlCompany.ControlCompany] Done loading keybinds
+[Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
+[Info   :Jordo.NeedyCats] Added NeedyCats items to items list.
+[Info   :Junypai.GamblersMod] StartOfRoundPatch has awoken
+[Info   :HerobrineMod] Added Network Behaviour Component
+[Info   :HerobrineMod] Registering ragdoll...
+[Info   :HerobrineMod] Registering spawnables in instance.
+[Debug  :dev.ladyalice.scarletmansion] Adding Scarlet player script to player 1
+[Debug  :dev.ladyalice.scarletmansion] Created helmet light for scarlet flashlight 0. Updated index from -1 to 3
+[Debug  :dev.ladyalice.scarletmansion] Created helmet light for scarlet flashlight 1. Updated index from -1 to 4
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Debug  :dev.ladyalice.scarletmansion] Adding Scarlet player script to player 3
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Debug  :dev.ladyalice.scarletmansion] Adding Scarlet player script to player 2
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Debug  :dev.ladyalice.scarletmansion] Adding Scarlet player script to player 0
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Adding 4 unlockables to unlockables list
+[Info   : LethalLib] Adding 15 items to terminal
+[Info   :AdvancedCompany] Adding own items to Terminal.
+[Info   :AdvancedCompany] Adding Lightning rod
+[Info   :AdvancedCompany] Adding Rocket boots
+[Info   :AdvancedCompany] Adding Missile launcher
+[Info   :AdvancedCompany] Adding Flippers
+[Info   :AdvancedCompany] Adding Vision enhancer
+[Info   :AdvancedCompany] Adding Bulletproof vest
+[Info   :AdvancedCompany] Adding Helmet lamp
+[Info   :AdvancedCompany] Adding Headset
+[Info   :AdvancedCompany] Adding Tactical helmet
+[Info   :Junypai.GamblersMod] RoundManagerPatch has awoken
+[Info   :mrgrm7.LethalCasino] RoundManagerPatch has awoken
+[Message:mrgrm7.LethalCasino] Awaking CasinoManager
+[Message:mrgrm7.LethalCasino] CasinoManager is awake
+[Info   :TooManyEmotes-2.2.7] Initializing emote menu
+[Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
+[Info   :TooManyEmotes-2.2.7] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.7] Initializing animation renderer
+[Info   :LethalExpansion(core)] Loading scene 'SampleSceneRelay'
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Message:AdvancedCompany] PopulateScenePlacedObjects
+[Info   :AdvancedCompany] Extending Lobby. Adding new player objects for a lobby size of 8
+[Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] Applying cosmetics for 1
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 2
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 3
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 4
+[Message:AdvancedCompany] 
+[Warning:dev.ladyalice.scarletmansion] Player 4 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Message:AdvancedCompany] Applying cosmetics for 5
+[Message:AdvancedCompany] 
+[Warning:dev.ladyalice.scarletmansion] Player 5 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Message:AdvancedCompany] Applying cosmetics for 6
+[Message:AdvancedCompany] 
+[Warning:dev.ladyalice.scarletmansion] Player 6 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Message:AdvancedCompany] Applying cosmetics for 7
+[Message:AdvancedCompany] 
+[Warning:dev.ladyalice.scarletmansion] Player 7 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Found 46 prefabs to fix
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finding suit prefab...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - found suit prefab!
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loading content modules...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to load suits from path:C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - attempting to parse json file: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits\suit-defs.json
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Red Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Yellow Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Green Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Blue Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Purple Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Pink Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: White Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - 	loaded suit def: Black Suit
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - finished loading suits from path:C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - loaded content modules! (count=1)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying content modules...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applying additional content module from: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=0_Red_Suit, name=Red Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=0_Red_Suit, name=Red Suit}! (new unlockable count is 33)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=1_Yellow_Suit, name=Yellow Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=1_Yellow_Suit, name=Yellow Suit}! (new unlockable count is 34)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=2_Green_Suit, name=Green Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=2_Green_Suit, name=Green Suit}! (new unlockable count is 35)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=3_Blue_Suit, name=Blue Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=3_Blue_Suit, name=Blue Suit}! (new unlockable count is 36)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=4_Purple_Suit, name=Purple Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=4_Purple_Suit, name=Purple Suit}! (new unlockable count is 37)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=5_Pink_Suit, name=Pink Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=5_Pink_Suit, name=Pink Suit}! (new unlockable count is 38)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=6_White_Suit, name=White Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=6_White_Suit, name=White Suit}! (new unlockable count is 39)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - adding suit to rack {id=7_Black_Suit, name=Black Suit}...
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - added suit to rack {id=7_Black_Suit, name=Black Suit}! (new unlockable count is 40)
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applyed additional content module from: C:\Users\mates\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema_Faka\BepInEx\plugins\AlexCodesGames-AdditionalSuits\resAdditionalSuits!
+[Info   :ACS.AdditionalContentFramework] AdditionalContentFramework - applied content modules!
+[Info   :LethalLevelLoader] Loading Previously Saved SelectableLevel: 56 Vow
+[Info   :LethalLevelLoader] Saving Current SelectableLevel: 56 Vow
+[Info   :TooManyEmotes-2.2.7] Loading game values.
+[Info   :TooManyEmotes-2.2.7] Resetting unlocked emotes.
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Player #0
+[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: Player #0
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Leprikn
+[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: Leprikn
+[Info   :TooManyEmotes-2.2.7] Loaded Seed: 474046848
+[Info   :AdvancedCompany] Loading savegame data...
+[Debug  :AdvancedCompany] Found shipGrabbableItemNames
+[Debug  :AdvancedCompany] Found item 20-Belt bag
+[Debug  :AdvancedCompany] Found item 3-Apparatus
+[Debug  :AdvancedCompany] Found item 0-Clown horn
+[Debug  :AdvancedCompany] Found item 0-Cookie mold pan
+[Debug  :AdvancedCompany] Found item 14-Key
+[Debug  :AdvancedCompany] Found item 0-Bottles
+[Debug  :AdvancedCompany] Found item 0-Plastic cup
+[Debug  :AdvancedCompany] Found item 23623643-Revolver
+[Debug  :AdvancedCompany] Found item 0-Magnifying glass
+[Debug  :AdvancedCompany] Found item 23623631-Cookie Fumo
+[Debug  :AdvancedCompany] Found item 0-Bottles
+[Debug  :AdvancedCompany] Found item 0-Garbage lid
+[Debug  :AdvancedCompany] Found item 8881-Cat
+[Debug  :AdvancedCompany] Found item 6-Flashlight
+[Debug  :AdvancedCompany] Found item 0-Bottles
+[Debug  :AdvancedCompany] Found item 14-Key
+[Debug  :AdvancedCompany] Found item 0-Cookie mold pan
+[Debug  :AdvancedCompany] Found item 3-Apparatus
+[Debug  :AdvancedCompany] Found item 9007-Controller
+[Debug  :AdvancedCompany] Found item 6-Flashlight
+[Debug  :AdvancedCompany] Found item 6-Flashlight
+[Debug  :AdvancedCompany] Found item 6-Flashlight
+[Debug  :AdvancedCompany] Found item 23623645-Gremlin Can
+[Debug  :AdvancedCompany] Found item 14-Key
+[Debug  :AdvancedCompany] Found item 0-Soccer ball
+[Debug  :AdvancedCompany] Found item 0-Red soda
+[Debug  :AdvancedCompany] Found item 0-Control pad
+[Debug  :AdvancedCompany] Found item 0-Whoopie cushion
+[Debug  :AdvancedCompany] Found item 0-Bottles
+[Debug  :AdvancedCompany] Found item 0-Garbage lid
+[Info   :More Ship Upgrades] [Hunter] Hoarding Bug set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Snare Flea set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Spore Lizard set to be harvestable at level 1
+[Info   :More Ship Upgrades] [Hunter] Bunker Spider set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Baboon Hawk set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Tulip Snake set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Kidnapper Fox set to be harvestable at level 2
+[Info   :More Ship Upgrades] [Hunter] Bracken set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Eyeless Dog set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Half/Thumper set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Manticoil set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Maneater set to be harvestable at level 3
+[Info   :More Ship Upgrades] [Hunter] Forest Giant set to be harvestable at level 4
+[Info   :More Ship Upgrades] [UpgradeBus] Successfully reconstructed with hosts config.
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 474046848
+[Info   :JacobG5.JLL] [User] JLL Network Manager Initialized.
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (1)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (3)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (2)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player
+[Info   : LethalLib] Skipping Crystal Ray because it was already added
+[Debug  :LethalExpansion(core)] Hotfix: Removing duplicated routes
+[Debug  :LethalExpansion(core)] 7route duplicated route removed.
+[Debug  :LethalExpansion(core)] Hotfix: 1 duplicated route(s) removed
+[Info   :LethalExpansion(core)] Terminal reset.
+[Info   :LethalExpansion(core)] Finished updating terminal
+[Info   :AdvancedCompany] Extending QuickMenuManager player slots for 8 players.
+[Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_Start() Function To Prevent Conflicts
+[Info   :Jordo.NeedyCats] Added NeedyCats to all levels.
+[Info   :AdvancedCompany] Extending HUDManager stats for 8 players.
+[Info   :AdvancedCompany] Changing audio mixer and expanding voice chat slots for 8 players.
+[Info   :AdvancedCompany] New AudioMixer: Diagetic8Players
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (4)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (5)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (6)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (7)
+[Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 1 radiators.
+[Debug  :me.loaforc.facilitymeltdown] 240
+[Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 2 radiators.
+[Debug  :me.loaforc.facilitymeltdown] 240
+[Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] Applying cosmetics for 1
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 2
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 3
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 4
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 5
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 6
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 7
+[Message:AdvancedCompany] 
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: walkie_talkie
+[Info   :TooManyEmotes-2.2.7] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.7] Initializing local player.
+[Info   :Junypai.GamblersMod] ConnectClientToPlayerObjectPatch
+[Info   :Junypai.GamblersMod] Registering host config message handler: Junypai.GamblersMod_OnHostRecievesClientConfigRequest
+[Info   :Buyable Shotgun] Started hosting, using local settings
+[Info   :Buyable Shotgun] Shotgun price updated to 200 credits
+[Info   :Buyable Shotgun Shells] Started hosting, using local settings
+[Info   :Buyable Shotgun Shells] Shotgun Shell price updated to 5 credits
+[Message:AdvancedCompany] Searching for all items...
+[Message:AdvancedCompany] Searching for scrap...
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Warning:AdvancedCompany] New scrap item found, but the name PintoBoy was already used!
+[Debug  :AdvancedCompany] Found scrap: Large axle, V-type engine, Plastic fish, Metal sheet, Laser pointer, Big bolt, Bottles, Ring, Steering wheel, Cookie mold pan, Egg beater, Jar of pickles, Dust pan, Airhorn, Clown horn, Cash register, Candy, Gold bar, Yield sign, Homemade flashbang, Gift, Flask, Easter egg, Bunny ears, Toy car, Toy tank, Warplane toy, Skillet, Controller, Toxic Apparatus, Batty and Owl, Ciri, Lorenzo, Oscar , Owl, Peaches, Xen Crystal, Rataratus, Pink Apparatus, Redstone Torch, Arson Plush, Cookie Fumo, Toimari Plush, Hamis Plush, Dirty Arson Plush, Maxwell, Glizzy, Revolver, Gremlin Can, Toy Hammer, Gnarpy Plush, PintoBoy, Weezer Guitar, The Gambler, Chronos, The Sacrificer, The Saint, Rusty, Cat, Toy cube, Remote, Toy robot, Magnifying glass, Stop sign, Tea kettle, Mug, Red soda, Old phone, Hairdryer, Brush, Bell, Whoopie cushion, Comedy, Tragedy, Toilet paper, Control pad, Plastic cup, Garbage lid, Soccer ball, Zed Dog, Rubber Ducky, Chemical jug, Fancy lamp, Golden cup, Painting, Toothpaste, Pill bottle, Perfume bottle, Teeth, Magic 7 ball, Toy train, Clock, Light shoes, Potatoes, Fire Axe
+[Message:AdvancedCompany] Searching for buyable items...
+[Debug  :AdvancedCompany] Found buyable items: 
+[Debug  :AdvancedCompany] Found decorations: 
+[Debug  :AdvancedCompany] Found upgrades: 
+[Message:AdvancedCompany] Searching for all moons...
+[Debug  :AdvancedCompany] Found price 0 for moon 41 Experimentation
+[Debug  :AdvancedCompany] Found price 0 for moon 220 Assurance
+[Debug  :AdvancedCompany] Found price 0 for moon 56 Vow
+[Debug  :AdvancedCompany] Found price 0 for moon 71 Gordion
+[Debug  :AdvancedCompany] Found price 0 for moon 61 March
+[Debug  :AdvancedCompany] Found price 550 for moon 85 Rend
+[Debug  :AdvancedCompany] Found price 600 for moon 7 Dine
+[Debug  :AdvancedCompany] Found price 0 for moon 21 Offense
+[Debug  :AdvancedCompany] Found price 700 for moon 8 Titan
+[Debug  :AdvancedCompany] Found price 1500 for moon 68 Artifice
+[Debug  :AdvancedCompany] Found price 0 for moon 20 Adamance
+[Debug  :AdvancedCompany] Found price 150 for moon 5 Embrion
+[Debug  :AdvancedCompany] Found price 750 for moon 43 Orion
+[Debug  :AdvancedCompany] Found price 500 for moon Black Mesa
+[Debug  :AdvancedCompany] Found moons: 41 Experimentation, 220 Assurance, 56 Vow, 71 Gordion, 61 March, 20 Adamance, 85 Rend, 7 Dine, 21 Offense, 8 Titan, 68 Artifice, 44 Liquidation, 5 Embrion, 43 Orion, Black Mesa
+[Warning:AdvancedCompany] Double loot table entry: Bottles
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: Bottles
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: Bottles
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Warning:AdvancedCompany] Double loot table entry: Batty and Owl
+[Warning:AdvancedCompany] Double loot table entry: Ciri
+[Warning:AdvancedCompany] Double loot table entry: Lorenzo
+[Warning:AdvancedCompany] Double loot table entry: Oscar 
+[Warning:AdvancedCompany] Double loot table entry: Owl
+[Warning:AdvancedCompany] Double loot table entry: Peaches
+[Warning:AdvancedCompany] Double loot table entry: PintoBoy
+[Message:AdvancedCompany] Searching for enemies...
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :AdvancedCompany] Found enemies: Centipede, Bunker Spider, Hoarding bug, Flowerman, Crawler, Blob, Girl, Puffer, Nutcracker, Don't Touch Me, Herobrine, Boomba, Maggie, Crystal Ray, SkibidiToilet, Shy guy, MouthDog, ForestGiant, Earth Leviathan, RadMech, Red Locust Bees, Manticoil, Docile Locust Bees, Peeper, Clay Surgeon, Maneater, Baboon hawk, Tulip Snake, Spring, Jester, Lasso, Masked, Butler
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager created
+[Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Level has changed to 56 Vow
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :PizzaTowerEscapeMusic MusicManager] Loaded music (MIP) from file
+[Info   :PizzaTowerEscapeMusic MusicManager] Music clips done loading
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 474046848
+[Debug  :dev.ladyalice.scarletmansion] IsServer: True
+[Debug  :dev.ladyalice.scarletmansion] Created Scarlet Network Manager. We in
+[Debug  :dev.ladyalice.scarletmansion] Set networked config values
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 1 activated.
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Player entered ship
+[Info   :HerobrineMod] Registering spawnables in instance 'delayed'.
+[Info   :More Ship Upgrades] [LguStore] Loading SteamID: 76561198308443238
+[Info   :More Ship Upgrades] [LguStore] Successfully loaded save data for ID: 76561198308443238
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6061384 for Climbing Gloves.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8721302 for Discombobulator.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7804142 for Jet Fuel.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8163051 for Locksmith.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7895082 for Oxygen Canisters.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6014106 for Shutter Batteries.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6027843 for Sick Beats.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,657052 for Walkie GPS.
+[Warning:dev.ladyalice.scarletmansion] Player 0 already has Scarlet player script. Skipping. YOU CAN PROBABLY IGNORE THIS!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: walkie_talkie
+[Info   :LethalThings] Syncing configs!
+[Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: blow_kiss
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] Reading data from handshake...
+[Debug  :AdvancedCompany] Total package size: 14810
+[Debug  :AdvancedCompany] Reading a total of 6 synchronizers.
+[Debug  :AdvancedCompany] Reading block AdvCmpny.Lobby with size 14650
+[Debug  :AdvancedCompany] Pointer: 152
+[Debug  :AdvancedCompany] Received network prefab: 18712595:Herobrine:HerobrineMod
+[Debug  :AdvancedCompany] Received network prefab: 19166853:PicturePeaches:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 49314869:candelabra:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 50326088:MovingNutcracker4:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 51255918:BiggerLungs:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 53610951:Tripmine:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 71084013:SmokingPipe:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 71153757:SingleGlassSlidingDoorMainMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 80463842:destructiveCodes:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 85742492:walkieUpgrade:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 90896466:ForestGiant:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 92332382:LungApparatusPinkDisabled:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 113258202:FedoraSuit:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 125735292:SpookyChest:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 129367788:CaveDwellerEnemy:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 132513440:ButlerBees:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 153348683:DoublewingedBird:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 157093853:Bomb:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 165354329:MetalSheet:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 169349488:Bracken Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 181065763:FlashlightItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 191913935:RubberDucky:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 204091682:TrappedChestExplosive:JLL
+[Debug  :AdvancedCompany] Received network prefab: 210005566:MedKit:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 229852873:HandBell:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 262145383:Spore Lizard Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 274242626:Carbon Kneejoints:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 276978119:SteeringWheel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 286355263:Dingus:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 288960001:Hairbrush:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 299647201:ClaySurgeon:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 322479467:BunnyEars:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 326488338:Sacrifice Die:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 332875641:glizzy:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 344265672:NET_EmptyDoorway_Prefab:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 347439963:ExorcLoot:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 356651644:Binoculars:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 360358774:NET_CheapFlashlightItem:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 377291513:PlayerHealth:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 397837742:VentMainDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 407596008:EfficientEngines:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 408777177:LightningRod:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 429829681:Dentures:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 430584714:Healing Station:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 436137808:ToyTrain:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 471591979:LassoMan:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 472780805:Centipede:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 475937833:ShotgunItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 484661369:Candy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 486057223:BargainConnections:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 489417335:HamisPlush:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 516507517:EasterEgg:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 518371223:ToyCube:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 528320214:PintoBoy:PintoBoy
+[Debug  :AdvancedCompany] Received network prefab: 535823378:LightShoes:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 539769414:DevMenu:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 554833839:VentDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 554849772:Mystery Dice:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 559191961:WeezerGuitar:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 568460665:StopSign:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 570495721:ControlPad:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 579959996:PlasticCup:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 590806901:ChargingBooster:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 596608919:AlarmObjectACroom1:JLL
+[Debug  :AdvancedCompany] Received network prefab: 604577331:Oxygen Canisters:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 617338154:FishBowlContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 640790506:ToimariPlush:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 658068558:SingleMetalDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 690603739:DoorReception:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 693095393:BlueLockerDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 697989601:Explosives:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 716599417:Push:PushCompany
+[Debug  :AdvancedCompany] Received network prefab: 716660581:FancyRing:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 735277373:NET_Painting_Sakuya_Map:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 735401615:Thumper Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 738627960:MaskedPlayerEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 739436206:Toygun:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 775682352:ArsonPlush:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 785718944:MovingNutcracker:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 803276749:ScavExtract:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 805036048:ResonanceChamberSingleDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 820092154:BBFlashlight:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 836821693:SprayPaintItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 842876279:OldPhone:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 854243056:Jetpack Thrusters:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 854436405:NET_BookSwitch:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 860552555:CompanyCruiserManual:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 862166518:strongLegs:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 874474872:HandheldRadar:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 877108688:PintoBoy FD:PintoBoy
+[Debug  :AdvancedCompany] Received network prefab: 886306011:CrushingCeilingMain:JLL
+[Debug  :AdvancedCompany] Received network prefab: 918740636:TeaKettle:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 927582704:StorageShelfContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 935734997:SingleGreyDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 941757072:JustDoorGreen:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 948167977:LungApparatus:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 951847682:RedstoneTorch:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 957872028:WalkieTalkie:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 961522418:FancyLamp:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 962643930:SlotMachine:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 968052384:Shower:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 969308600:Potatoes:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 993822958:Elevator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1048130777:QuestionMarkBlock:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 1054956742:GamblingMachine:Gamblers Mod
+[Debug  :AdvancedCompany] Received network prefab: 1055544201:MarketInfluence:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1062544579:OfficeDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1078910897:ReinforcedBoots:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1083656336:Jet Fuel:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1093242804:MagnifyingGlass:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1093560347:Bones:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1101484734:Cat:Needy Cats
+[Debug  :AdvancedCompany] Received network prefab: 1104592062:Pager:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1118205963:JLL:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1122501858:Maggie:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1134882085:MissilePrefab:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1164203364:RoundWoodDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1175790430:TeleporterTrap:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1177294914:FlowerSnakeEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1183996688:Dart:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1190488538:SandSpider:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1192602505:JesterEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1195532995:Flippers:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 1196411890:GreenLungApparatusDisabled:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1208569611:ButlerEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1209041857:FlandreCrystalBrokenPrefab:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 1228559766:nightVision:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1261883438:KnifeItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1274926403:Roulette:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 1290082603:SignalTranslator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1291577939:TurretContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1302094652:DoubleGlassSlidingDoorResonanceMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1324983542:Toothpaste:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1333154180:SingleDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1380083878:DoubleRedDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1381470930:NET_NoDoor_Prefab:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1387844539:beekeeper:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1391248137:DoubleGlassSlidingDoorLabMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1398893398:BigBolt:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1433479014:Blackjack:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 1434649207:SteamValve:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1447641207:DoubleGreyDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1460674519:exoskeleton:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1466035990:GremlinEnergy:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1467619257:runningShoes:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1473878890:RomanticTableContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1485765361:Hoarding Bug Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1502617384:HandheldTV:Black Mesa Interior
+[Debug  :AdvancedCompany] Received network prefab: 1507402642:VentFloorDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1516983066:LethalLevelLoaderNetworkManagerTest:LethalLevelLoader
+[Debug  :AdvancedCompany] Received network prefab: 1519214796:RedLocustHive:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1520713927:MouthDog:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1525346363:ShipCozyLights:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1525508908:AlarmObject:JLL
+[Debug  :AdvancedCompany] Received network prefab: 1528646187:SewerDoorway:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1538715501:Flask:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1539802620:HookHazard:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1545508553:RadMechEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1554478374:Beer:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 1557375639:RecordPlayerContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1562055063:FancyGlass:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1565614057:SoccerBall:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1581865405:CakeEvent:JLL
+[Debug  :AdvancedCompany] Received network prefab: 1585670844:StunGrenade:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1629573165:WarplaneToy:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 1642616407:Time Dice:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 1645880361:GoldBar:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1659746986:HEV Station:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1682528395:TrappedChest:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1695918524:EggBeater:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1701121838:MeltdownHandler:FacilityMeltdown
+[Debug  :AdvancedCompany] Received network prefab: 1719037155:Blob:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1721201679:FishTestProp:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1727953579:TragedyMask:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1740344223:LaserPointer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1743528346:ArsonPlushDirty:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1751770743:OfficeElevator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1787132629:PictureBattyOwl:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1808998928:PufferEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1813842149:Life Insurance:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1825273498:JustDoorDirector:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1840980479:Disc:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1846884965:LTNetworkConfig:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1848425503:JustDoorGrey:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1852030217:Bunker Spider Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1854181908:EggLoot:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1866537482:MedKitMap:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1873030578:Barnacle:Black Mesa Interior
+[Debug  :AdvancedCompany] Received network prefab: 1880050570:Headset:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 1900020765:TZPChemical:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 1900720978:TrappedDoorDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1909365460:Teddy Bear:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1910674915:EntranceTeleportB:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1925055821:SingleGlassSlidingDoorResonanceMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1943567616:RatAnimVator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1957384949:Heart:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 1974540975:RedLocustBees:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 1998237813:Dustpan:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2016835701:PictureOwl:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2018743020:PictureCiri:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2023383400:CookieMoldPan:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2024843811:Networker:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2031900359:DeeperPockets:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2044964878:FireAxeItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2053941315:Dartboard:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2100802230:LandingThrusters:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2108638533:QuarantineDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2133670236:Clock:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2142036335:SpookyTrappedChest:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2146573956:NET_ScarletSnowGlobe:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2159233034:ProteinPowder:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2165071944:MovingNutcracker6:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2172901270:AluminiumCoils:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2182341725:NutmanPlacer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2183144740:BinFullOfBottles:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2222557041:Tulip Snake Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2222891341:ClipboardBlackMesa:Black Mesa Interior
+[Debug  :AdvancedCompany] Received network prefab: 2229461082:HackingTool:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2230310979:NET_KnightEnemy:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2234829884:CompanyCruiser:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2242238281:NET_ScarletNetworkManager:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2256688011:MappingDevice:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2258435833:ConfigSyncHolder:CSync
+[Debug  :AdvancedCompany] Received network prefab: 2258487553:HikingBoots:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2261967370:ShotgunTrapDoorway:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2270722052:Magic7Ball:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2275085878:BigDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2276166001:Snare Flea Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2292481783:BreakerBox:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2293231799:GreenLungApparatus:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2294211125:ClipboardManual:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2322124800:PictureOscar:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2324423449:AlarmObjectRechargeRoom:JLL
+[Debug  :AdvancedCompany] Received network prefab: 2329833166:Chest:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2331801539:NET_SpawnEntranceA:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2334615017:ScavengerInstincts:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2350028029:NET_TrapVentEntrance:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2353524689:SpringMan:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2359790209:ShovelItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2420867341:Jukebox:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 2434264069:NET_MaidEnemy:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2436186433:MechanicalArms:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2452351744:YellowMineDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2453550126:SteelDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2456900357:ExtensionLadderItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2462676910:MovingNutcracker3:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2469260737:SmallTrapDoorDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2470949680:Airhorn:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2475726977:SpookyExplosives:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2498931702:WelcomeMatContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2509686350:DataPC:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2513027068:TelevisionContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2533293698:ToyHammer:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2539875558:CasinoBuilding:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 2555293264:LockPickerItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2556667961:ToyTank:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 2561288184:NormalDoor:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2570784236:OuijaBoardStore:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2661411798:NormalTableContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2663611909:ShotgunTrap:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2698950182:TestAnomaly:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2706592864:Hunter:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2724103858:NET_ScarletKnife:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2733512605:SteelDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2742136268:SpookyTrappedChestExplosive:JLL
+[Debug  :AdvancedCompany] Received network prefab: 2743308557:Emergency Dice:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2744313376:JLL:JLL
+[Debug  :AdvancedCompany] Received network prefab: 2744692569:DiyFlashbang:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2754618432:VentEntrance:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2759639499:InverseTeleporter:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2784234648:ZeddogPlushie:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2787274700:PerfumeBottle:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2822118161:SteelDoorMapModelInterior:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2825665221:HoarderBug:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2831235556:Clownhorn:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2833820871:FlareProjectile:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2837754587:PathfinderSpawner:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2851308622:LethalDeals:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2862508959:RocketBoots:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 2884133127:terminalFlash:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2893114612:Manticoil Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2895449871:SaintPrefab:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2915516243:EnginePart:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2925526683:PickleJar:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2927916307:NET_DoorStatus:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 2949085139:Teleporter:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2950991953:Pathfinder:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2955086522:SewerDoorwaySmall:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2956717411:OldBirdSpawner 1:JLL
+[Debug  :AdvancedCompany] Received network prefab: 2962178718:HoardingBugEggs:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2972049550:Maneater Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 2974416263:Flaregun:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 2982659526:NutcrackerEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 2992359408:RustyPrefab:Emergency Dice
+[Debug  :AdvancedCompany] Received network prefab: 2995307756:DocileLocustBees:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3016010214:MineshaftElevator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3017474396:FlaregunAmmo:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3018959210:PillBottle:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3019038553:LGUStore:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3025586981:PlushiePJManContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3025749745:Rubber Boots:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3036571934:LungApparatusTurnedOff:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3038553182:ComedyMask:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3039731347:EntranceCloser:JLL
+[Debug  :AdvancedCompany] Received network prefab: 3051401024:RadarBoosterDevice:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3053807618:Mug:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3060733885:ToiletPaperRolls:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3063444405:ApparatusTakenAnimator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3063950988:FancyDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3073714313:CatFood:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3074914178:Key:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3093885005:DuckDisabled:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3103629558:WhoopieCushion:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3104205374:CrushingCeiling:JLL
+[Debug  :AdvancedCompany] Received network prefab: 3115962917:RadMechNestSpawnObject:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3121397996:LithiumBatteries:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3153547264:Sigurd:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3161487834:NET_Door90_Prefab:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3164721612:SandWorm:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3165748421:ApFall:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3202916180:CookieFumo:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3212237212:CellDoorFull:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3235844867:SingleRedDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3238162239:JetpackItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3243961054:PumpkinUnlockableContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3273686806:ToyCar:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 3290050455:MovingNutcrackerN:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3291223510:FlandreCrystalPrefab:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 3299481859:BeltBagItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3325713814:Kidnapper Fox Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3327936545:ShotgunShell:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3330146594:TestRoom:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3342949139:RobotToy:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3365062415:Crucifix:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3365566892:GnarpyPlush:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3369713594:Landmine:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3382218916:Midas Touch:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3388686820:Pentagram:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3393466420:OuijaBoardScrap:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3410962660:PingMarker:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3411841541:PingTool:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3416780890:NET_Painting_Remilia_Map:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 3419689129:DressGirl:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3421797719:GarbageLid:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3429983800:Remote:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3433351349:DiscoBallContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3433739795:GiftBox:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3462704462:XenCrystalApparatusDisconnected:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3478730535:Skillet:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3484633077:SpikeRoofTrapHazard:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3489719230:NET_KnightGhostEnemy:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 3492274885:Intern:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3499174324:DoubleDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3499201763:Painting:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3508245293:RedSodaCan:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3523178958:ClayGlasses:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3530277622:ATM:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 3554477704:gogglesPrefab:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3565211967:RagdollGrabbableObject:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3567956311:Hairdryer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3569287790:SkibidiToilet:Skibidi.AI
+[Debug  :AdvancedCompany] Received network prefab: 3580151098:ClimbingGloves:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3580946833:Sign:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3598911542:SecurityDoorMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3610174872:Cog:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3612841114:EntranceTeleportA:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3660250023:ShyGuy:Scopophobia
+[Debug  :AdvancedCompany] Received network prefab: 3663956064:NET_Door180_Prefab:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3666006134:Boomba:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3675472689:Crown:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3678239054:FasterDropPod:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3688118092:VisionEnhancer:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 3710428364:PietSmietController:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 3727661730:YieldSign:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3733856344:BuyableGunAmmo:Buyable Shotgun Shells
+[Debug  :AdvancedCompany] Received network prefab: 3757233212:Rug:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3775810923:WeedKillerItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3778293609:MovingNutcracker2:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3786296602:TacticalHelmet:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3787087495:SickBeats:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3795320671:DoubleGlassSlidingDoorMainMapModel:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3796756593:CrystalRay:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3801335705:itemshipanimcontainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3804394268:TestCapsuleEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3813165768:ToyHammer:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3817036674:BaboonHawkEnemy:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3832561472:strongScanner:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3844888478:PeeperPrefab:Peepers
+[Debug  :AdvancedCompany] Received network prefab: 3854475902:PictureLorenzo:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3854591296:RocketLauncher:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3854849053:Flowerman:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3862962698:Rug2:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3872120036:DTMEntity:Don't Touch Me
+[Debug  :AdvancedCompany] Received network prefab: 3891620992:TheNutMen:JLL
+[Debug  :AdvancedCompany] Received network prefab: 3899340458:WeedGeneticManipulation:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3899636605:Quick Hands:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3915035863:ChangableSuit:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3920935616:CashRegisterItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3927027336:PintoBoy LJ:PintoBoy
+[Debug  :AdvancedCompany] Received network prefab: 3943463324:StickyNoteItem:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3943923472:BulletproofVest:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3944456942:SpookyApparatusTakenAnimator:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3948016949:WoodPikesContainer:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3959212616:PatcherGunItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 3962754254:Crawler:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 3967567463:SleightOfHand:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 3970792545:HelmetLamp:AdvancedCompany
+[Debug  :AdvancedCompany] Received network prefab: 3971425027:BuyableShotgun:Buyable Shotgun
+[Debug  :AdvancedCompany] Received network prefab: 3974396423:TractionBoots:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4021731023:Eyeless Dog Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4034157484:NET_GoodFlashlightItem:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 4039072360:TheWheel:LethalCasino
+[Debug  :AdvancedCompany] Received network prefab: 4057029723:MimicNetworker:Mimics
+[Debug  :AdvancedCompany] Received network prefab: 4057467679:DoorsHydraulicsBattery:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4062235031:PaintingPrefab:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 4072100601:GeigerCounterItem:FacilityMeltdown
+[Debug  :AdvancedCompany] Received network prefab: 4086908256:Toilet:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4097749978:CakeEventSpooky:JLL
+[Debug  :AdvancedCompany] Received network prefab: 4100675023:ChemicalJug:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4109926951:LockSmith:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4121394640:PouchItem:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4134102097:OuijaNetworker:OuijaBoard
+[Debug  :AdvancedCompany] Received network prefab: 4143086329:MaggieSpawner:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4145893138:NET_SpawnEntranceB:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 4145898522:NET_ScarletKey:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4155694671:ChipBag:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4158045924:NET_ScarletRadio:Scarlet Mansion
+[Debug  :AdvancedCompany] Received network prefab: 4165150920:LungApparatusPink:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4192902631:Duck:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4223888841:ShipHorn:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4233427287:MovingNutcracker5:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4246529535:MissileLauncher:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4271059327:Baboon Hawk Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4278433801:QuantumDisruptor:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4279979268:Forest Keeper Sample:More Ship Upgrades
+[Debug  :AdvancedCompany] Received network prefab: 4288067500:Boombox:Vanilla
+[Debug  :AdvancedCompany] Received network prefab: 4291034082:LightningRod:LethalThings
+[Debug  :AdvancedCompany] Received network prefab: 4293119169:XenCrystalApparatus:LethalThings
+[Debug  :AdvancedCompany] Mods installed: com.potatoepet.AdvancedCompany
+[Debug  :AdvancedCompany] Reading block AdvCmpny.RedLocust with size 0
+[Debug  :AdvancedCompany] Pointer: 14828
+[Debug  :AdvancedCompany] Reading block AdvCmpny.Items with size 0
+[Debug  :AdvancedCompany] Pointer: 14850
+[Debug  :AdvancedCompany] Reading block AdvCmpny.DoorLocks with size 0
+[Debug  :AdvancedCompany] Pointer: 14876
+[Debug  :AdvancedCompany] Reading block AdvCmpny.AnimatedObjectTrigger with size 0
+[Debug  :AdvancedCompany] Pointer: 14914
+[Debug  :AdvancedCompany] Reading block AdvCmpny.Other with size 0
+[Debug  :AdvancedCompany] Pointer: 14936
+[Info   :AdvancedCompany] Connecting client added to queue... Currently there are 1 clients connecting...
+[Info   :AdvancedCompany] Adding data to ConnectionApprovedMessage.
+[Message:AdvancedCompany] Writing data to client joining...
 [Debug  :AdvancedCompany] Writing data for a total of 6 synchronizers.
 [Debug  :AdvancedCompany] Writing data for AdvCmpny.Lobby
+[Info   :AdvancedCompany] Next free spot: 1
+[Info   :AdvancedCompany] New player (1) joined lobby.
+[Info   :AdvancedCompany] Syncing new player to other players...
+[Debug  :AdvancedCompany] Data size: 84921
+[Debug  :AdvancedCompany] Writing data for AdvCmpny.RedLocust
+[Debug  :AdvancedCompany] Data size: 4
+[Debug  :AdvancedCompany] Writing data for AdvCmpny.Items
+[Debug  :AdvancedCompany] Data size: 2578
+[Debug  :AdvancedCompany] Writing data for AdvCmpny.DoorLocks
+[Debug  :AdvancedCompany] Data size: 4
+[Debug  :AdvancedCompany] Writing data for AdvCmpny.AnimatedObjectTrigger
+[Debug  :AdvancedCompany] Data size: 48
+[Debug  :AdvancedCompany] Writing data for AdvCmpny.Other
+[Debug  :AdvancedCompany] Data size: 231
+[Debug  :AdvancedCompany] Total package size: 87946
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: hooray
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Message:AdvancedCompany] OnClientDisconnect for 0
-[Message:AdvancedCompany] Client stopped!
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 2 activated.
+[Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] Applying cosmetics for 1
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 2
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 3
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 4
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 5
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 6
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 7
+[Message:AdvancedCompany] 
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 2 activated.
+[Message:AdvancedCompany] Applying cosmetics for 0
+[Message:AdvancedCompany] builtin.fancypants builtin.gunholster builtin.watch builtin.eyeballs builtin.fancyglasses builtin.tophat
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancypants
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.gunholster
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.watch
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.eyeballs
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.fancyglasses
+[Warning:AdvancedCompany] Player has unsupported cosmetic: builtin.tophat
+[Message:AdvancedCompany] Applying cosmetics for 1
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 2
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 3
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 4
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 5
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 6
+[Message:AdvancedCompany] 
+[Message:AdvancedCompany] Applying cosmetics for 7
+[Message:AdvancedCompany] 
+[Info   :AdvancedCompany] Connection complete. Removing 1 from connecting clients list.
+[Info   :TooManyEmotes-2.2.7] Syncing unlocked emotes with clients.
+[Info   :TooManyEmotes-2.2.7] Sending all unlocked emotes update to server.
+[Info   :TooManyEmotes-2.2.7] Receiving unlocked emote update from client for 21 emotes.
+[Info   :More Ship Upgrades] [LguStore] Save file received, registering upgrade objects and deserializing.
+[Info   :More Ship Upgrades] [LguStore] SHARED SAVE FILE: Loading index 0 save under steam ID: 76561198308443238
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6061384 for Climbing Gloves.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8721302 for Discombobulator.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7804142 for Jet Fuel.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,8163051 for Locksmith.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,7895082 for Oxygen Canisters.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6014106 for Shutter Batteries.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,6027843 for Sick Beats.
+[Info   :More Ship Upgrades] [UpgradeBus] Loaded sale of 0,657052 for Walkie GPS.
+[Info   :BetterTeleporter] Receiving sync request from client with id: 1. Sending config sync to client.
+[Info   :me.loaforc.facilitymeltdown] Config sync request received from client: 1
+[Info   :ReservedItemSlotCore-2.0.36] Receiving sync request from client: 1
+[Info   :ReservedItemSlotCore-2.0.36] Sending slot to client: flashlight Unlocked: True
+[Info   :ReservedItemSlotCore-2.0.36] Sending slot to client: walkie_talkie Unlocked: True
+[Info   :ReservedItemSlotCore-2.0.36] Sending sync to client with id: 1
+[Debug  :dev.ladyalice.scarletmansion] Config sync request received from client: 1
+[Info   :AdvancedCompany] Added OdinSerializer.RuntimeEmitted, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Debug  :dev.ladyalice.scarletmansion] Stream is past capacity. Sending fragmented message
+[Debug  :dev.ladyalice.scarletmansion] Send message to client 1 with title SDMansion_OnReceieveConfigSync and flag ReliableFragmentedSequenced
+[Info   :BetterStamina-1.5.4] Receiving config sync request from client with id: 1. Sending config sync to client.
+[Info   :TooManyEmotes-2.2.7] Receiving config sync request from client: 1
+[Info   :Junypai.GamblersMod] Host recieved client config request.
+[Info   :Junypai.GamblersMod] Serializing host config data...
+[Info   :Junypai.GamblersMod] Start writing host config data...
+[Info   :Junypai.GamblersMod] Writing host config data
+[Info   :Junypai.GamblersMod] Sending host config data to client with id of 1...
+[Info   :Buyable Shotgun] Sending config to client 1
+[Info   :Buyable Shotgun Shells] Sending config to client 1
+[Info   : LethalLib] Config sync request received from client: 1
+[Info   :TooManyEmotes-2.2.7] Receiving sync request from client: 1
+[Info   :ReservedItemSlotCore-2.0.36] Receiving sync held objects request from client with id: 1. 0 players are currently holding a reserved item.
+[Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Performing emote: it's_you!
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :TooManyEmotes-2.2.7] [CzeFox] Stopping emote.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:AdvancedCompany] OnClientDisconnect for 1
+[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 1 activated.
+[Info   :AdvancedCompany] Player (1) disconnected. Changing activation state of player objects.
+[Info   :AdvancedCompany] Activating necessary player objects for next player to join.
+[Info   :AdvancedCompany] Next player object with ID 1 activated.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 13 OldIndex: 1 ReservedStartIndex: 13
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 13 ReservedStartIndex: 13
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 13 OldIndex: 1 ReservedStartIndex: 13
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 13 ReservedStartIndex: 13
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] Clownhorn(Clone) - $54
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $16
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $53
+[Debug  :  ShipLoot] PlasticCup(Clone) - $21
+[Debug  :  ShipLoot] Toygun(Clone) - $26
+[Debug  :  ShipLoot] MagnifyingGlass(Clone) - $53
+[Debug  :  ShipLoot] CookieFumo(Clone) - $58
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $48
+[Debug  :  ShipLoot] GarbageLid(Clone) - $22
+[Debug  :  ShipLoot] Cat(Clone) - $74
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $46
+[Debug  :  ShipLoot] CookieMoldPan(Clone) - $20
+[Debug  :  ShipLoot] LungApparatusTurnedOff(Clone) - $240
+[Debug  :  ShipLoot] PietSmietController(Clone) - $288
+[Debug  :  ShipLoot] EnginePart(Clone) - $42
+[Debug  :  ShipLoot] GremlinEnergy(Clone) - $32
+[Debug  :  ShipLoot] SoccerBall(Clone) - $44
+[Debug  :  ShipLoot] RedSodaCan(Clone) - $81
+[Debug  :  ShipLoot] ControlPad(Clone) - $60
+[Debug  :  ShipLoot] WhoopieCushion(Clone) - $32
+[Debug  :  ShipLoot] BinFullOfBottles(Clone) - $50
+[Debug  :  ShipLoot] GarbageLid(Clone) - $41
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
+[Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
+[Info   :Buyable Shotgun] Server disconnect
+[Info   :Buyable Shotgun Shells] Server disconnect
+[Info   :mrgrm7.LethalCasino] Player disconnected.
+[Info   :AdvancedCompany] Saving player data to client save file C:\Users\mates\AppData\LocalLow\ZeekerssRBLX\Lethal Company\AdvancedCompany.
+[Info   :AdvancedCompany] Saving ship data...
+[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
+[Info   :AdvancedCompany] Saving 0-V-type engine-EnginePart1
+[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
+[Info   :AdvancedCompany] Saving 23623645-Gremlin Can-GremlinEnergy
+[Info   :AdvancedCompany] Saving 14-Key-Key
+[Info   :AdvancedCompany] Saving 0-Plastic cup-PlasticCup
+[Info   :AdvancedCompany] Saving 0-Garbage lid-GarbageLid
+[Info   :AdvancedCompany] Saving 23623631-Cookie Fumo-CookieFumo
+[Info   :AdvancedCompany] Saving 3-Apparatus-LungApparatus
+[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
+[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
+[Info   :AdvancedCompany] Saving 0-Garbage lid-GarbageLid
+[Info   :AdvancedCompany] Saving 23623643-Revolver-Toygun
+[Info   :AdvancedCompany] Saving 0-Soccer ball-SoccerBall
+[Info   :AdvancedCompany] Saving 0-Cookie mold pan-MoldPan
+[Info   :AdvancedCompany] Saving 8881-Cat-CatItem
+[Info   :AdvancedCompany] Saving 9007-Controller-Controller
+[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
+[Info   :AdvancedCompany] Saving 0-Cookie mold pan-MoldPan
+[Info   :AdvancedCompany] Saving 0-Red soda-SodaCanRed
+[Info   :AdvancedCompany] Saving 0-Clown horn-ClownHorn
+[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
+[Info   :AdvancedCompany] Saving 14-Key-Key
+[Info   :AdvancedCompany] Saving 0-Magnifying glass-MagnifyingGlass
+[Info   :AdvancedCompany] Saving 20-Belt bag-BeltBag
+[Info   :AdvancedCompany] Saving 3-Apparatus-LungApparatus
+[Info   :AdvancedCompany] Saving 0-Bottles-BottleBin
+[Info   :AdvancedCompany] Saving 0-Whoopie cushion-WhoopieCushion
+[Info   :AdvancedCompany] Saving 0-Control pad-ControlPad
+[Info   :AdvancedCompany] Saving 6-Flashlight-Flashlight
+[Info   :AdvancedCompany] Saving 14-Key-Key
+[Info   :TooManyEmotes-2.2.7] Saving game values.
+[Info   :TooManyEmotes-2.2.7] Saving 21 unlocked emotes for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: CzeFox
+[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Player #0
+[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Player #0
+[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Leprikn
+[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Leprikn
+[Info   :TooManyEmotes-2.2.7] Saving 0 unlocked emotes for player: Nirekron
+[Info   :TooManyEmotes-2.2.7] Saving 100 emote credits for player: Nirekron
+[Info   :TooManyEmotes-2.2.7] Saved Seed: 474046848
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.parityStepsTaken...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.itemSaveData...
+[Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCSaveFile4.moddata with key LethalLevelLoader.LLLSaveFile.CurrentLevelName...
+[Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Saving the LGU upgrades unto a json file...
+[Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Resetting the Upgrade Bus due to disconnecting...
+[Debug  :More Ship Upgrades] [UpgradeBus] Resetting CzeFox's attributes
+[Message:AdvancedCompany] Server stopped!
 [Message:AdvancedCompany] Removing message handlers.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (F:/Steam/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
+[Info   :LethalExpansion(core)] Unloading scene: SampleSceneRelay
+[Info   :LethalExpansion(core)] Loading scene 'MainMenu'
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Mouth Audio (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Attachment Audio (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Ground Audio (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Tripmine (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for HandheldTV (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Target (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Wall Audio (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Warning:Black Mesa Interior] Replacement audio mixer group is the same as the original for Trigger (UnityEngine.AudioSource).
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager destroyed
+[Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
+[Debug  :PizzaTowerEscapeMusic GameEventListener] Player exited ship
+[Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Resetting the Upgrade Bus due to disconnecting...
