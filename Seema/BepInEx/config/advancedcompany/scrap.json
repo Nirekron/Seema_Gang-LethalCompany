@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "Accident Log 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Accident Log 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Accident Log 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Accident Log 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
       "key": "Airhorn",
       "value": {
         "active": true,
@@ -10,6 +58,18 @@
         "max_value": 180,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Amethyst Cluster",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 180,
+        "override_max_value": false,
+        "max_value": 260,
+        "override_weight": false,
+        "weight": 1.12
       }
     },
     {
@@ -25,15 +85,27 @@
       }
     },
     {
-      "key": "Batty and Owl",
+      "key": "Banana",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 100,
+        "min_value": 20,
         "override_max_value": false,
-        "max_value": 225,
+        "max_value": 30,
         "override_weight": false,
-        "weight": 1.0
+        "weight": 1.01
+      }
+    },
+    {
+      "key": "Battery",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.07
       }
     },
     {
@@ -61,6 +133,126 @@
       }
     },
     {
+      "key": "Big Nut",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Big Red Button",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Big Screw",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 85,
+        "override_weight": false,
+        "weight": 1.11
+      }
+    },
+    {
+      "key": "BIO-HXNV7",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 220,
+        "override_max_value": false,
+        "max_value": 290,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
+      "key": "Bit coin",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 5,
+        "override_max_value": false,
+        "max_value": 8,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Blood Petri Dish",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Blue Folder",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 45,
+        "override_max_value": false,
+        "max_value": 65,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Blue Test Tube",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Book",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Bottle",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
       "key": "Bottles",
       "value": {
         "active": true,
@@ -70,6 +262,42 @@
         "max_value": 140,
         "override_weight": false,
         "weight": 1.18
+      }
+    },
+    {
+      "key": "Brain Jar",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 360,
+        "override_max_value": false,
+        "max_value": 450,
+        "override_weight": false,
+        "weight": 1.26
+      }
+    },
+    {
+      "key": "Branch",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 70,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Bronze Trophy",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.16
       }
     },
     {
@@ -85,6 +313,18 @@
       }
     },
     {
+      "key": "Bucket of Shards",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 450,
+        "override_max_value": false,
+        "max_value": 550,
+        "override_weight": false,
+        "weight": 1.2
+      }
+    },
+    {
       "key": "Bunny ears",
       "value": {
         "active": true,
@@ -94,6 +334,78 @@
         "max_value": 749,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Burnt Note 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Burnt Note 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Burnt Note 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Burnt Note 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Camera",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Candle Holder",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.1
       }
     },
     {
@@ -133,6 +445,18 @@
       }
     },
     {
+      "key": "Chainsaw",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 180,
+        "override_weight": false,
+        "weight": 1.18
+      }
+    },
+    {
       "key": "Chemical jug",
       "value": {
         "active": true,
@@ -145,15 +469,39 @@
       }
     },
     {
-      "key": "Ciri",
+      "key": "Chunk of Celestial Brain",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 100,
+        "min_value": 800,
         "override_max_value": false,
-        "max_value": 225,
+        "max_value": 1200,
         "override_weight": false,
-        "weight": 1.0
+        "weight": 1.37
+      }
+    },
+    {
+      "key": "Circular Saw",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 230,
+        "override_max_value": false,
+        "max_value": 290,
+        "override_weight": false,
+        "weight": 1.18
+      }
+    },
+    {
+      "key": "Clam",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 70,
+        "override_weight": false,
+        "weight": 1.01
       }
     },
     {
@@ -181,6 +529,18 @@
       }
     },
     {
+      "key": "Coil",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 65,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
       "key": "Comedy",
       "value": {
         "active": true,
@@ -190,6 +550,30 @@
         "max_value": 130,
         "override_weight": false,
         "weight": 1.1
+      }
+    },
+    {
+      "key": "Concrete Block",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 200,
+        "override_max_value": false,
+        "max_value": 400,
+        "override_weight": false,
+        "weight": 3.34
+      }
+    },
+    {
+      "key": "Construction Helmet",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.05
       }
     },
     {
@@ -241,6 +625,186 @@
       }
     },
     {
+      "key": "Copper Gear",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 145,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Corner Pipe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Cosmic Flashlight",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Cosmic Growth",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 190,
+        "override_max_value": false,
+        "max_value": 240,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Cosmic Shard",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 230,
+        "override_max_value": false,
+        "max_value": 250,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Cosmochad",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 600,
+        "override_max_value": false,
+        "max_value": 800,
+        "override_weight": false,
+        "weight": 1.2
+      }
+    },
+    {
+      "key": "Crankshaft",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.13
+      }
+    },
+    {
+      "key": "Crescent of Curses",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 280,
+        "override_max_value": false,
+        "max_value": 360,
+        "override_weight": false,
+        "weight": 1.38
+      }
+    },
+    {
+      "key": "Cursed Coin",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Dead Ice Crystal",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Demon Candle",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 130,
+        "override_max_value": false,
+        "max_value": 180,
+        "override_weight": false,
+        "weight": 1.13
+      }
+    },
+    {
+      "key": "Desmonds Note 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Desmonds Note 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Desmonds Note 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Diamond",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 380,
+        "override_max_value": false,
+        "max_value": 480,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
       "key": "Dirty Arson Plush",
       "value": {
         "active": true,
@@ -253,6 +817,18 @@
       }
     },
     {
+      "key": "Documents",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 110,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.19
+      }
+    },
+    {
       "key": "Dust pan",
       "value": {
         "active": true,
@@ -262,6 +838,54 @@
         "max_value": 80,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Dying Cosmic Flashlight",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Dying Cosmic Growth",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 143,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Dying Grown Petri Dish",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Dynamite",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 70,
+        "override_weight": false,
+        "weight": 1.03
       }
     },
     {
@@ -289,6 +913,90 @@
       }
     },
     {
+      "key": "Evil Cosmo",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 130,
+        "override_max_value": false,
+        "max_value": 180,
+        "override_weight": false,
+        "weight": 1.2
+      }
+    },
+    {
+      "key": "Evil Cosmochad",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 190,
+        "override_max_value": false,
+        "max_value": 240,
+        "override_weight": false,
+        "weight": 1.2
+      }
+    },
+    {
+      "key": "Experiment Log BIO HXNV7",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 40,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Experiment Log Comedy Mask",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 40,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Experiment Log Cursed Coin",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 40,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Experiment Log Golden Dagger",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 40,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Experiment Log Hyper Acid",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 40,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
       "key": "Fancy lamp",
       "value": {
         "active": true,
@@ -298,6 +1006,30 @@
         "max_value": 320,
         "override_weight": false,
         "weight": 1.2
+      }
+    },
+    {
+      "key": "Fire Extinguisher",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Fish Bones",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.03
       }
     },
     {
@@ -313,6 +1045,78 @@
       }
     },
     {
+      "key": "Flintlock",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 130,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Flow Pipe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Forgotten Log 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Forgotten Log 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Forgotten Log 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Frog",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
       "key": "Garbage lid",
       "value": {
         "active": true,
@@ -322,6 +1126,54 @@
         "max_value": 110,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Gas Mask",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Gas Tank",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 170,
+        "override_weight": false,
+        "weight": 1.17
+      }
+    },
+    {
+      "key": "Geigercounter",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Generator",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 250,
+        "override_max_value": false,
+        "max_value": 310,
+        "override_weight": false,
+        "weight": 1.27
       }
     },
     {
@@ -337,6 +1189,30 @@
       }
     },
     {
+      "key": "Glass Eye",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Glasses",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
       "key": "Glizzy",
       "value": {
         "active": true,
@@ -346,6 +1222,30 @@
         "max_value": 60,
         "override_weight": false,
         "weight": 1.0476
+      }
+    },
+    {
+      "key": "Gloom Logging Poster",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Glowing Orb",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 170,
+        "override_weight": false,
+        "weight": 1.13
       }
     },
     {
@@ -385,6 +1285,42 @@
       }
     },
     {
+      "key": "Golden Mask",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 290,
+        "override_max_value": false,
+        "max_value": 340,
+        "override_weight": false,
+        "weight": 1.36
+      }
+    },
+    {
+      "key": "Golden Skull",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 210,
+        "override_max_value": false,
+        "max_value": 280,
+        "override_weight": false,
+        "weight": 1.36
+      }
+    },
+    {
+      "key": "Green Test Tube",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
       "key": "Gremlin Can",
       "value": {
         "active": true,
@@ -394,6 +1330,18 @@
         "max_value": 225,
         "override_weight": false,
         "weight": 1.07
+      }
+    },
+    {
+      "key": "Grown Petri Dish",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 280,
+        "override_max_value": false,
+        "max_value": 350,
+        "override_weight": false,
+        "weight": 1.08
       }
     },
     {
@@ -421,6 +1369,90 @@
       }
     },
     {
+      "key": "Hammer",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Hand Drill",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 130,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
+      "key": "Harrington Log 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Harrington Log 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Harrington Log 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Harrington Log 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Hazmat Mask",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 70,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
       "key": "Homemade flashbang",
       "value": {
         "active": true,
@@ -430,6 +1462,78 @@
         "max_value": 70,
         "override_weight": false,
         "weight": 1.05
+      }
+    },
+    {
+      "key": "Horned Shell",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
+      "key": "Ice Crystal",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 130,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Ice Cube",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Iron Gear",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Iron Ingot",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.37
+      }
+    },
+    {
+      "key": "Jar of Growth",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.09
       }
     },
     {
@@ -445,6 +1549,30 @@
       }
     },
     {
+      "key": "Jewel Box",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 160,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Jewel Case",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 200,
+        "override_max_value": false,
+        "max_value": 280,
+        "override_weight": false,
+        "weight": 1.17
+      }
+    },
+    {
       "key": "Large axle",
       "value": {
         "active": true,
@@ -454,6 +1582,30 @@
         "max_value": 140,
         "override_weight": false,
         "weight": 1.15
+      }
+    },
+    {
+      "key": "Large Plant",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.16
+      }
+    },
+    {
+      "key": "Large Pot",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.14
       }
     },
     {
@@ -469,6 +1621,30 @@
       }
     },
     {
+      "key": "Lava Crystal",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 180,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Leviathan Tooth",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 45,
+        "override_max_value": false,
+        "max_value": 85,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
       "key": "Light shoes",
       "value": {
         "active": true,
@@ -481,13 +1657,73 @@
       }
     },
     {
-      "key": "Lorenzo",
+      "key": "Lil Cosmo",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 100,
+        "min_value": 400,
         "override_max_value": false,
-        "max_value": 225,
+        "max_value": 600,
+        "override_weight": false,
+        "weight": 1.2
+      }
+    },
+    {
+      "key": "Lost Note 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Lost Note 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Lost Note 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Lost Note 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Lunatics Translations",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 70,
         "override_weight": false,
         "weight": 1.0
       }
@@ -517,6 +1753,30 @@
       }
     },
     {
+      "key": "Map of Cosmocos",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 95,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Marble",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
       "key": "Maxwell",
       "value": {
         "active": true,
@@ -526,6 +1786,18 @@
         "max_value": 350,
         "override_weight": false,
         "weight": 1.11428
+      }
+    },
+    {
+      "key": "Metal Detector",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.08
       }
     },
     {
@@ -541,6 +1813,30 @@
       }
     },
     {
+      "key": "Microscope",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 270,
+        "override_max_value": false,
+        "max_value": 320,
+        "override_weight": false,
+        "weight": 1.18
+      }
+    },
+    {
+      "key": "Morse Bleeper",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
       "key": "Mug",
       "value": {
         "active": true,
@@ -550,6 +1846,90 @@
         "max_value": 170,
         "override_weight": false,
         "weight": 1.05
+      }
+    },
+    {
+      "key": "Nutcracker Eye",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 95,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.01
+      }
+    },
+    {
+      "key": "Oil Barrel",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 250,
+        "override_max_value": false,
+        "max_value": 310,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Oil Can",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 180,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Oil Lantern",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Oil Shale",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
+      "key": "Oil Tank",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Old Computer",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 160,
+        "override_max_value": false,
+        "max_value": 260,
+        "override_weight": false,
+        "weight": 1.79
       }
     },
     {
@@ -565,27 +1945,27 @@
       }
     },
     {
-      "key": "Oscar ",
+      "key": "Old Pipe",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 100,
+        "min_value": 40,
         "override_max_value": false,
-        "max_value": 225,
+        "max_value": 90,
         "override_weight": false,
-        "weight": 1.0
+        "weight": 1.07
       }
     },
     {
-      "key": "Owl",
+      "key": "Oval Vile",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 100,
+        "min_value": 50,
         "override_max_value": false,
-        "max_value": 225,
+        "max_value": 100,
         "override_weight": false,
-        "weight": 1.0
+        "weight": 1.03
       }
     },
     {
@@ -601,18 +1981,6 @@
       }
     },
     {
-      "key": "Peaches",
-      "value": {
-        "active": true,
-        "override_min_value": false,
-        "min_value": 100,
-        "override_max_value": false,
-        "max_value": 225,
-        "override_weight": false,
-        "weight": 1.0
-      }
-    },
-    {
       "key": "Perfume bottle",
       "value": {
         "active": true,
@@ -622,6 +1990,42 @@
         "max_value": 260,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Petri Dish",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 200,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Pickaxe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.33
+      }
+    },
+    {
+      "key": "Picture Frame",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 170,
+        "override_weight": false,
+        "weight": 1.02
       }
     },
     {
@@ -637,15 +2041,15 @@
       }
     },
     {
-      "key": "Pink Apparatus",
+      "key": "Plastic Box",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 40,
+        "min_value": 90,
         "override_max_value": false,
-        "max_value": 120,
+        "max_value": 140,
         "override_weight": false,
-        "weight": 1.3
+        "weight": 1.03
       }
     },
     {
@@ -673,6 +2077,78 @@
       }
     },
     {
+      "key": "Porcelain Bottle",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
+      "key": "Porcelain Perfume Bottle",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 160,
+        "override_max_value": false,
+        "max_value": 220,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Porcelain Teacup",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Possessed Walkie",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.02
+      }
+    },
+    {
+      "key": "Pot",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Pot of Pots",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
       "key": "Potatoes",
       "value": {
         "active": true,
@@ -685,15 +2161,75 @@
       }
     },
     {
-      "key": "Rataratus",
+      "key": "Radioactive Barrel",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 40,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
+      "key": "Radioactive Rod",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 250,
+        "override_max_value": false,
+        "max_value": 290,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Raven Skull",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 200,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Raw Gold",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 210,
+        "override_max_value": false,
+        "max_value": 250,
+        "override_weight": false,
+        "weight": 1.42
+      }
+    },
+    {
+      "key": "Recovered Secret Log",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
         "override_max_value": false,
         "max_value": 120,
         "override_weight": false,
-        "weight": 5.0
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Red Folder",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 45,
+        "override_max_value": false,
+        "max_value": 65,
+        "override_weight": false,
+        "weight": 1.02
       }
     },
     {
@@ -709,15 +2245,15 @@
       }
     },
     {
-      "key": "Redstone Torch",
+      "key": "Red Test Tube",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 50,
+        "min_value": 100,
         "override_max_value": false,
-        "max_value": 100,
+        "max_value": 150,
         "override_weight": false,
-        "weight": 1.1
+        "weight": 1.08
       }
     },
     {
@@ -745,6 +2281,18 @@
       }
     },
     {
+      "key": "Ribcage",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 180,
+        "override_max_value": false,
+        "max_value": 200,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
       "key": "Ring",
       "value": {
         "active": true,
@@ -754,6 +2302,66 @@
         "max_value": 200,
         "override_weight": false,
         "weight": 1.15
+      }
+    },
+    {
+      "key": "Ritual Dagger",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 170,
+        "override_max_value": false,
+        "max_value": 220,
+        "override_weight": false,
+        "weight": 1.23
+      }
+    },
+    {
+      "key": "Robot Arm",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 250,
+        "override_max_value": false,
+        "max_value": 320,
+        "override_weight": false,
+        "weight": 1.46
+      }
+    },
+    {
+      "key": "Rock",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Rose",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Round Vile",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.03
       }
     },
     {
@@ -769,6 +2377,102 @@
       }
     },
     {
+      "key": "Rum Bottle",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Safe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 310,
+        "override_max_value": false,
+        "max_value": 420,
+        "override_weight": false,
+        "weight": 1.36
+      }
+    },
+    {
+      "key": "Saw Blade",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Security Camera",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Sieve",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Silver Bug",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Silver Coin",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 110,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Silver Key",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 110,
+        "override_max_value": false,
+        "max_value": 150,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
       "key": "Skillet",
       "value": {
         "active": true,
@@ -778,6 +2482,30 @@
         "max_value": 224,
         "override_weight": false,
         "weight": 1.07619047
+      }
+    },
+    {
+      "key": "Skull",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.04
+      }
+    },
+    {
+      "key": "Small Pipe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 100,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.08
       }
     },
     {
@@ -793,6 +2521,66 @@
       }
     },
     {
+      "key": "Spotlight",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 80,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.01
+      }
+    },
+    {
+      "key": "Square Vile",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
+      "key": "Stapler",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.05
+      }
+    },
+    {
+      "key": "Steel Gear",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Steel Ingot",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 170,
+        "override_max_value": false,
+        "max_value": 230,
+        "override_weight": false,
+        "weight": 1.43
+      }
+    },
+    {
       "key": "Steering wheel",
       "value": {
         "active": true,
@@ -805,6 +2593,18 @@
       }
     },
     {
+      "key": "Stick",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 140,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
       "key": "Stop sign",
       "value": {
         "active": true,
@@ -814,6 +2614,114 @@
         "max_value": 130,
         "override_weight": false,
         "weight": 1.23
+      }
+    },
+    {
+      "key": "Stun Baton",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Syringe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 110,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
+      "key": "Syringe Gun",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 150,
+        "override_max_value": false,
+        "max_value": 200,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Tall Candlestick",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 180,
+        "override_max_value": false,
+        "max_value": 200,
+        "override_weight": false,
+        "weight": 1.28
+      }
+    },
+    {
+      "key": "Tape Player Log 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Tape Player Log 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Tape Player Log 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Tape Player Log 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
+      }
+    },
+    {
+      "key": "Tape Player Protocol Wipeout",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.09
       }
     },
     {
@@ -838,6 +2746,90 @@
         "max_value": 210,
         "override_weight": false,
         "weight": 1.0
+      }
+    },
+    {
+      "key": "Test Tube",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Test Tube Rack",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 180,
+        "override_max_value": false,
+        "max_value": 240,
+        "override_weight": false,
+        "weight": 1.34
+      }
+    },
+    {
+      "key": "The Plan 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "The Plan 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "The Plan 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "The Plan 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Tobacco Pipe",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 90,
+        "override_weight": false,
+        "weight": 1.02
       }
     },
     {
@@ -877,15 +2869,15 @@
       }
     },
     {
-      "key": "Toxic Apparatus",
+      "key": "Torch",
       "value": {
         "active": true,
         "override_min_value": false,
-        "min_value": 40,
+        "min_value": 30,
         "override_max_value": false,
-        "max_value": 120,
+        "max_value": 60,
         "override_weight": false,
-        "weight": 1.3
+        "weight": 1.02
       }
     },
     {
@@ -922,6 +2914,18 @@
         "max_value": 200,
         "override_weight": false,
         "weight": 1.0952
+      }
+    },
+    {
+      "key": "Toy Nutcracker",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 160,
+        "override_max_value": false,
+        "max_value": 190,
+        "override_weight": false,
+        "weight": 1.12
       }
     },
     {
@@ -973,6 +2977,150 @@
       }
     },
     {
+      "key": "Transcript 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Transcript 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Transcript 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Transcript 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 30,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Trowel",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 70,
+        "override_max_value": false,
+        "max_value": 100,
+        "override_weight": false,
+        "weight": 1.03
+      }
+    },
+    {
+      "key": "Turtle Shell",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.08
+      }
+    },
+    {
+      "key": "Typewriter",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 140,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.27
+      }
+    },
+    {
+      "key": "Undelivered Letter 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Undelivered Letter 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Undelivered Letter 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Undelivered Letter 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 50,
+        "override_max_value": false,
+        "max_value": 80,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Vase",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 90,
+        "override_max_value": false,
+        "max_value": 130,
+        "override_weight": false,
+        "weight": 1.12
+      }
+    },
+    {
       "key": "V-type engine",
       "value": {
         "active": true,
@@ -997,6 +3145,66 @@
       }
     },
     {
+      "key": "Watching Petri Dish",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 120,
+        "override_max_value": false,
+        "max_value": 160,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
+      "key": "Wet Note 1",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Wet Note 2",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Wet Note 3",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "Wet Note 4",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 60,
+        "override_weight": false,
+        "weight": 1.0
+      }
+    },
+    {
       "key": "Whoopie cushion",
       "value": {
         "active": true,
@@ -1009,15 +3217,27 @@
       }
     },
     {
-      "key": "Xen Crystal",
+      "key": "Wrench",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 60,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.07
+      }
+    },
+    {
+      "key": "Yellow Test Tube",
       "value": {
         "active": true,
         "override_min_value": false,
         "min_value": 100,
         "override_max_value": false,
-        "max_value": 250,
+        "max_value": 150,
         "override_weight": false,
-        "weight": 1.3
+        "weight": 1.08
       }
     },
     {

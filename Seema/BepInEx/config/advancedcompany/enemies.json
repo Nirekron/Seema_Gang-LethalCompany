@@ -41,6 +41,14 @@
       }
     },
     {
+      "key": "Butler Bees",
+      "value": {
+        "active": true,
+        "override_power_level": false,
+        "power_level": 2.0
+      }
+    },
+    {
       "key": "Centipede",
       "value": {
         "active": true,
@@ -81,14 +89,6 @@
       }
     },
     {
-      "key": "Don't Touch Me",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 1.0
-      }
-    },
-    {
       "key": "Earth Leviathan",
       "value": {
         "active": true,
@@ -114,14 +114,6 @@
     },
     {
       "key": "Girl",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 2.0
-      }
-    },
-    {
-      "key": "Herobrine",
       "value": {
         "active": true,
         "override_power_level": false,
@@ -201,14 +193,6 @@
       }
     },
     {
-      "key": "Peeper",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 0.0
-      }
-    },
-    {
       "key": "Puffer",
       "value": {
         "active": true,
@@ -233,23 +217,7 @@
       }
     },
     {
-      "key": "Shrimp",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 1.0
-      }
-    },
-    {
       "key": "Shy guy",
-      "value": {
-        "active": true,
-        "override_power_level": false,
-        "power_level": 3.0
-      }
-    },
-    {
-      "key": "SkibidiToilet",
       "value": {
         "active": true,
         "override_power_level": false,

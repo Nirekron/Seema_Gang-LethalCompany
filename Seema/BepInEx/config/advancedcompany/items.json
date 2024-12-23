@@ -229,18 +229,6 @@
       }
     },
     {
-      "key": "Ouija Board",
-      "value": {
-        "active": true,
-        "override_price": false,
-        "price": 100,
-        "override_max_discount": false,
-        "max_discount": 0,
-        "override_weight": false,
-        "weight": 1.2
-      }
-    },
-    {
       "key": "Pinger",
       "value": {
         "active": true,
