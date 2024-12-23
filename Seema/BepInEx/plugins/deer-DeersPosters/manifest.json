@@ -1,0 +1,9 @@
+{
+    "name": "DeersPosters",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Replaces eight (8) various textures within the ship. Derived from SolosPosterChanger",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

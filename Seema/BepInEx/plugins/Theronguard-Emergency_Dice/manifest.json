@@ -1,0 +1,11 @@
+{
+    "name": "Emergency_Dice",
+    "version_number": "1.1.26",
+    "website_url": "https://github.com/Theronguard/Emergency-Dice",
+    "description": "Last ray of hope in a hopeless situation?",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+	"Evaisa-HookGenPatcher-0.0.5",
+	"Evaisa-LethalLib-0.15.1"
+    ]
+}
