@@ -1,0 +1,20 @@
+{
+  "modAuthor": "Magic Wesley",
+  "modName": "Toy Store",
+  "configOptions": [
+    {
+      "configName": "Spooky mode",
+      "configCategory": "Core",
+      "configDescription": "Enables spooky mode",
+      "type": "bool",
+      "defaultValue": "false"
+    },
+    {
+      "configName": "Outside nutcracker statues",
+      "configCategory": "Core",
+      "configDescription": "Spawns prop nutcrackers on the moon",
+      "type": "bool",
+      "defaultValue": "true"
+    }
+  ]
+}

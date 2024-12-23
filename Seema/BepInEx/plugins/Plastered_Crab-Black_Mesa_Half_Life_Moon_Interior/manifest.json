@@ -1,0 +1,13 @@
+{
+	"name": "Black_Mesa_Half_Life_Moon_Interior",
+	"version_number": "3.0.3",
+	"website_url": "https://thunderstore.io/c/lethal-company/p/Plastered_Crab/Black_Mesa_Half_Life_Moon_Interior/",
+	"description": "The BIGGEST Interior mod which adds a Custom Moon + Interior based off of Black Mesa Research Facility with over 130+ tiles for room generation and full of unique mechanics!",
+	"dependencies": [
+		"IAmBatby-LethalLevelLoader-1.3.13",
+		"Alice-DungeonGenerationPlus-1.3.3",
+		"BepInEx-BepInExPack-5.4.2100",
+		"Zaggy1024-PathfindingLagFix-1.4.0",
+		"fumiko-CullFactory-1.5.0"
+	]
+}

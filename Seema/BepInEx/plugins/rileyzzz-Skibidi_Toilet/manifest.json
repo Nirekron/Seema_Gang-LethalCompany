@@ -1,0 +1,10 @@
+{
+	"name": "Skibidi_Toilet",
+	"version_number": "1.0.2",
+	"website_url": "https://github.com/rileyzzz",
+	"description": "Adds a skibidi toilet enemy to all level types. God please forgive me.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-LethalLib-0.9.0"
+	]
+}
