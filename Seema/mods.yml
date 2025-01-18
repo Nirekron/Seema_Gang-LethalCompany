@@ -146,7 +146,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797580309
+  installedAtTime: 1737206701647
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -155,7 +155,7 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 37
+    patch: 39
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -185,15 +185,15 @@
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/BetterStamina/
   displayName: BetterStamina
-  description: V64 Compatible! Tweaks stamina regen/consumption, as well as
-    lessens the penalty of speed/stamina based on weight. Config values are
-    fully customizable for stamina, movement speed, ladder climbing speed,
-    jumping, etc, and will sync with the host.
+  description: Tweaks stamina regen/consumption, as well as lessens the penalty of
+    speed/stamina based on weight. Config values are fully customizable for
+    stamina, movement speed, ladder climbing speed, jumping, etc, and will sync
+    with the host.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797579970
+  installedAtTime: 1737206688682
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -202,7 +202,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\FlipMods-BetterStamina\icon.png
 - manifestVersion: 1
@@ -258,7 +258,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1737206659818
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -268,7 +268,7 @@
   versionNumber:
     major: 0
     minor: 16
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
@@ -328,7 +328,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1737207287492
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -337,7 +337,7 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 3
+    patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\x753-More_Suits\icon.png
 - manifestVersion: 1
@@ -555,7 +555,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1737206640570
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -564,7 +564,7 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Jordo-NeedyCats\icon.png
 - manifestVersion: 1
@@ -647,7 +647,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797578910
+  installedAtTime: 1737207436496
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -656,9 +656,9 @@
   versionNumber:
     major: 2
     minor: 4
-    patch: 10
+    patch: 12
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\BunyaPineTree-ModelReplacementAPI\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\BunyaPineTree-ModelReplacementAPI\2.4.12\icon.png
 - manifestVersion: 1
   name: FoxGod-ThiccCompanyModelReplacement
   authorName: FoxGod
@@ -931,7 +931,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1737206625738
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -942,7 +942,7 @@
   versionNumber:
     major: 0
     minor: 10
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Evaisa-LethalThings\icon.png
 - manifestVersion: 1
@@ -1167,7 +1167,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797577604
+  installedAtTime: 1737207334991
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1176,8 +1176,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 4
+    minor: 2
+    patch: 0
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\WhiteSpike-Interactive_Terminal_API\icon.png
 - manifestVersion: 1
@@ -1186,24 +1186,23 @@
   websiteUrl: https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/
   displayName: LethalLevelLoader
   description: A Custom API to support the manual and dynamic integration of all
-    forms of custom content in Lethal Company. (v50 Compatible)
+    forms of custom content in Lethal Company. (v65 Compatible)
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1737206758521
   loaders: []
   dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-FixPluginTypesSerialization-1.1.1
     - MaxWasUnavailable-LethalModDataLib-1.2.2
-    - Evaisa-LethalLib-0.16.0
+    - Evaisa-FixPluginTypesSerialization-1.1.1
+    - BepInEx-BepInExPack-5.4.2100
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 10
+    minor: 4
+    patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
 - manifestVersion: 1
@@ -1260,7 +1259,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1727797577214
+  installedAtTime: 1737206669049
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1269,8 +1268,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 6
-    patch: 20
+    minor: 7
+    patch: 1
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\loaforc-FacilityMeltdown\icon.png
 - manifestVersion: 1
@@ -1326,7 +1325,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1728311031026
+  installedAtTime: 1737206710923
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1336,7 +1335,7 @@
   versionNumber:
     major: 3
     minor: 3
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\xilophor-LethalNetworkAPI\icon.png
 - manifestVersion: 1
@@ -1539,7 +1538,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734964720550
+  installedAtTime: 1737206718511
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1547,8 +1546,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 0
+    minor: 6
+    patch: 3
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\fumiko-CullFactory\icon.png
 - manifestVersion: 1
@@ -1584,18 +1583,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734964720719
+  installedAtTime: 1737206726655
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - IAmBatby-LethalLevelLoader-1.2.3
+    - IAmBatby-LethalLevelLoader-1.4.0
     - Evaisa-FixPluginTypesSerialization-1.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Alice-DungeonGenerationPlus\icon.png
 - manifestVersion: 1
@@ -1610,7 +1609,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734964720874
+  installedAtTime: 1737206736899
   loaders: []
   dependencies:
     - IAmBatby-LethalLevelLoader-1.3.13
@@ -1622,8 +1621,8 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 0
-    patch: 3
+    minor: 1
+    patch: 5
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Plastered_Crab-Black_Mesa_Half_Life_Moon_Interior\icon.png
 - manifestVersion: 1
@@ -1637,13 +1636,13 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1734964835594
+  installedAtTime: 1737206746116
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-LethalLib-0.11.0
-    - IAmBatby-LethalLevelLoader-1.2.3
-    - Alice-DungeonGenerationPlus-1.1.2
+    - IAmBatby-LethalLevelLoader-1.4.5
+    - Alice-DungeonGenerationPlus-1.3.4
     - Evaisa-FixPluginTypesSerialization-1.1.1
     - Lordfirespeed-OdinSerializer-2022.11.9
     - fumiko-CullFactory-0.9.2
@@ -1651,8 +1650,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
-    patch: 0
+    minor: 2
+    patch: 1
   enabled: true
   icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\Alice-ScarletDevilMansion\icon.png
 - manifestVersion: 1
@@ -1987,4 +1986,28 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\deer-DeersPosters\1.0.1\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\deer-DeersPosters\icon.png
+- manifestVersion: 1
+  name: XenoSpartanV-LEGO_Employee
+  authorName: XenoSpartanV
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/XenoSpartanV/LEGO_Employee/
+  displayName: LEGO_Employee
+  description: Adds a Lego Employee as a player model with some custom effects.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737207261097
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - BunyaPineTree-ModelReplacementAPI-2.3.1
+    - x753-More_Suits-1.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\XenoSpartanV-LEGO_Employee\icon.png

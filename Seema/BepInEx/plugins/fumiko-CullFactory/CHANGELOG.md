@@ -1,3 +1,34 @@
+# 1.6.3
+
+## Fixed
+
+- Disabled culling on Zeranos to prevent culling issues
+
+# 1.6.2
+
+## Fixed
+
+- Disabled culling on the Hadal Laboratories interior, since tiles are visible through walls
+- The interior being invisible when rendering the game with the standard render pipeline (i.e. with DOSCOMPANY)
+
+# 1.6.1
+
+## Fixed
+
+- Particle lights emitted from items being invisible in the interior
+
+# 1.6.0
+
+## Changed
+
+- Added uppercased properties to the CameraCullingOptions API, deprecated the lowercase variants
+- Debug symbols are now embedded
+
+## Fixed
+
+- A bug that would cause some rooms to be unnecessarily visible through walls
+- Items remaining invisible if they were initially hiding their meshes
+
 # 1.5.0
 
 ## Added

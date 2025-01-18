@@ -1,11 +1,67 @@
+<details><summary><b>Version 3.1.5</b></summary>
+
+- Reduced the number of dead ends in the interior slightly
+- Made fire exits prefer to spawn a bit farther down each path
+- Fixed lockpickers not working on the glass sliding doors
+
+</details>
+
+<details><summary><b>Version 3.1.4</b></summary>
+
+- Allowed enemies to get onto the reception desk in the entrance
+- Added an error log to provide a solution when FixPluginTypesSerialization is not working
+
+</details>
+
+<details><summary><b>Version 3.1.3</b></summary>
+
+- Fixed enemy pathing around the blast doors
+
+</details>
+
+<details><summary><b>Version 3.1.2</b></summary>
+
+- Fixed thumpers not being able to crash through red doors properly
+
+</details>
+
+<details><summary><b>Version 3.1.1</b></summary>
+
+- Fixed enemies not being able to pass through doors around the Resonance Chamber
+- Second attempt at preventing VR spectators from triggering tripmines
+- Moved a tripmine that could kill players instantly on entering a fire exit
+
+</details>
+
+<details><summary><b>Version 3.1.0</b></summary>
+
+- Increased the scrap counts significantly to make finding loot more consistent
+- Scaled down the interior size on moons other than Black Mesa
+- Reduced the volume of the intro and elevator jingle audio
+- Fixed lockpickers appearing very large on certain doors
+- Fixed enemies being unable to open doors in Quarantine
+- Fixed thumpers getting stuck on metal doors and spamming errors
+
+</details>
+
+<details><summary><b>Version 3.0.4</b></summary>
+
+- Fixed an error that would cause some objects not to despawn when departing
+
+</details>
+
 <details><summary><b>Version 3.0.3</b></summary>
 
 - Allowed the teleporter to cancel a barnacle grab
 - Fixed the barnacle not grabbing correctly on clients
 
+</details>
+
 <details><summary><b>Version 3.0.2</b></summary>
 
 - Fixed a conflict with Biodiversity in 3.0.1
+
+</details>
 
 <details><summary><b>Version 3.0.1</b></summary>
 
@@ -14,7 +70,7 @@
 - Fixed the barnacle not being damageable by shotguns or explosions
 - Fixed the barnacle death animation
 - Hopefully fixed the barnacle softlocking VR spectators
-- Fixed an error that could occur on the Lab path
+- Fixed an error/freeze that could occur on the Lab path
 
 </details>
 

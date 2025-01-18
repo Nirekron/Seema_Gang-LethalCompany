@@ -84,7 +84,7 @@ Q: Can monsters crawl through the vents?
 
 A: Yes! They all can go through the ventilation ducts like any other flooring!
 
-Q: The performance is bad sometimes without Cullfactory, are you going to fix that?
+Q: The performance is bad sometimes without CullFactory, are you going to fix that?
 
 A: These assets are game rips from Black Mesa so they are far more detailed than Lethal Company base assets and I have done what I can to optimize it. To help with performance I highly recommend CullFactory and PathfindingLagFix to play with this as it helps with it a lot for now.
 

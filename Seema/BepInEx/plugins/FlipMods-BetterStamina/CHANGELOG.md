@@ -1,3 +1,6 @@
+# 1.5.5
++ Made various code changes to help with combining modifiers from other mods with BetterStamina.<br>
+Note: Depending on how other mods implement changing speed/jump force, they *may* overwrite any modifiers from this mod.
 # 1.5.4
 + Added config option to enable sprinting to max speed instantly, instead of speeding up over time.
 # 1.5.3

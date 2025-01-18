@@ -1,3 +1,6 @@
+## v1.2.3
+- Fixed an issue that conflicted with Terminal Formatter
+
 ## v1.2.2
 - Fixed cats not applying the grabbed animation when grabbed in v60+
 
