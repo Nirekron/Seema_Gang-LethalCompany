@@ -29,7 +29,7 @@ Retrieving scraps within the church poses a multifaceted challenge, demanding me
 
 # 
 
-_If you want to give feedback, you can use the [github page](https://github.com/sfDesat/Orion/issues) or join the [discord server](https://discord.gg/lcmod) and search for `sfDesat`._
+_If you want to give feedback, you can join my [server](https://discord.gg/ybjPfxCKZX) or join the [discord server](https://discord.gg/lcmod) and search for `sfDesat`._
 
 **Check out other sfDesat mods [here](https://thunderstore.io/c/lethal-company/p/sfDesat/) or download my [modpacks](https://thunderstore.io/c/lethal-company/p/sfDesat/?section=modpacks).**
 #

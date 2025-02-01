@@ -5,10 +5,11 @@ Adds a new custom interior themed as a psyquiatric institution to explore and ge
 This is my first ever mod so bear with me.
 
 **Features:**
-- Currently 13 different tiles (More planned)
+- Currently 14 different tiles (More planned)
 - 3 different main entrance variations to spice things up
 - 3 different jump room layouts (with moving obstacles!)
 - Green colored steam fog (optional) which can also damage players if they stay for too long (optional)
+- Apparatus Room (FacilityMeldown enjoyers rejoice!)
 - Breaker box spawns
 - Big terminal doors
 - Long corridors with covers to protect yourself from Nutcrackers & Thumpers
@@ -17,10 +18,9 @@ This is my first ever mod so bear with me.
 
 
 **Planned:**
-- Apparatus room tile
 - More rooms
 - Improved prop randomization
-- (Maybe) more themes
+- (Maybe) custom threats/interactions
 ## Screenshots:
 ![](https://i.ibb.co/NVw41JV/image-50.png)
 ![](https://i.ibb.co/XsMKpr9/image-62.png)

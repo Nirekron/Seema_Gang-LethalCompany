@@ -1,3 +1,20 @@
+## Version 2.0.1
+- Updated the manifest description to no longer state that it is a beta version.
+
+## Version 2.0.0
+> Note that this has the same mod ID as PathfindingLagFix Beta, but a lower version, so that will need to be disabled in order to run the stable version.
+
+- Rewrote the mod to run all pathfinding patches off the main thread using [PathfindingLib](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLib/), reducing the performance impact of many forms of vanilla enemy pathfinding to near zero. This provides a general framerate improvement when many enemies are spawned, especially for hosts.
+- All patches have been completely rewritten.
+- Patched behaviors now include:
+  - All roaming AI (i.e. thumpers, lootbugs, coilheads, and many more)
+  - All omniscient player targeting (i.e. blobs, jesters, brackens, and more)
+  - Bracken hunting, evasion, and hiding spot pathfinding
+  - Snare flea hiding spot pathfinding
+  - Spore lizard evasion pathfinding
+  - Tulip snake dismounting pathfinding, and calls to `FindObjectsByType<FlowerSnakeEnemy>()`
+  - Manticoil evasion pathfinding
+
 ## Version 1.4.0
 - Brought back the patch for lag caused when the Bracken has no player target and is therefore pathing to the furthest position from the interior entrance. This would often occur when the player jumps.
 

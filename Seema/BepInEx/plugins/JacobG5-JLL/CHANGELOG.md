@@ -1,3 +1,30 @@
+## 1.9.1
+- JLLMods created through JSON files will now be correctly registered.
+- JLLMods with invalid or empty names will no longer be registered. (This is to prevent future incidents of `..cfg`)
+- JLLMods that contain no configs will no longer generate an empty config file.
+
+## 1.9.0
+### Core Module
+- Fixed mostly harmless error on disconnecting mid game with JClientSync.
+- JDestructableObject now has an event for whenever it takes damage.
+- Removed Mod Loaded Chaching. Fixed some things in my helper class for determining if a mod is loaded.
+- Network Prefabs created through JLL will now work correctly. (Should fix issue with SimpleCommands `/prefab`)
+- Added respectEnemyCap and respectPowerCap options to EnemySpawners. Will not spawn an enemy if those conditions are met.
+
+### Wesley Moon Scripts
+- HERE BE DRAGONS!
+This is a new DLL included with JLL. It contains a lot of very random components and features designed for the Wesley's Moons Journeys Update.
+You can use features from this package if you want to experiment but I will not guarantee the same level of support that the rest of the mod has.
+Some features were scrapped on and others may not be fully functional outside of their intended use.
+If you have an issue while using a script from this DLL then either experiment on your own to figure it out or don't use it.
+
+### Wesley Moon Integration
+Included within WesleyMooNScripts is a JLLAddon that you can add to your JLLMod to allow your mod to integrate with the Unlock Progression system. 
+You can put all of your levels into a list of their sceneNames and optionally enable/disable force locking (If your moon is set as unlocked by default in LLL and WesleyMoons is present it will change it to be locked by default) and Unlock Protection (Attempts to blacklist moons from being unlocked by most popular moon unlock/unhide mods)
+
+### Editor Module
+- Added help messages for invalid layers on JDestructableObject.
+
 ## 1.8.0
 ### Core Module
 - JCompatabilityHelper now has a cached compatibility check for LCCutscene.

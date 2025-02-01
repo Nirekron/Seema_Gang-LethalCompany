@@ -1,4 +1,40 @@
 # CHANGELOG
+## 2.0.5
+- Art Gallery
+    - Fire exits are more likely to appear near the elevator
+    - Added a painting
+- Atlantean Citadel
+    - Uh I changed something
+## 2.0.4
+- Rubber Rooms
+    - Updated the apparatus effects for a more clear indication in Rubber Rooms
+    - The confusing hallway should no longer be able to block you off entirely
+    - Fixed some z-fighting
+- Art Gallery
+    - Possibly fixed elevator desyncs.. report back
+## 2.0.3
+- Fixed some blockers missing in RR
+## 2.0.2
+- Small changes to Rubber Rooms
+- I honestly don't remember what else I did..
+## 2.0.1
+- Atlantean Citadel
+    - Adjusted scaling
+    - Adjusted some scrap spawn locations and balancing
+    - Reduced the amount of main branches 3 -> 2
+    - Updated default weights to be more common on Atlantica
+- Art Gallery
+    - Fixed some small things
+    - Adusted the fog machine fog
+- Rubber Rooms
+    - Adjusted scaling
+    - Fixed turrets being able to fire through the walls in the infirmary
+- Toy Store
+    - The apparatus room will can now only be found deep in the interior
+## 2.0.0
+- Added content <br>
+- Updated default spawn weights <br>
+- The cake will no longer spawn loot if every victim dies
 <h2>1.6.2</h2>
 - Default config changes
 <h2>1.6.1</h2>
