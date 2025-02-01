@@ -37,6 +37,18 @@
       }
     },
     {
+      "key": "Beholder's eye",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.34
+      }
+    },
+    {
       "key": "Bell",
       "value": {
         "active": true,
@@ -265,6 +277,18 @@
       }
     },
     {
+      "key": "Dungeon key",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 20,
+        "override_max_value": false,
+        "max_value": 50,
+        "override_weight": false,
+        "weight": 1.06
+      }
+    },
+    {
       "key": "Dust pan",
       "value": {
         "active": true,
@@ -442,6 +466,18 @@
         "max_value": 250,
         "override_weight": false,
         "weight": 1.0476
+      }
+    },
+    {
+      "key": "Haunted apparatus",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.08
       }
     },
     {
@@ -721,18 +757,6 @@
       }
     },
     {
-      "key": "Rataratus",
-      "value": {
-        "active": true,
-        "override_min_value": false,
-        "min_value": 40,
-        "override_max_value": false,
-        "max_value": 120,
-        "override_weight": false,
-        "weight": 5.0
-      }
-    },
-    {
       "key": "Red soda",
       "value": {
         "active": true,
@@ -898,6 +922,18 @@
         "max_value": 130,
         "override_weight": false,
         "weight": 1.02
+      }
+    },
+    {
+      "key": "The painting",
+      "value": {
+        "active": true,
+        "override_min_value": false,
+        "min_value": 40,
+        "override_max_value": false,
+        "max_value": 120,
+        "override_weight": false,
+        "weight": 1.3
       }
     },
     {

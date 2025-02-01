@@ -283,6 +283,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -332,7 +353,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -349,7 +370,7 @@
             "key": "Redstone Torch",
             "value": {
               "override": false,
-              "rarity": 5
+              "rarity": 4
             }
           },
           {
@@ -1011,6 +1032,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -1060,7 +1102,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -1739,6 +1781,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -1788,7 +1851,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -2369,6 +2432,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -2418,7 +2502,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -2992,13 +3076,6 @@
             }
           },
           {
-            "key": "Teeth",
-            "value": {
-              "override": false,
-              "rarity": 23
-            }
-          },
-          {
             "key": "Perfume bottle",
             "value": {
               "override": false,
@@ -3069,6 +3146,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -3118,7 +3216,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -3664,6 +3762,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -3713,7 +3832,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -3730,7 +3849,7 @@
             "key": "Redstone Torch",
             "value": {
               "override": false,
-              "rarity": 6
+              "rarity": 5
             }
           },
           {
@@ -4370,6 +4489,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -4419,7 +4559,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -5042,6 +5182,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -5091,7 +5252,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -5108,7 +5269,7 @@
             "key": "Redstone Torch",
             "value": {
               "override": false,
-              "rarity": 5
+              "rarity": 4
             }
           },
           {
@@ -5770,6 +5931,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -5819,7 +6001,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -6575,6 +6757,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -6624,7 +6827,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -7008,6 +7211,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -7057,7 +7281,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -7580,6 +7804,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -7629,7 +7874,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -8356,6 +8601,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Batty and Owl",
             "value": {
               "override": false,
@@ -8405,7 +8671,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0
@@ -9076,6 +9342,27 @@
             }
           },
           {
+            "key": "Beholder's eye",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "Dungeon key",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
+            "key": "The painting",
+            "value": {
+              "override": false,
+              "rarity": 0
+            }
+          },
+          {
             "key": "Xen Crystal",
             "value": {
               "override": false,
@@ -9083,7 +9370,7 @@
             }
           },
           {
-            "key": "Rataratus",
+            "key": "Haunted apparatus",
             "value": {
               "override": false,
               "rarity": 0

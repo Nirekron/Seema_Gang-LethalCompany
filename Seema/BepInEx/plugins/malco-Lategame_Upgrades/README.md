@@ -18,9 +18,8 @@ This adds:
 The goal of this mod is to allow you to make playthroughs last longer and to remedy the stale lategame of not having anything to spend your money on and only going to one moon.
 
 If using V40 - downgrade to V2.1.0  
-If using v45 - downgrade to v2.8.6  
-If using v50 - downgrade to v3.8.1  
-If using v64 - downgrade to v3.10.4  
+If using v45 - downgrade to v2.8.6
+If using v50 - downgrade to v3.8.1
 
 ## Community
 
@@ -242,30 +241,6 @@ You can check the key binds used for More Ship Upgrades to understand how to nav
 * __Jetpack Thrusters - $300__
     * Increases the maximum speed of the jetpack while in flight. 
 
-* __Silver Bullets - $500__
-    * Allows the shotgun to kill ghost girls.
-    
-* __Hollow Point - $750__
-    * Increases the damage output of the shotgun.
-   
-* __Long Barrel - $500__
-    * Increases the range of the damage zones and overall range of the shotgun. 
-
-* __Fusion Matter - $500__
-    *  Allows players to teleport with some items in their inventory.
-
-* __Particle Infuser - $650__
-    *  Increases the speed of the teleporters during teleportation phase.
-
-* __Scrap Keeper - $1000__
-    * In case of full team wipe, each scrap has a chance of staying in the ship.
-
-* __Medical Nanobots - $300__
-    * Increases the health regeneration cap of the vanilla health regeneration mechanic.
-    
-* __Effective Bandaids - $250__
-    * Increases the amount of health regenerated from the vanilla health regeneration mechanic. 
-    
 ## Item Progression Mode
 
 This mod offers an alternative mode for obtaining upgrades through selling items to The Company. The following modes are available for playthroughs:
@@ -340,13 +315,6 @@ This mod offers a "Randomize Upgrade" mode where a set amount of upgrades are pi
 ## API
 * Hunter
     * You can register your own items to the Hunter upgrade for them to spawn on enemy kills! Just follow the wiki page associated with ``Hunter API``.
-* Discombobulator
-    * You can manipulate the discombobulator feature to your liking such as altering the cooldown or attempt to trigger it.
-* Quantum Disruptor
-    * You can attempt to trigger the Quantum Disruptor's Revert Time feature when configurated for it.
-* Upgrades
-    * You can contribute towards an upgrade for some amount of value which is affected by the configured item progression multiplier
-    * You can trigger a rank up of an upgrade.
 
 ## Items/Commands moved to their own Mods
 - [Peeper](https://thunderstore.io/c/lethal-company/p/WhiteSpike/Peeper/)
