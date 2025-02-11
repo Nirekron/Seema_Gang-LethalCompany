@@ -1,4 +1,30 @@
 # CHANGELOG
+## 2.0.11
+- Hotfix for RR
+## 2.0.10
+- Toy Store
+    - Fixed an issue with fire exits
+## 2.0.9
+- Rubber rooms
+    - Added a config to disable the scary door
+- Art Gallery
+    - Made the interior generation smaller
+    - Allowed more scrap to spawn in the glass containers
+## 2.0.8
+- GET UPDATED ON MONTY HAHAHAHAHAHA
+## 2.0.7
+- Rubber rooms
+    - It comes from the halls
+- Atlantean Citadel
+    - Updated a bunch of textures
+## 2.0.6
+- Rubber rooms
+    - Fixed some seems
+    - Added laughs
+    - Hehehe
+    - Added more
+    - Added some more decorations
+    - Fixed shit
 ## 2.0.5
 - Art Gallery
     - Fire exits are more likely to appear near the elevator

@@ -1,3 +1,11 @@
+### 1.4.1
+Added TileExtender system\
+Added failsafe for DetailedGlobalSettings and local Global Props
+
+### 1.4.0
+DoorwayCleanup is now obselete. Replaced with new scripting system\
+Added the Zaggy™ patch so LLL works inside the Unity Editor 
+
 ### 1.3.4
 Added DetailedGlobalSettings system\
 Updated for LLL 1.4.0

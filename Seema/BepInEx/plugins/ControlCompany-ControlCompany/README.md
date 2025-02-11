@@ -197,6 +197,9 @@ A special thanks goes to the following people for their contributions to the dev
 
 ## Changelog
 
+### v1.3.3
+- Fixed issue with some mod compatibility
+
 ### v1.3.2
 - Also added ALL outdoor enemies (e.g. Circuit Bees) as controllable entities ;). Most of them are experimental so use at your own risk!
 

@@ -1,3 +1,10 @@
+# 2.0.43
++ This mod will now ignore errors caused by the TooManyEmotesCompat patch when the local player performs an emote. These errors are usually caused by a separate mod (usually indirectly). This should prevent further bugs from occuring with this mod, or with TooManyEmotes, but the problem mod still may cause other issues.
+# 2.0.42
++ Removed a debug error log notifying when you finished syncing with the host. It wasn't a real error and was meant to be removed when 2.0.41 was pushed.
+# 2.0.41
++ Fixed issue when spawning some non-vanilla flashlights (from othe mods) on mimics, they would error and cause issues with that light source.
++ Added some compatibility notes in the README.
 # 2.0.40
 + Fixed minor bug where the mod would throw harmless errors in the console if you didn't have the TooManyEmotes mod. These are now ignored.
 # 2.0.39

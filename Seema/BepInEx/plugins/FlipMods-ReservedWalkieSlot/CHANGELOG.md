@@ -1,3 +1,5 @@
+# 2.0.7
++ Added dedicated hotkey to toggle to the reserved walkie slot. Only usable with InputUtils. Unbound by default.
 # 2.0.6
 + Updated mod description for latest update compatibility.
 # 2.0.5
