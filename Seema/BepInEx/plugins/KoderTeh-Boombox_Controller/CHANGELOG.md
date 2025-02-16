@@ -1,3 +1,7 @@
+-   **1.2.7**
+
+	-	Updated yt-dlp version.
+	
 -   **1.2.6**
 
 	-	Fixed yt-dlp arguments for SoundCloud.

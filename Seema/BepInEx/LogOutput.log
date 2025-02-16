@@ -115,7 +115,7 @@
 [Info   :LethalExpansion(core)] Patched LethalExpansion#Awake
 [Info   :LethalExpansion(core)] Plugins folder found: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins
 [Info   :LethalExpansion(core)] Mod path is: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\jockie-LethalExpansionCore
-[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 509ms
+[Info   :LethalExpansion(core)] Module 'ExpansionAssets' v1.0.0.0 was loaded in 516ms
 [Info   :LethalExpansion(core)] Water support applied to the HDRenderPipelineAsset.
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loaded.
 [Info   :   BepInEx] Loading [ShipLoot 1.1]
@@ -133,7 +133,7 @@
 [Debug  :MaxWasUnavailable.LethalModDataLib] Patching...
 [Debug  :MaxWasUnavailable.LethalModDataLib] Patched!
 [Info   :MaxWasUnavailable.LethalModDataLib] Plugin MaxWasUnavailable.LethalModDataLib is loaded!
-[Info   :   BepInEx] Loading [LethalLevelLoader 1.4.8]
+[Info   :   BepInEx] Loading [LethalLevelLoader 1.4.10]
 [Info   :LethalLevelLoader] LethalLevelLoader loaded!!
 [Info   :LethalLevelLoader] evaisa.lethallibfound, enabling compatability patches.
 [Info   :LethalLevelLoader] LethalBundleManger: Starting!
@@ -471,7 +471,7 @@ Parameter name: index
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1275488970(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?-2020116626(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -505,8 +505,8 @@ Parameter name: index
 [Info   :   BepInEx] Loading [Dungeon Generation Plus 1.4.1]
 [Info   :AdvancedCompany] Added DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :dev.ladyalice.dungenplus] Plugin Dungeon Generation Plus has been added!
-[Info   :AdvancedCompany] Added DMDASM.6D947434.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
-[Info   :AdvancedCompany] Added DMDASM.04958EE3.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.9AA6303B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
+[Info   :AdvancedCompany] Added DMDASM.C8225F7B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Debug  :dev.ladyalice.dungenplus] Loading resource DunGenPlus.dungen
 [Debug  :dev.ladyalice.dungenplus] Loading asset DevDebug
 [Info   :   BepInEx] Loading [Dungeon Generation Plus Loadstone Patch 1.0.0]
@@ -657,17 +657,7 @@ assets/lethalcompany/mods/facilitymeltdown/terminal/reactorkeyword.asset
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for treasure room loot
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for treasure room loot
 [Debug  :dev.ladyalice.scarletmansion] Updating config values with preset Default
-[Debug  :dev.ladyalice.scarletmansion] Config settings Width Base changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Length Base changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Main Path Length Min changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
-[Debug  :dev.ladyalice.scarletmansion] Config settings Main Path Length Max changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
 [Debug  :dev.ladyalice.scarletmansion] Updating config values with preset Default
-[Debug  :dev.ladyalice.scarletmansion] Config settings 1 Light Weight changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying lightsSpawn 0/1/2 values
-[Debug  :dev.ladyalice.scarletmansion] Config settings 2 Lights Weight changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying lightsSpawn 0/1/2 values
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for section one count
@@ -688,23 +678,7 @@ assets/lethalcompany/mods/facilitymeltdown/terminal/reactorkeyword.asset
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for treasure room loot
 [Debug  :dev.ladyalice.scarletmansion] Verifying min/max for treasure room loot
 [Debug  :dev.ladyalice.scarletmansion] Updating config values with preset Default
-[Debug  :dev.ladyalice.scarletmansion] Config settings Width Base changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Length Base changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Width Multiplier Factor changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Length Multiplier Factor changed
-[Debug  :dev.ladyalice.scarletmansion] Config settings Main Path Length Min changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
-[Debug  :dev.ladyalice.scarletmansion] Config settings Main Path Length Max changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for main path length
-[Debug  :dev.ladyalice.scarletmansion] Config settings Section 1 Count Min changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for section one count
-[Debug  :dev.ladyalice.scarletmansion] Config settings Section 1 Count Max changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying min/max for section one count
 [Debug  :dev.ladyalice.scarletmansion] Updating config values with preset Default
-[Debug  :dev.ladyalice.scarletmansion] Config settings 1 Light Weight changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying lightsSpawn 0/1/2 values
-[Debug  :dev.ladyalice.scarletmansion] Config settings 2 Lights Weight changed
-[Debug  :dev.ladyalice.scarletmansion] Verifying lightsSpawn 0/1/2 values
 [Info   :dev.ladyalice.scarletmansion] Loading compability patch for me.loaforc.facilitymeltdown
 [Info   :dev.ladyalice.scarletmansion] Loading compability patch for FlipMods.ReservedFlashlightSlot
 [Debug  :AdvancedCompany] Patching ShotgunItem->ShootGun...
@@ -1006,7 +980,7 @@ assets/lethalcompany/mods/facilitymeltdown/terminal/reactorkeyword.asset
 [Debug  :AdvancedCompany] Patching QuickMenuManager->AddUserToPlayerList...
 [Debug  :AdvancedCompany] Replacing <= 4 with <= LobbyPatches->GetLobbySize() - 1
 [Debug  :AdvancedCompany] Patched QuickMenuManager->AddUserToPlayerList!
-[Info   :   BepInEx] Loading [BoomboxController 1.2.6]
+[Info   :   BepInEx] Loading [BoomboxController 1.2.7]
 [Info   :AdvancedCompany] Added BoomboxController, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Info   :BoomboxController] 
                                                                                                                                                                   
@@ -1248,15 +1222,15 @@ dungeonSizeMin:1
 [Info   :   BepInEx] Loading [PathfindingLagFix 2.1.1]
 [Info   :AdvancedCompany] Added PathfindingLagFix, Version=2.1.1.0, Culture=neutral, PublicKeyToken=null to assemblies to scan.
 [Message:   BepInEx] Chainloader startup complete
-[Info   :LethalLevelLoader] blackmesaextendedlevel.lethalbundle Loaded (39,61s)!
-[Info   :LethalLevelLoader] orionplanet.lethalbundle Loaded (39,94s)!
-[Info   :LethalLevelLoader] atlanticdungeoninterior.lethalbundle Loaded (40,11s)!
-[Info   :LethalLevelLoader] toystoreinterior.lethalbundle Loaded (41,48s)!
-[Info   :LethalLevelLoader] blackmesamoon.lethalbundle Loaded (41,48s)!
-[Info   :LethalLevelLoader] orionplanetscene.lethalbundle Loaded (41,48s)!
-[Info   :LethalLevelLoader] therubberrooms.lethalbundle Loaded (42,32s)!
-[Info   :LethalLevelLoader] grandarmoryinterior.lethalbundle Loaded (43,23s)!
-[Info   :LethalLevelLoader] museuminterior.lethalbundle Loaded (44,35s)!
+[Info   :LethalLevelLoader] blackmesaextendedlevel.lethalbundle Loaded (37,60s)!
+[Info   :LethalLevelLoader] orionplanet.lethalbundle Loaded (37,98s)!
+[Info   :LethalLevelLoader] atlanticdungeoninterior.lethalbundle Loaded (38,17s)!
+[Info   :LethalLevelLoader] toystoreinterior.lethalbundle Loaded (39,43s)!
+[Info   :LethalLevelLoader] orionplanetscene.lethalbundle Loaded (39,44s)!
+[Info   :LethalLevelLoader] blackmesamoon.lethalbundle Loaded (39,44s)!
+[Info   :LethalLevelLoader] therubberrooms.lethalbundle Loaded (40,30s)!
+[Info   :LethalLevelLoader] grandarmoryinterior.lethalbundle Loaded (41,34s)!
+[Info   :LethalLevelLoader] museuminterior.lethalbundle Loaded (42,52s)!
 [Info   :LethalLevelLoader] Finished Processing Bundles!
 [Info   :LethalLevelLoader] LethalBundleManger Recieved Group: Blackmesaextendedlevel.lethalbundle
 [Info   :LethalLevelLoader] Found ExtendedMod: BlackMesaMod
@@ -1628,10 +1602,10 @@ File name: 'TestAccount666.GoodItemScan, Version=1.9.0.0, Culture=neutral, Publi
 [Debug  :AdvancedCompany] Replaced Item.minValue with AdvancedCompany.Game.Manager+Items->GetItemMinValue
 [Debug  :AdvancedCompany] Patched DunGenPlus.Components.Scrap.RandomGuaranteedScrapSpawn+<>c__DisplayClass7_0-><GetCachedItemList>b__0
 [Debug  :AdvancedCompany] Patched DunGenPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.6D947434.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.6D947434.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patching DMDASM.04958EE3.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[Debug  :AdvancedCompany] Patched DMDASM.04958EE3.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.9AA6303B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.9AA6303B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patching DMDASM.C8225F7B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[Debug  :AdvancedCompany] Patched DMDASM.C8225F7B.MethodBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 [Debug  :AdvancedCompany] Patching LoadstoneNighty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 [Warning:AdvancedCompany] Likely some soft dependency of another mod is missing (THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR! THIS IS MOST LIKELY A NON ERROR!):
 [Warning:AdvancedCompany] System.IO.FileNotFoundException: Could not load file or assembly 'com.adibtw.loadstone, Version=0.1.16.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
@@ -2190,7 +2164,7 @@ Parameter name: operand
   at MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) [0x00087] in <6733e342b5b549bba815373898724469>:IL_0087 
   at MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) [0x00012] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0012 
   at (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1275488970(object)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?-2020116626(object)
   at HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) [0x00000] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000 
   at MonoMod.RuntimeDetour.ILHook.Apply () [0x00059] in <4e2760c7517c4ea79c633d67e84b319f>:IL_0059 
   at HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047 
@@ -2534,8 +2508,8 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM5, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: IMESelected, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Using NewInputSystem
-[Info   :LethalLevelLoader] blackmesamoon.lethalbundle Unloaded (10,16s)
-[Info   :LethalLevelLoader] orionplanetscene.lethalbundle Unloaded (10,17s)
+[Info   :LethalLevelLoader] blackmesamoon.lethalbundle Unloaded (10,13s)
+[Info   :LethalLevelLoader] orionplanetscene.lethalbundle Unloaded (10,13s)
 [Info   :LethalExpansion(core)] Unloading scene: InitSceneLaunchOptions
 [Info   :LethalExpansion(core)] Loading scene 'InitScene'
 [Info   :LethalExpansion(core)] Registered prefab 'itemshipanimcontainer' from 'LethalExpansion'
@@ -2624,13 +2598,10 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :MaxWasUnavailable.LethalModDataLib] Loading data from file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
 [Debug  :MaxWasUnavailable.LethalModDataLib] LethalModDataLib version (1.2.2) matches last saved version (1.2.2).
 [Debug  :MaxWasUnavailable.LethalModDataLib] Saving data to file LCGeneralSaveData.moddata with key MaxWasUnavailable.LethalModDataLib.LMDLVersion...
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :LethalExpansion(core)] Unloading scene: InitScene
 [Info   :LethalExpansion(core)] Loading scene 'MainMenu'
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Message:AdvancedCompany] Found steam ID: 76561198120771711
 [Message:AdvancedCompany] Found username: Nirekron
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Message:AdvancedCompany] Server started!
 [Message:AdvancedCompany] Adding message handlers.
 [Message:AdvancedCompany] AdvancedCompanyMod_ActivateHelmetLampRelay
@@ -2657,6 +2628,7 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Message:AdvancedCompany] AdvancedCompanyMod_SyncCurrentLevel
 [Message:AdvancedCompany] AdvancedCompanyMod_UseFlashlightRelay
 [Message:AdvancedCompany] AdvancedCompanyMod_UseMobileTerminalRelay
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :LethalExpansion(core)] Unloading scene: MainMenu
 [Info   :LethalThings] Spawning config manager
 [Debug  :More Ship Upgrades] [StartOfRoundPatcher] Initiating components...
@@ -2854,11 +2826,11 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :TooManyEmotes-2.2.7] Loaded Seed: 73965214
 [Info   :AdvancedCompany] Loading savegame data...
 [Debug  :AdvancedCompany] Found shipGrabbableItemNames
-[Debug  :AdvancedCompany] Found item 152767-Gift
-[Debug  :AdvancedCompany] Found item 0-Big bolt
-[Debug  :AdvancedCompany] Found item 14-Key
-[Debug  :AdvancedCompany] Found item 14-Key
 [Debug  :AdvancedCompany] Found item 3-Toxic Apparatus
+[Debug  :AdvancedCompany] Found item 0-Big bolt
+[Debug  :AdvancedCompany] Found item 152767-Gift
+[Debug  :AdvancedCompany] Found item 14-Key
+[Debug  :AdvancedCompany] Found item 14-Key
 [Info   :More Ship Upgrades] [Hunter] Hoarding Bug set to be harvestable at level 1
 [Info   :More Ship Upgrades] [Hunter] Snare Flea set to be harvestable at level 1
 [Info   :More Ship Upgrades] [Hunter] Spore Lizard set to be harvestable at level 1
@@ -3001,12 +2973,12 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager created
 [Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Level has changed to 41 Experimentation
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :me.loaforc.facilitymeltdown] A new RadiationSource was created, there is now: 1 radiators.
 [Debug  :me.loaforc.facilitymeltdown] 240
 [Info   :PizzaTowerEscapeMusic MusicManager] Loaded music (MIP) from file
 [Info   :PizzaTowerEscapeMusic MusicManager] Music clips done loading
 [Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 73965214
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Debug  :dev.ladyalice.scarletmansion] IsServer: True
 [Debug  :dev.ladyalice.scarletmansion] Created Scarlet Network Manager. We in
 [Debug  :dev.ladyalice.scarletmansion] Config Main updated
@@ -3033,36 +3005,31 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :ReservedItemSlotCore-2.0.43] Unlocking reserved item slot: flashlight
 [Info   :ReservedItemSlotCore-2.0.43] Unlocking reserved item slot: walkie_talkie
 [Info   :LethalThings] Syncing configs!
-[Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Debug  :AdvancedCompany] Player 0 (local) opening terminal
 [Message:AdvancedCompany] Overriding clip TypeOnTerminal with DrawMobileTerminal
 [Message:AdvancedCompany] Overriding clip TypeOnTerminal2 with HoldMobileTerminal
 [Debug  :AdvancedCompany] Player 0 (local) closing terminal
 [Message:AdvancedCompany] Restoring animation TypeOnTerminal
 [Message:AdvancedCompany] Restoring animation TypeOnTerminal2
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :ReservedItemSlotCore-2.0.43] Focusing reserved hotbar slots. NewIndex: 13 OldIndex: 2 ReservedStartIndex: 13
+[Info   :More Ship Upgrades] [LguStore] Applying loaded upgrades...
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] GreenLungApparatusDisabled(Clone) - $240
+[Debug  :  ShipLoot] BigBolt(Clone) - $46
+[Debug  :  ShipLoot] GiftBox(Clone) - $26
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :ReservedItemSlotCore-2.0.43] Unfocusing reserved hotbar slots. NewIndex: 2 OldIndex: 14 ReservedStartIndex: 13
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] GreenLungApparatusDisabled(Clone) - $240
+[Debug  :  ShipLoot] BigBolt(Clone) - $46
+[Debug  :  ShipLoot] GiftBox(Clone) - $26
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] GreenLungApparatusDisabled(Clone) - $240
+[Debug  :  ShipLoot] BigBolt(Clone) - $46
+[Debug  :  ShipLoot] GiftBox(Clone) - $26
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] GreenLungApparatusDisabled(Clone) - $240
+[Debug  :  ShipLoot] BigBolt(Clone) - $46
+[Debug  :  ShipLoot] GiftBox(Clone) - $26
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [Nirekron] Performing emote: company_jig
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [Nirekron] Stopping emote.
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [Nirekron] Performing emote: blow_kiss
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [Nirekron] Stopping emote.
-[Info   :ReservedItemSlotCore-2.0.43] Focusing reserved hotbar slots. NewIndex: 14 OldIndex: 2 ReservedStartIndex: 13
-[Info   :ReservedItemSlotCore-2.0.43] Unfocusing reserved hotbar slots. NewIndex: 2 OldIndex: 14 ReservedStartIndex: 13
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
 [Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
@@ -3071,9 +3038,9 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Info   :mrgrm7.LethalCasino] Player disconnected.
 [Info   :AdvancedCompany] Saving player data to client save file C:\Users\lukas\AppData\LocalLow\ZeekerssRBLX\Lethal Company\AdvancedCompany.
 [Info   :AdvancedCompany] Saving ship data...
-[Info   :AdvancedCompany] Saving 3-Toxic Apparatus-ToxicLungApparatus
-[Info   :AdvancedCompany] Saving 0-Big bolt-BigBolt
 [Info   :AdvancedCompany] Saving 152767-Gift-GiftBox
+[Info   :AdvancedCompany] Saving 0-Big bolt-BigBolt
+[Info   :AdvancedCompany] Saving 3-Toxic Apparatus-ToxicLungApparatus
 [Info   :AdvancedCompany] Saving 14-Key-Key
 [Info   :AdvancedCompany] Saving 14-Key-Key
 [Info   :TooManyEmotes-2.2.7] Saving game values.
@@ -3097,5 +3064,3 @@ File name: 'BMX.LobbyCompatibility, Version=1.0.0.0, Culture=neutral, PublicKeyT
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Sound Manager destroyed
 [Info   :PizzaTowerEscapeMusic MusicManager] All music clips unloaded
 [Debug  :PizzaTowerEscapeMusic GameEventListener] Player exited ship
-[Debug  :More Ship Upgrades] [GameNetworkManagerPatcher] Resetting the Upgrade Bus due to disconnecting...
-[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list
