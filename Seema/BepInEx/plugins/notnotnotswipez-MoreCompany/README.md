@@ -41,6 +41,13 @@ This mod is not affiliated with BiggerLobby/LethalPlayers nor does it use any co
 ```
 
 # Changelog
+## 1.11.0
+- Fixed bug where too much cosmetic data caused none to send at all
+- Added API for developers to configure hide-ability of cosmetics
+
+## 1.10.2
+- Fixed party hat showing up in extra players' view in v65
+
 ## 1.10.1
 - Modified how cosmetics are displayed on masked entities
 

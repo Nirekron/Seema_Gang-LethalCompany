@@ -543,7 +543,7 @@
     minor: 1
     patch: 6
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\sfDesat-Orion\2.1.6\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\sfDesat-Orion\icon.png
 - manifestVersion: 1
   name: Jordo-NeedyCats
   authorName: Jordo
@@ -1237,7 +1237,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 0
+  installedAtTime: 1739992579335
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
@@ -1245,10 +1245,10 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 10
-    patch: 1
+    minor: 11
+    patch: 0
   enabled: true
-  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Seema\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
+  icon: C:\Users\lukas\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\notnotnotswipez-MoreCompany\1.11.0\icon.png
 - manifestVersion: 1
   name: loaforc-FacilityMeltdown
   authorName: loaforc
