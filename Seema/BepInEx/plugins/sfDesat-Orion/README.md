@@ -1,5 +1,5 @@
 ## NOTICE - New Developer
-A new member has been added onto the development team, **Tolian**. He will take over development and all questions should be towards him.
+A new member has been added onto the development team, [**Tolian**](https://thunderstore.io/c/lethal-company/p/Tolian/). He will take over development and all questions should be towards him.
 
 # Orion Status Report
 ![Screenshot_1](https://raw.githubusercontent.com/sfDesat/Orion/main/Screenshots/Screenshot%202.png "Screenshot%202")

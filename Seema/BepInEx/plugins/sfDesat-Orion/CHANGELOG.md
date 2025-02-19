@@ -1,5 +1,8 @@
 **<details><summary>[2.1] The Vanilla Update</summary>**
 
+- 2.1.6 
+    - Optimization 
+
 - 2.1.5 
     - v69 support 
     - Updated LethalLevelLoader 1.2.4 >>> 1.4.6
